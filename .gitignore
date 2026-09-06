@@ -1,0 +1,7 @@
+# 原书 PDF 与抽取产物有版权,永不入库
+sources/
+*.pdf
+*.png
+__pycache__/
+.venv/
+.DS_Store

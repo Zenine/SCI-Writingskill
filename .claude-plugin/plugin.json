@@ -1,0 +1,7 @@
+{
+  "name": "sci-writing",
+  "version": "0.1.0",
+  "description": "英文 SCI 论文写作 skill:引言/方法/结果/讨论/摘要/标题的结构模板、学术英语规范与中国作者常见错误自检。",
+  "author": { "name": "Zenine" },
+  "skills": ["./skills/sci-writing"]
+}
