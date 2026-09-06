@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "sci-writingskill",
+  "description": "英文 SCI 论文写作 skill 的单插件 marketplace",
+  "owner": { "name": "Zenine" },
+  "plugins": [
+    {
+      "name": "sci-writing",
+      "description": "英文 SCI 论文写作与润色:标题/摘要/引言/方法/结果/讨论的结构模板、时态语态规范、中国作者常见错误逐句扫描、伦理声明、投稿前自检与审稿回复。",
+      "author": { "name": "Zenine" },
+      "category": "productivity",
+      "source": "./"
+    }
+  ]
+}

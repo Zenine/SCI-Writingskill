@@ -43,6 +43,21 @@
 
 拒稿后:不当天回信;确认审稿有重大疏忽可数天后写平和的复核申请;更应做的是按意见改"大问题",再按新期刊读者差异调整重心后转投,不原稿直投。
 
+### 回复信的结构(作为输出格式的"结构")
+
+1. 给编辑的开头段:感谢、总述、标注方式;汇总改动用编号列表,每项一行,不写成一句长句。
+2. 每位审稿人一节,开头一句感谢。
+3. 每条意见:意见原文或摘述 → 回复(先一句复述对该意见的理解(可与立场合并),再立场一句 + 做了什么 + 修改位置)→ 修改后文字摘录。
+4. 签名只在信末一次。
+
+细则:
+
+- 引用修改后句子:作者已给中文改法时译成英文作为摘录;作者未给任何内容时才用 `[insert revised sentence]` 占位;作者未给页码行号时统一用 `[page/line to be confirmed]`并进「建议补充」。
+- 替作者做的承诺(如 "All changes are highlighted in the revised manuscript"、已补数据、已请语言编辑)在模板与产出中加方括号并注"待作者确认",不作为既成事实写出。
+- 感谢度:每位审稿人开头一句;单条意见处最多一句,且只对建设性意见(指出了真实遗漏、错误或可行改进的意见;纯格式或重复意见不另致谢);不在每条都写 We thank。
+- 单条回复长度:主体 ≤ 150 词(不含「修改后文字摘录」);拒绝类须含"为什么做不到 + 替代做法"两个成分。
+- 信件不放 `[REF]`(与 `SKILL.md` 硬规则 4 例外一致);需要引文支撑处写 "cited in the revised Discussion"。
+
 ## 英文模板与短语
 
 **投稿信:开场与定位**(自写)
@@ -86,7 +101,7 @@
 - The reviewer may have overlooked the control described in Section 2.3.
 - The cited study is not directly comparable because ...
 - We have nonetheless revised the wording to prevent a similar reading.
-- All changes are highlighted in the revised manuscript.
+- [All changes are highlighted in the revised manuscript.](待作者确认:只在作者已标出时保留)
 - 例:We respectfully disagree that the effect is explained by sample size; the control cohort in Section 2.3 was matched on this variable.
 
 **匿名化时的自引写法**(自写)
@@ -235,7 +250,7 @@
 97. 每条回应含三段:理解该意见 → 立场 → 修改内容与位置(或未修改及原因)。✓/✗
 98. 无"已删除该句"式回应;看不懂的句子已改写并解释意图。✓/✗
 99. 语域检查:无生硬否定、无过度感谢;不同意处用 respectfully disagree + 理由。✓/✗
-100. 修改稿用修订模式或颜色标出;另附修改稿封面信总结感谢与主要改动。✓/✗
+100. 修改稿用修订模式或颜色标出(是否已全部标出属"待作者确认");另附修改稿封面信总结感谢与主要改动。✓/✗
 101. 意见已分级处理:认同的硬伤尽力修;不影响结论的写进局限;不可行的说明立场交编辑判断。✓/✗
 102. 大改稿回复覆盖了第一轮所有问题,便于原审稿人只核对是否解决。✓/✗
 103. 被拒稿件未当天回信;已按意见改大问题并按新期刊读者差异调整重心后再转投。✓/✗

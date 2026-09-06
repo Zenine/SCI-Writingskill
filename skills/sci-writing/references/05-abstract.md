@@ -30,7 +30,7 @@
 | 3 | 问题 / 空白:已知—但未知的对照 | While X is well documented, it remains unclear whether ... / However, little is known about ... | 现在完成时(否定)或一般现在时(引言中按 `01-introduction.md` 用否定 + 现在完成时;摘要允许 remains unclear / is limited by 一类一般现在时) | 必写,1 句 | Background 末句 | 必写,1 句 |
 | 4 | 本文做了什么 / 目标:认领贡献 | Here we show that ... / In this study, we ... / This paper presents ... | 论文本身用一般现在时(this paper presents);已完成的开发用现在完成时(we have developed);陈述所做研究或目的可用一般过去时(we investigated) | 必写,1 句(可与步 8 合并) | Objectives,1 句 | 必写,1 句,常用 Here we show |
 | 5 | 方法:只给决定"是否读全文"的关键信息 | X was measured using Y / We used X to ... / Using X, we ... | 一般过去时 | 可选,0–2 句,可与步 6 合并 | Methods,2–3 句 | 并入步 4 后半句,不单独展开 |
-| 6 | 主要结果:关键发现,数字带限定语 | We found that ... / X increased by up to N% / X outperformed Y | 一般过去时;摘要中允许一般现在时以增强即时感 | 必写,1–3 句 | Results,2–3 句 | 必写,2–3 句,与既有认识直接对比 |
+| 6 | 主要结果:关键发现,数字带限定语 | We found that ... / X increased by up to N% / X outperformed Y | 一般过去时;摘要中允许一般现在时以增强即时感(默认过去时,例外条件见分歧 2) | 必写,1–3 句 | Results,2–3 句 | 必写,2–3 句,与既有认识直接对比 |
 | 7 | 含义 / 与已有知识的关系:比较、扩展、纠正 | These findings suggest that ... / ..., indicating that ... | 一般现在时 + suggest / indicate / appear | 可选,可并入步 6 句尾 | Conclusions 首句 | 必写,1–2 句,从"新知识"过渡到"新理解" |
 | 8 | 成就 / 贡献 / 价值:至少一句明确认领 | Our results provide the first evidence that ... / This approach fills a gap in ... | 现在完成时或一般现在时 | 必写,1 句 | Conclusions / Take-aways,1–2 句,须呼应 Background 与 Objectives | 并入步 7 或步 9 |
 | 9 | 应用 / 更广意义 / 展望 | X has broad application to ... / These results could inform ... / Further work is needed to ... | 一般现在时 + 情态动词(could / may / will) | 可选,0–1 句 | Conclusions 末句 | 可选,2–3 句(50–80 词),回应步 1 |
@@ -45,19 +45,20 @@
 2. 步 3 用陈述句写成"已知—但未知"的对照,不写直接疑问句(our question is: how ...?)。
 3. 步 4 必须能被读者一眼识别为本文贡献:动词带 we / here / in this study / this paper 之一作为归属标记;背景句(步 1–2)用一般现在时或 it is known that 一类标记与之区分。
 4. 先确定唯一的核心贡献,再决定其余组件的取舍;摘要不是全文等比例缩影,不得平均罗列所有成果。
-5. 方法与结果句(步 5–6)合计不超过摘要一半;其中结果句(步 6)单独也不得超过一半;通篇只是结果清单的摘要不合格。
-6. 方法信息只留读者决定是否读全文所需的部分:模拟还是实测、单案例还是系列实验、关键条件;每个数字旁加限定语(only / as high as / up to / no more than)防止读者误判方向。
+5. 结果句(步 6)单独不超过摘要一半;方法与结果句(步 5–6)合计不超过 60%;通篇只是结果清单的摘要不合格。
+6. 方法信息只留读者决定是否读全文所需的部分:模拟还是实测、单案例还是系列实验、关键条件;结果数字旁加限定语或参照对象(only / as high as / up to / comparable to)防止读者误判方向;方法数字(样本量、划分比例、变量数)豁免;结果数字无参照值且原稿未给时进「建议补充」标 N/A,不计 ✗。
 7. 含义与价值的强度不得超过正文数据;早期或潜在价值用 could / may / potential / possible 标示。
 8. first / novel / robust 一类评价词允许出现,但每个都要能在正文结果或讨论中指到对应证据;没有对比数据支撑的 novel 删除。
-9. 同一对象全篇只用一个名字(method / model / approach / system 不互换);this / it / which 可指向两个以上先行词时补名词;为清晰重复名词短语不算错。
+9. 同一对象全篇只用一个名字:首次全称(the XGBoost model)后可用 the model 简称,不算换名;不得在 model / approach / algorithm / system 间轮换;this / it / which 可指向两个以上先行词时补名词;为清晰重复名词短语不算错。
 10. 句长与段长数字见 `09-academic-style.md` 统一口径表;摘要特例:平均句长 ≤ 25 词、单句 ≤ 40 词(比正文均值上限更紧,因为摘要单独被读、无上下文兜底)。
-11. 缩写:全篇只出现一两次的不缩写;确需缩写首次给全称;Nature 式尽量无缩写。
-12. 默认不含引文;只有本文直接继承、显著改进或反驳某一篇具体文献时才引用。
-13. 字数超限时按优先级合并功能:步 4 + 步 8(提出 X 并达到 Y)→ 步 5 + 步 6(用 X 得到 Y)→ 步 6 + 步 7(结果句尾接 suggesting that);不靠删衔接词省字。
+11. 缩写:全篇只出现一两次的不缩写;确需缩写首次给全称;Nature 式尽量无缩写。(临床与领域公认缩写如 AUC、CI、HbA1c、MRI、CT 可直接用缩写,不占字数)
+12. 默认不含引文;命名算法(XGBoost、random forest)也不放 `[REF]`,引文留给正文(与 `SKILL.md` 硬规则 4 的例外一致);只有本文直接继承、显著改进或反驳某一篇具体文献时才引用。
+13. 字数超限时按优先级合并功能:步 4 + 步 8(提出 X 并达到 Y)→ 步 5 + 步 6(用 X 得到 Y)→ 步 6 + 步 7(结果句尾接 suggesting that);不靠删衔接词省字。;短摘要常需合并步 1 + 3(背景直接接空白),允许
 14. 结构化摘要各小标题下不得留空,各块内容不重复;Take-aways / Conclusions 必须回答 Background 里提出的问题。
 15. Highlights 可检查规则:默认 3–5 条(期刊有规定按期刊);每条一句、≤ 85 字符含空格(Elsevier 通用上限,期刊惯例而非书内规则);以动词或名词短语开头,不以 we / this study 开头;每条能对应步 6、7、8 之一(结果 / 含义 / 贡献);不与摘要任何一句逐字相同;禁用无主语的 It is shown that。Significance 段面向跨学科读者,固定三句骨架:为什么重要(步 1)/ 发现了什么(步 6)/ 更广影响(步 9)。两者是摘要的附件,不能替摘要承担功能。
 16. 图形摘要只呈现一个关键信息,配图文字不超过一句;本文件不给作图规则,按期刊指南。
 17. 长度以期刊要求为准;无明确要求时默认 200–250 词,一般摘要允许 80–250 词。
+18. 局限在摘要中最多半句,用 although / while 前置或放在末句之前;末句必须落在价值、应用或知识推进(步 8–9),不以局限收尾。例:Although evaluated on a single soil type, the sensor offers a low-cost route to early risk screening.
 
 ## 英文模板与短语
 
@@ -185,14 +186,14 @@
 
 ## 自检清单
 
-1. 摘要在全文定稿后重写,不是各节拼接。✓/✗
+1. 摘要在全文定稿后重写,不是各节拼接。(正文未成稿直接写摘要时标 N/A)✓/✗
 2. 已核对目标期刊对摘要的字数、形态(一般 / 结构化 / Nature 式)与小标题要求。✓/✗
 3. 第一句是宏观入口、问题或本文做了什么三者之一。✓/✗
 4. 有一句"已知—但未知"式的问题陈述,且是陈述句。✓/✗
 5. 有一句带归属标记(we / here / in this study / this paper)的"本文做了什么"。✓/✗
 6. 有一句明确的贡献 / 价值句,评价词都能在正文找到证据。✓/✗
-7. 结果句不超过摘要一半篇幅。✓/✗
-8. 每个数字旁有限定语或参照对象。✓/✗
+7. 结果句(步 6)单独不超过摘要一半;方法与结果句(步 5–6)合计不超过 60%。✓/✗
+8. 结果数字旁有限定语或参照对象;方法数字(样本量、划分比例、变量数)豁免;原稿未给参照值的结果数字已进「建议补充」标 N/A,不计 ✗。✓/✗/N/A
 9. 含义与价值的强度与正文一致,潜在价值用 could / may / potential。✓/✗
 10. 没有 It is argued / suggested / shown that 一类无主语句式。✓/✗
 11. 非人称主语句描述本文工作时带 our / here 标记。✓/✗
@@ -205,6 +206,7 @@
 18. 结构化摘要每句都能归入某小标题,各块不留空不重复。✓/✗
 19. Highlights(若有)3–5 条、每条 ≤ 85 字符、不与摘要逐字重复、各对应步 6 / 7 / 8 之一;Significance(若有)含三句骨架。✓/✗
 20. 摘要、标题、关键词、正文结论用同一套核心术语。✓/✗
+21. 局限不超过半句且不在末句;末句落在价值、应用或知识推进。✓/✗
 
 ## 两书分歧的处理
 

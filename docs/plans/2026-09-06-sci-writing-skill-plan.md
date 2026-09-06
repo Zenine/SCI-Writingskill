@@ -66,7 +66,7 @@ SCI-Writingskill/
 │   │   └── 12-submission-checklist.md  投稿前自检清单
 │   └── samples/
 │       ├── methods-draft-zh.md         测试输入:一段中文医疗 AI 方法描述
-│       └── expected-points.md          评审要点(测试用)
+│       └── expected-points-methods.md          评审要点(测试用)
 └── docs/plans/2026-09-06-sci-writing-skill-plan.md
 ```
 
@@ -156,7 +156,7 @@ SCI-Writingskill/
 
 ### Task 6: SKILL.md 路由 + 样例
 
-**Files:** `skills/sci-writing/SKILL.md`、`skills/sci-writing/samples/methods-draft-zh.md`、`samples/expected-points.md`。
+**Files:** `skills/sci-writing/SKILL.md`、`skills/sci-writing/samples/methods-draft-zh.md`、`samples/expected-points-methods.md`。
 
 - [x] SKILL.md:frontmatter(name/description 含触发词:SCI、英文论文、introduction、methods、abstract、审稿回复、润色、Chinglish);正文 ≤ 150 行:① 适用场景;② 总流程(引用 00);③ 「用户要做什么 → 读哪个文件」路由表;④ 硬规则(先定故事线再写句子、每节先给结构再填内容、输出附自检结果、不得编造引用);⑤ 输出格式约定。
 - [x] 样例输入:一段 200 字中文医疗 AI 方法描述;expected-points 列出合格输出必须体现的 6–8 个要点(如时态一致、被动/主动选择、步骤顺序、样本描述、伦理声明位置)。
@@ -165,7 +165,7 @@ SCI-Writingskill/
 ### Task 7: 技能实测(1 个子代理)
 
 - [x] 子代理只读 `skills/sci-writing/`,按 SKILL.md 把 `samples/methods-draft-zh.md` 改写为英文 Methods 段并给自检结果。
-- [x] 主会话对照 `expected-points.md` 逐条判定;未覆盖的要点回写到对应 reference 或 SKILL.md 路由。
+- [x] 主会话对照 `expected-points-methods.md` 逐条判定;未覆盖的要点回写到对应 reference 或 SKILL.md 路由。
 - [x] 复测一次直到全部要点覆盖。
 
 ### Task 8: 收尾

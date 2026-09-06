@@ -28,10 +28,11 @@
 | 单句上限 | > 30 词触发拆句检查;> 40 词必须拆分或说明理由 | 书A:约 90% 读者首读能懂 20 词内句子,只有约 10% 能懂 40 词以上 |
 | 逗号 | 单句逗号 ≥ 4 触发拆句检查,拆不拆由句意定 | 书A"超过三个"与书B"≥ 5"取更严者 |
 | 连接链 | 一句中 thus / resulting in / leading to / suggesting that 类连接 ≥ 3 必须拆 | 书B;按"结果 → 结论"切成 2–3 句 |
-| 超载信号 | 一句中 and > 1、which > 1、名词与介词短语堆叠 | 书A;视为超载句,重写 |
-| 段长 | 均值 150–170 词;80–230 词为正常区间;少于 80 或多于 230 的段落不得占多数 | 书A;书B 无数字 |
+| 超载信号 | 一句中 and > 1(摘要与方法节中三项以上的列举式 and 不计)、which > 1、名词与介词短语堆叠 | 书A;视为超载句,重写 |
+| 段长 | 均值 150–170 词;80–230 词为正常区间;少于 80 或多于 230 的段落不得占多数 | 书A;书B 无数字。均值适用于成稿;从短草稿改写或信息量有限时不作硬指标,只看区间;投稿信与回复信按条目分段,不套段长均值 |
 | 段落形态 | 禁止整页一段;禁止连续单句段落 | 两书一致 |
 | 摘要特例 | 平均句长 ≤ 25 词;单句 ≤ 40 词 | 摘要读者最广、无上下文,取更严;细则见 `05-abstract.md` |
+| 词数计数口径 | 按空白分隔的 token 计一词:`0.80-0.88`、`(0.76)`、`7:3`、`90-day` 各计 1 词;标题与小标题不计入正文词数 | 全 skill 统一,避免不同 agent 计数不一 |
 
 ### 风格规则
 
@@ -48,7 +49,7 @@
    - of + 抽象名词可改形容词时改形容词(materials of inorganic origin → inorganic materials);in the process of → while / during。
    - 一句一个事实。
 8. **口语程度词**:a lot of / lots of / big / huge / get / really / a little bit / bigger and bigger 换学术等价词(considerable / substantial / obtain / slightly / is increasing)。
-9. **评价词强度**:Results / Discussion 中报告发现的数字要带评价性修饰(only 23% / as many as 23%)而不是裸数字,但方向与数据一致且不超过证据;Methods 中的参数与样本量(n = 120 / 1 mm voxels / batch size 32)豁免;unprecedented / striking / remarkable 一类"感叹号替代词"必须有数据支撑;superior / excellent 只在有比较基准时用。不用感叹号。
+9. **评价词强度**:Results / Discussion 中报告发现的数字要带评价性修饰(only 23% / as many as 23%)而不是裸数字,但方向与数据一致且不超过证据;Methods 中的参数与样本量(n = 120 / 1 mm voxels / batch size 32)豁免;回复信、投稿信、方法节不适用本条;unprecedented / striking / remarkable 一类"感叹号替代词"必须有数据支撑;superior / excellent 只在有比较基准时用。不用感叹号。
 10. **标点**:破折号对改写为文字;括号内容要么并入正文要么删除;引文放在句中被引内容旁,不堆在句尾。
 11. **术语一致**:同一概念全文一个词;不用同义词典换词求"变化";关键术语用 Google Scholar 带引号 / 不带引号各搜一次确认仍是通用说法。
 12. **拼写变体**:英式 / 美式(analyse / analyze)按目标期刊统一,全文一致;期刊未知时默认美式(见 `SKILL.md` 硬规则 9)。

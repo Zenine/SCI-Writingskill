@@ -13,7 +13,7 @@
 
 - 本文件是清单,不是替换词典;每条给"识别信号"(可用 grep 或肉眼快速定位)→ 修正原则 → 自写对比例。
 - 两档:**error 级** = 语法错或读者无法确定含义,必须改;**warning 级** = 语法正确但读起来别扭或有歧义风险,逐条裁决后可保留。
-- 扫描顺序:先 error 再 warning;报告格式为"位置 / 原句 / 条目号 / 级别 / 改法"。
+- 扫描顺序:先 error 再 warning;报告格式见自检第 16 条(独立扫描任务与并入 `SKILL.md` 自检两种口径)。
 - 误报处理见「常见错误」一节;规则与语境冲突时以"读者是否需要猜"为最终判据。
 - 动词、时态、语态的规则本体在 `08-verbs-tense-voice.md`;本文件只收其中母语溢出最集中的条目并给识别信号。
 
@@ -53,7 +53,7 @@
 |---|---|---|---|---|
 | W1 | which 指代不明 | `which` 前有 ≥ 2 个名词;一句 `which` > 1 | 移动 which 紧跟唯一先行词;能不用就不用 | ✗ We fed the embeddings from the encoder into the head, which was frozen. → ✓ We fed the encoder embeddings into a frozen classification head. |
 | W2 | which 表结果 / 因果 | `, which` 指代整句 | thus / thereby + -ing | ✗ The encoder compresses slices into embeddings, which reduces memory. → ✓ The encoder compresses slices into embeddings, thereby reducing memory use. |
-| W3 | 无信息修饰词 | `carefully` / `robust` / `plausible` / `novel` / `sophisticated` / `dramatically` / `very` / `really` | 问"反义词成立吗";不成立则删;保留改变操作含义的修饰 | ✗ We carefully designed a robust and novel pipeline. → ✓ The pipeline increased sensitivity from 0.71 to 0.86. |
+| W3 | 无信息修饰词 | `carefully` / `robust` / `plausible` / `novel` / `sophisticated` / `dramatically` / `very` / `really`(引言 / 摘要中有结果节证据支撑的评价词不报,见 `01-introduction.md` 细则 10) | 问"反义词成立吗";不成立则删;保留改变操作含义的修饰 | ✗ We carefully designed a robust and novel pipeline. → ✓ The pipeline increased sensitivity from 0.71 to 0.86. |
 | W4 | 错置修饰语 / 缺补语 | `superior N than`;`identical N with`;过去分词前置而读者需知施动者(cells released → cells released by X) | 修饰语紧邻名词并带出补语:superior to that of / identical to that of / N released by | ✗ The federated model showed superior accuracy than the baseline. → ✓ The federated model showed accuracy superior to that of the baseline. |
 | W5 | among / between 误用 | `among` + 两三个可区分实体;`between` + 集合名词 | between 用于可区分实体(不限两个);among 用于"在一群中";拿不准改动词句(differ / vary) | ✗ The distinction among the three scanners was significant. → ✓ The three scanners differed significantly. |
 | W6 | 从句堆叠 | 连接副词与主句相距 > 10 词;主信息前有 ≥ 2 个从句或状语 | 主信息前置紧邻连接副词;让步与背景用 despite / especially 推到句尾 | ✗ Similarly, in low-dose CT, although noise is higher, no consensus exists on the kernel. → ✓ Similarly, no consensus exists on the reconstruction kernel, despite the higher noise of low-dose CT. |
@@ -160,8 +160,8 @@
 13. 平行结构用 neither ... nor / both ... and / either ... or / one of 正确表达。✓/✗
 14. 主题化开头与悬垂修饰语已并入主句或补主语(白名单内的定位词、连接短语、指示语除外)。✓/✗
 15. among / between、respectively、comprise / include、连字符、for the first time 已核对。✓/✗
-16. 报告已按"位置 / 原句 / 条目号 / 级别 / 改法"格式输出。✓/✗
-17. 提交前已请至少一位合著者或同事通读。✓/✗
+16. 报告格式:作为独立扫描任务时用"位置 / 原句 / 条目号 / 级别 / 改法";并入 `SKILL.md` 自检时只列命中项与保留的 warning 及理由,全绿写一句"10 号清单无命中";新起草文本无"原句"列,写"位置 / 句子 / 条目号 / 级别 / 改法"。✓/✗
+17. 「待作者确认」项:提交前已请至少一位合著者或同事通读;agent 不判 ✗,原样列出交作者。
 
 ## 两书分歧的处理
 

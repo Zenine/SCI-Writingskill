@@ -27,6 +27,7 @@
 | Results | 本研究的观察:过去时;主动(we observed)或被动皆可,主动优先;段末含义句:现在时 + suggest / indicate + may / could(见 `03-results.md` 收束层) | 解释结果的背景事实:现在时 | 图中可见的内容:现在时(Fig. 3 shows);数据如何得到:过去时 | 用于比较:过去时或现在完成时 |
 | Discussion | 成就 / 贡献:现在时(this study provides);本研究发现:默认过去时;升级为现在时 = 声称它是独立于本研究的事实,需证据够硬且能自圆其说;含义与应用:现在时 + 情态动词 | 现在时 | 应少见;持续出现 as shown in Fig. 是"讨论写成了结果"的信号 | 具体研究:过去时;已被接受的结论:现在时;对文献的概括:现在完成时 |
 | Conclusion | 已完成的工作:现在完成时(we have shown)或过去时;贡献与主张:现在时(this study provides) | 现在时 | 不应出现 | 相关背景公认事实:现在时;领域积累:现在完成时 |
+| 投稿信 / 回复信 | 已完成的修改:现在完成时(we have revised / has been updated);为回应而重跑的分析:过去时(we re-ran, the tuned model reached);描述修改稿现状:现在时(Section 2.3 now describes);对审稿人观点表态:现在时(we agree) | 现在时 | 指修改稿中的图表位置:现在时(Table 4 now reports) | 审稿人引用的文献:过去时;已成公认事实:现在时 |
 
 未来工作(Discussion 中后段与 Conclusion):should be investigated / would be of interest / will be;不属于"他人工作"列。
 
@@ -188,7 +189,7 @@ can / could 裁决:
 
 1. 每句已按四步法判定时态,同一段内"我们做了"的动作无现在时。✓/✗
 2. 各节时态与总表一致;每处切换能说出功能差异。✓/✗
-3. 引用前人发现的时态已按最新文献核对(过去时 / 现在时 / 现在完成时)。✓/✗
+3. 引用前人发现的时态已按最新文献核对(过去时 / 现在时 / 现在完成时)(离线或无引用时标 N/A)。✓/✗
 4. Methods 无施动被动句都有定位词。✓/✗
 5. Methods 以外默认主动;每个无主语被动都能回答"谁做的"。✓/✗
 6. we 全篇只指作者;摘要无 It is argued / suggested that 起句。✓/✗
