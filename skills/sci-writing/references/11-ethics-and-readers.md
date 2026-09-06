@@ -6,14 +6,15 @@
 
 - 用户要写伦理批准、知情同意、利益冲突、资助、数据可用性、作者贡献等声明段。
 - 用户不确定某种数据处理(删异常值、换统计方法、挑批次)、自引、拆分发表、署名安排是否合规。
-- 用户动笔前要定故事线、选目标期刊,或引言开头写不出"为什么"。
+- 用户动笔前要定故事线、按目标期刊读者定位写引言开头(选刊流程与清单见 `12-submission-checklist.md`),或引言开头写不出"为什么"。
 - 审稿或编辑意见指出"不清楚贡献是什么""只有数据没有理解""不符合本刊读者""新手读不懂"。
 - 稿件完成后要做非执笔者审读(五角色审读)。
 
 前置约定:
 
 - 三种意识按顺序排在一切写作之前:伦理(能不能发)→ 读者(写给谁)→ 故事线(讲什么)。这三项没定,不进入分节写作(见 `00-workflow.md`)。
-- 伦理批件与署名安排在时间上不可倒置:批件必须早于数据采集,署名必须在合作开始时谈定。
+- 伦理批件与署名安排在时间上不可倒置:批件必须早于入组(前瞻性)或早于数据提取/分析(回顾性,见下表),署名必须在合作开始时谈定。
+- 本文件英文模板按美式拼写与 ASCII 半角字符(见 `SKILL.md` 硬规则 9);投英式期刊时整体替换。
 - 本文件的声明句式是通用骨架,具体措辞与位置按目标期刊作者须知。
 
 ## 结构与规则
@@ -29,12 +30,12 @@
 
 ### 声明段规则
 
-1. Methods 中涉及人体或动物数据时必须有伦理批准声明:审批机构、批号、遵循的规范(如赫尔辛基宣言、ARRIVE);回顾性数据说明是否豁免知情同意及豁免依据。
-2. 涉及人的访谈、问卷、样本采集必须写明已获得知情同意;未成年人写监护人同意。
+1. Methods 中涉及人体或动物数据时必须有伦理批准声明:审批机构(人:IRB 或伦理委员会;动物:IACUC 或同等机构动物伦理委员会)、批号、遵循的规范(人:赫尔辛基宣言;动物实验另按 ARRIVE 指南报告);回顾性数据说明是否豁免知情同意及豁免依据;临床试验给出注册库与注册号(通用惯例)。
+2. 涉及人的访谈、问卷、样本采集必须写明已获得知情同意;未成年人写监护人同意,能理解者另取本人 assent(按期刊)。
 3. 利益冲突声明逐位作者列出关系类型(资助 / 顾问 / 差旅 / 咨询费 / 雇员 / 持股),末句收束其余作者无冲突;完全无冲突用一句标准否定句。判断是否要披露:凡"次要利益"(经济收益、声望、人情、晋升)可能影响"主要利益"(患者福祉、结果有效性)的专业判断,就要披露。
 4. 资助声明写全资助机构与项目号;接受企业资助时说明资助方在设计、分析、写作、发表决定中的角色,并确认作者有独立发表权。
 5. 数据可用性声明写明数据与代码在哪里、以何种条件获取;不能公开的说明原因与替代途径。
-6. 作者贡献声明按各期刊要求(如 CRediT 角色)逐人列出;署名只给实质性贡献者,顺序在合作开始时书面确定并经全员同意;不接受代笔。
+6. 作者贡献声明按各期刊要求(如 CRediT 角色)逐人列出;署名判据是 ICMJE 四条同时满足:对构思 / 设计 / 数据 / 分析有实质贡献,起草或实质性修改稿件,批准最终版本,对全文的准确性与诚信负责;只满足其中一两条(仅提供数据、仅筹资、仅行政支持)进致谢不署名;顺序在合作开始时书面确定并经全员同意;不接受代笔。
 7. 致谢感谢所有帮助过但未署名的人与机构,不只写基金;部分期刊要求录用后再补致谢以保匿名。
 
 ### 引用与数据处理规则
@@ -62,7 +63,7 @@
 1. 用一句话写下研究聚焦的问题。
 2. 问第一个 Why:这个问题为什么存在 / 为什么重要?写一句答案。
 3. 对答案再问 Why,共三层,每层答案都比上一层更宏观、更接近读者常识。
-4. 三个答案倒序(最宏观的先写)串成第一段,末句落到"本文聚焦……";每层背景陈述附引用。
+4. 三个答案倒序(最宏观的先写)串成第一段,末句落到"本文聚焦......";每层背景陈述附引用。
 5. 换目标期刊时重做:偏理论的期刊问"为什么这种能力值得研究",偏实践的期刊问"为什么越来越多人接触这种场景"。
 通过标准:没有该领域经验的读者读完第一段不觉得研究问题突兀。
 
@@ -87,7 +88,7 @@
 | 方案寻找者 | 方法、实验设计、方法学引用 | 无法复现;方法学来源缺失 | 方法写到可复现;给方法学引用 |
 | 研究新手 | 概念、背景、缩写 | 核心概念未界定;缩写直接用;背景不足 | 定义概念;首次给全称;补背景 |
 
-操作:执笔者以外的作者各扮演一种角色审读,这是署名者的责任;资深作者难扮新手时请实验室研究生读。至少一位非执笔作者按"研究新手"角色审读是硬要求。
+操作:执笔者以外的作者各扮演一种角色审读,这是署名者的责任;资深作者难扮新手时请实验室研究生读。最低要求分两侧:作者侧,至少一位非执笔作者扮"研究新手";agent 侧,按 `00-workflow.md` 细则 7 至少扮"研究新手"与"竞争对手"各读一遍。
 
 ## 英文模板与短语
 
@@ -96,18 +97,19 @@
 - All procedures involving human participants were conducted in accordance with ...
 - Animal experiments were approved by ... and performed in accordance with ...
 - The requirement for informed consent was waived by ... because ...
-- 例:This retrospective study was approved by the Institutional Review Board of X Hospital (No. 2025-041), which waived the requirement for informed consent because only de-identified records were used.
+- The trial was registered at [registry] (registration no. X) before enrollment of the first participant.(通用惯例)
+- 例:This retrospective study was approved by the Institutional Review Board of X Hospital (No. [XXXX-XXX]); the board waived the requirement for informed consent because only de-identified records were used.
 
 **知情同意**
 - Written informed consent was obtained from all participants.
 - Informed consent was obtained from a parent or legal guardian of each participant under 18 years of age.
 - Participants were informed that they could withdraw at any time without penalty.
 - Consent for publication of identifiable images was obtained from ...
-- 例:Written informed consent was obtained from all participants before enrolment.
+- 例:Written informed consent was obtained from all participants before enrollment.
 
 **利益冲突**
 - The authors declare no competing interests.
-- The authors declare that they have no known competing financial interests or personal relationships that could have influenced the work reported here.
+- The authors declare that they have no known competing financial interests or personal relationships that could have influenced the work reported here.(期刊通用样板,按目标期刊替换)
 - Author A has received research grants from X.
 - Author B has served as a consultant for Y.
 - Author C is an employee of Z and holds stock in Z.
@@ -117,17 +119,25 @@
 **资助**
 - This work was supported by [Funder] (grant no. X).
 - This research received no specific grant from any funding agency.
-- The funder had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+- The funder had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.(期刊通用样板,按目标期刊替换)
 - X provided financial support but was not involved in ...
 - 例:This work was supported by the National Natural Science Foundation of China (No. 8XXXXXXX). The funder had no role in study design, data analysis, or the decision to publish.
 
-**数据可用性与作者贡献**
-- The data supporting the findings of this study are available at [repository] under accession X.
+**数据可用性**
+- The data supporting the findings of this study are available at [repository] under accession number X.
 - The code used for analysis is available at ...
 - Data are available from the corresponding author on reasonable request.
 - The data cannot be shared publicly because ...; access can be requested from ...
-- A.B. conceived the study; C.D. collected the data; E.F. performed the analysis; all authors reviewed the manuscript.
 - 例:De-identified data and analysis code are available at [repository] (DOI: ...).
+
+**作者贡献**(ICMJE 四条:实质贡献 / 起草或修改 / 最终批准 / 对全文负责)
+- A.B. and C.D. designed the study; E.F. collected the data; G.H. performed the analysis.
+- A.B. drafted the manuscript; all authors revised it critically for important intellectual content.
+- All authors approved the final version and agree to be accountable for all aspects of the work.
+- Conceptualization: A.B.; Methodology: C.D.; Software: E.F.; Formal analysis: E.F.; Data curation: G.H.; Writing - original draft: A.B.; Writing - review and editing: all authors; Supervision: C.D.(CRediT 写法,角色名按官方列表,连字符用 ASCII)
+- A.B. and C.D. contributed equally to this work.
+- Corresponding author: A.B. (email).
+- 例:A.B. conceived the study and drafted the manuscript; C.D. built the segmentation model and analyzed the data; E.F. curated the retinal image dataset; all authors revised the manuscript, approved the final version, and agree to be accountable for all aspects of the work.
 
 **Why-Why-Why 倒序引入**(宏观 → 具体,每层附引用)
 - X affects an estimated N people worldwide [ref].
@@ -136,29 +146,16 @@
 - Previous work has shown that ...
 - Despite this progress, ... remains ...
 - In this paper, we focus on ...
-- 例:Diabetic retinopathy is a leading cause of preventable blindness [ref]. Regular screening reduces vision loss, yet most patients are first seen in primary care, where retinal imaging is rarely available [ref]. In this paper, we focus on ...
+- 例:Diabetic retinopathy is a leading cause of preventable blindness [ref]. Regular screening reduces vision loss [ref], yet most patients are first seen in primary care, where retinal imaging is rarely available [ref]. In this paper, we focus on ...
 
-**建立张力(前人观点 vs 本文发现)**
-- It has long been assumed that ...
-- The prevailing view holds that ...
-- However, this assumption has not been tested directly.
-- Here we show that, contrary to this view, ...
-- These findings challenge the assumption that ...
-- 例:The prevailing view holds that model size drives accuracy; here we show that image quality is the stronger predictor.
-
-**从新知识到新理解(点明 implication)**
-- This finding suggests a mechanism by which ...
-- Taken together, these results provide a new understanding of ...
-- The implication is that ...
-- Beyond X, these results have implications for ...
-- 例:Taken together, these results suggest that screening programmes can rely on low-cost cameras without loss of accuracy.
+**张力陈述与"从新知识到新理解"的句式**:见 `00-workflow.md` 步 1–2 的模板组,本文件不另复述。
 
 ## 常见错误
 
 | 错误模式 | 修正原则 |
 |---|---|
 | 伦理声明只写"符合伦理要求",无机构与批号 | 写审批机构、批号、遵循规范;豁免知情同意写依据 |
-| 批件日期晚于数据采集日期 | 无法补办;如实说明并咨询期刊,不得回溯改日期 |
+| 前瞻性研究批件晚于入组 / 回顾性研究批件晚于数据提取或分析 | 无法补办;如实说明并咨询期刊,不得回溯改日期;回顾性研究批件晚于病历产生不是错误,Methods 写明回顾性与豁免依据即可 |
 | 利益冲突声明写"无"但作者有企业顾问身份 | 逐位作者披露;披露不是错,隐瞒才是 |
 | 资助声明只列基金号,企业资助未说明角色 | 写明资助方在设计、分析、发表决定中的角色 |
 | 删除异常值、换统计方法而 Methods 未提 | 写明处理与理由;否则视为筛选数据 |
@@ -169,11 +166,11 @@
 | 引言第一句直接抛具体问题或方法 | 用 Why-Why-Why 倒序,从读者已知的宏观背景推到问题 |
 | 术语、缩写首次出现不解释 | 首次给定义或全称;物种给学名 |
 | 只讲做了什么、怎么做,不讲为什么 | 至少回答一层 Why |
-| 讨论与结论停留在"数据 + 信息"层 | 补新知识与新理解;结论写出原创贡献 |
+| 讨论与结论停留在"数据 + 信息"层 | 补新知识与新理解;结论写出原创贡献(从零写作为硬门槛,润色模式报 warning,见分歧 8) |
 | 一篇论文同时讲两三条故事线 | 只留一条,其余写明去向 |
 | 故事线没有张力,只是数据报告 | 一句话写出"前人认为 X,本文表明 Y" |
 | 陈述看不出是作者假设还是公认事实 | 加归属标记或引用;确定度与证据匹配 |
-| 没有非执笔者审读 | 至少一位按"研究新手"角色审读 |
+| 没有非执笔者审读 | 作者侧至少一位扮"研究新手";agent 侧按 `00-workflow.md` 细则 7 扮"研究新手"与"竞争对手" |
 | 正文含 we previously showed + 自引,暴露身份 | 匿名评审时改为第三人称引用,占位或隐去 |
 
 ## 自检清单
@@ -183,7 +180,7 @@
 3. 有利益冲突声明,逐位作者披露或用标准否定句。✓/✗
 4. 有资助声明,企业资助写明资助方角色与作者独立发表权。✓/✗
 5. 有数据可用性声明(若期刊要求),写明位置与获取条件。✓/✗
-6. 署名只含实质性贡献者,顺序已书面确认;作者贡献声明齐全(若期刊要求)。✓/✗
+6. 每位署名者同时满足 ICMJE 四条,顺序已书面确认;作者贡献声明齐全且含"最终批准"与"对全文负责"两句(若期刊要求)。✓/✗
 7. 致谢涵盖所有帮助过但未署名的人与机构。✓/✗
 8. 所有事后数据处理都在 Methods 写明并给理由。✓/✗
 9. 每处非本文观点有引注,引注与参考文献表双向对应,要素核对过原文。✓/✗
@@ -199,7 +196,7 @@
 19. 故事大小与目标期刊读者面匹配。✓/✗
 20. 结论写出了原创贡献与后续影响,不只重复发现。✓/✗
 21. 每个陈述能判定为假设 / 解释 / 公认事实 / 他人结论之一,确定度与证据匹配。✓/✗
-22. 已由非执笔者按五角色(至少含研究新手)审读并修补。✓/✗
+22. 作者侧已由非执笔者审读(至少含研究新手);agent 侧已扮研究新手与竞争对手各读一遍;问题已修补。✓/✗
 
 ## 两书分歧的处理
 
@@ -207,10 +204,10 @@
 2. 查重范围:书B 建议只上传引言与综述(防国内工具泄露);期刊自带的全稿查重会检全文。裁决:第三方工具只查引言与综述,但作者需自查全文,尤其自我重复。
 3. "机理不明时至少复现三次":书B 的经验法则,书A 无。裁决:不作硬规则,作为方案寻找者角色的审读提示。
 4. 段落引注密度:书B 说整段综述一篇文献时段首段尾标注即可;部分期刊要求逐句。裁决:以目标期刊为准,书B 的做法作默认下限。
-5. 摘要与引言开头面向谁:书B 要求学科外读者能读懂,书A 面向同行专家。裁决:综合性 / 社会影响导向期刊按书B,专业细分期刊按书A;术语首次出现给定义作为两档共用的可检查项(细节见 `05-abstract.md`)。
+5. 摘要与引言开头面向谁:按 `00-workflow.md` 分歧 2 的裁决执行,本文件不另立口径。
 6. 加粗突出核心概念:书B 建议,多数 SCI 期刊正文不允许。裁决:不进规则,改为用明确的信号句突出(Here we show / In this paper, we focus on)。
 7. 默认读者是新手还是专家:书B 把研究新手列为引用主力,书A 默认同行专家。裁决:以"次要读者也能跟上"为下限,可检查项是术语首次定义与背景足够。
-8. 缺"新理解"是否硬性不通过:书B 视为故事不完整,书A 的讨论模型有对应的 implication 但未定为判据。裁决:采用书B——第 4 问答不出不进入写作;审阅时讨论与结论停留在数据 + 信息层判定为不通过。
+8. 缺"新理解"是否硬性不通过:书B 视为故事不完整,书A 的讨论模型有对应的 implication 但未定为判据。裁决:以 `00-workflow.md` 分歧 4 为准——从零写作时为硬门槛(第 4 问答不出不进入写作);润色模式降为 warning,讨论与结论停留在数据 + 信息层时进结构问题清单报告,由用户决定是否继续。
 9. 一篇论文一条故事线:书B 硬规则,书A 未禁止多主线但引言模型隐含单一目标。裁决:采用书B 的硬规则。
-10. 伦理与署名内容书A 未讨论;本文件以书B 第 1 章为主,声明句式按通用期刊惯例(ICMJE 署名四条:实质贡献、起草或修改、最终批准、对全文负责)补齐,不引入书外细节。
+10. 伦理与署名内容书A 未讨论;本文件以书B 第 1 章为主,声明句式按通用期刊惯例(ICMJE 署名四条:实质贡献、起草或修改、最终批准、对全文负责;CRediT 角色名)补齐;利益冲突与资助的否定句取自期刊公开样板(Elsevier / PLOS 口径),属通用惯例而非两书内容,投稿时按目标期刊替换。
 11. we 的使用与匿名化:书B 第 10 章因匿名评审限制 "we previously" + 自引;书A 支持 we 表明所有权。裁决:we 照常用于认领本文贡献;只在双盲评审稿中把自引改为第三人称或占位,不禁止 we。

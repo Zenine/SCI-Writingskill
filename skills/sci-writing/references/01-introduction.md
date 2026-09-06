@@ -9,12 +9,7 @@
 - 审稿意见指出"motivation 不清""文献综述像清单""不知道本文贡献是什么"。
 - 写讨论或结论时需要回头核对引言立下的问题(引言与讨论是镜像,见 `04-discussion-conclusion.md`)。
 
-前置约定(来自书A方法论,适用于所有章节):
-
-- 模板是对已发表论文惯例的归纳,不是硬性规定;目标期刊近 5 年同类文章的做法优先于本文件。
-- 动笔前先确认文体(研究论文 / 综述 / 快报 / 会议摘要)和目标期刊,不同文体不共用一套模板。
-- 建议写作顺序:方法 → 结果 → 讨论/结论 → 引言 → 摘要 → 标题。引言不宜第一个写。
-- 每句都要能回答"这句在为读者做什么";答不出的删除或合并。
+前置约定:写作顺序、文体与目标期刊的确认见 `00-workflow.md`(引言不宜第一个写);模板是对已发表论文惯例的归纳,目标期刊近 5 年同类文章的做法优先于本文件(`SKILL.md` 硬规则 8);每句都要能回答"这句在为读者做什么",答不出的删除或合并。
 
 ## 结构与规则
 
@@ -24,12 +19,12 @@
 |---|---|---|---|---|
 | 1 进入领域 | 说明主题为何重要;给出理解全文所需的背景事实;点出领域当前的一般性问题 | 从最多读者共享的知识起步,每句只比上句具体一步 | 重要性声明带时间短语(in recent years)用现在完成时;背景事实、当前状态用一般现在时 | has attracted / plays a key role / is widely used |
 | 2 研究地图 | 串联已有研究,点出关键工作,让读者看到本文在领域中的坐标 | 三种组织模式选一:一般到具体(最常用)/ 按方法或理论分组 / 按时间 | 某研究当时的发现用过去时;已成公认事实用现在时(常带引文);对现状仍有影响或即将引出空白用现在完成时 | were the first to / was further developed by |
-| 3 转向本文 | 指出空白、缺陷、矛盾,或提出动机、假设、研究机会 | 由 However / Although / Despite 引出转折;必要时插入第二轮更具体的背景 | 空白句用否定 + 现在完成时(little attention has been paid);机会用 may / could | however / remains unclear / few studies have |
-| 4 介绍本文 | 说明本文做什么;可选地提及目的、方法概要、主要结果、文章结构 | 收口;方法与结果只做一句概述 | 描述论文本身用一般现在时;陈述研究目的可用一般过去时 | this paper presents / the aim of this work was |
+| 3 转向本文 | 指出空白、缺陷、矛盾,或提出动机、假设、研究机会 | 由 However / Although / Despite 引出转折;必要时插入第二轮更具体的背景 | 空白句用否定 + 现在完成时(little attention has been paid)或 remains unclear 类一般现在时;机会用 may / could | however / remains unclear / few studies have |
+| 4 介绍本文 | 说明本文做什么;可选地提及目的、方法概要、主要结果(是否预告看目标期刊近 5 年惯例)、文章结构 | 收口;方法与结果只做一句概述 | 描述论文本身用一般现在时;研究目的默认一般现在时,也可过去时,全篇统一一种(裁决见 `08-verbs-tense-voice.md` 两书分歧第 4 条) | this paper presents / the aim of this work is |
 
 细则:
 
-1. 第一句是宽泛而公认的事实或重要性声明,不是本文要解决的具体问题;读者面很窄的专业期刊可以省略重要性声明,直接从关键术语定义或事实起步。
+1. 第一句是宽泛而公认的事实或重要性声明,不是本文要解决的具体问题。第一段按 `11-ethics-and-readers.md` 的 Why-Why-Why 倒序展开(最宏观的先写,每层背景陈述附引用,末句落到本文聚焦的问题);综合性期刊强制宏观入口,读者面很窄的专业期刊可压缩重要性声明、从关键术语定义或事实起步(裁决见 `05-abstract.md` 两书分歧第 4 条)。
 2. 开头几句之间不得出现"很宽 → 很窄"的跳跃;熟悉课题的作者最容易低估读者对背景的需求,背景宁多勿少。
 3. 重要性声明若依赖"当前"状态或具体数字,加可识别的年份,避免几年后失效。
 4. 研究地图只收"能通向本文动机"的研究;每项被引研究都要能回答"它如何导向本文的问题"。
@@ -37,11 +32,11 @@
 6. 引文只支持句子一部分时放在该部分之后,不统一堆在句尾;句尾引文会被理解为"整句都来自这些文献"。
 7. 空白用陈述句(待验证的假设、建议、机会)表达,不用问句;"列出研究问题清单"是另一回事,若目标期刊惯例允许可保留。
 8. 批评前人用客观、克制的措辞,不回避也不夸张。
-9. 介绍本文时,主语策略三选一:we / 被动 / 非人称主语(This paper, This study, Section 2),依目标期刊风格和指代是否清晰决定;全篇 we 的指代必须固定为"本文作者"。
-10. 本文介绍句中通常含至少一个正面评价词(novel, robust, first),但强度不得超过结果所能支撑的程度。
-11. 引言里立下的问题或空白,讨论和结论必须逐一回应,且用相同的关键动词和名词(回声原则)。
-12. 段落:一段一功能,首句预告该段走向;段落约 80–230 词,平均 150–170 词;不得出现连续的单句段落。
-13. 句长:平均约 20–25 词,超过 40 词的句子拆分。
+9. 介绍本文时,主语策略三选一:we / 被动 / 非人称主语(This paper, This study, Section 2),依目标期刊风格和指代是否清晰决定;检查标准是所有权可辨认,方法节以外的被动句需有理由(承接前文或突出受事)并能靠 here / in this study 辨认归属(裁决见 `08-verbs-tense-voice.md` 两书分歧第 3 条);全篇 we 的指代必须固定为"本文作者"。
+10. 本文介绍句中通常含至少一个正面评价词(novel, robust, first),但强度不得超过结果所能支撑的程度,且每个评价词须能在结果节指到对比数据(裁决见 `05-abstract.md` 两书分歧第 6 条)。
+11. 引言里立下的问题或空白,讨论和结论必须逐一回应,且用相同的关键动词和名词(回声原则);二级标题层面同样一一对应,见 `00-workflow.md` 步 3 与 `06-title-keywords.md`。
+12. 段落:一段一功能,首句预告该段走向;不得出现连续的单句段落。
+13. 句长与段长的数字按 `09-academic-style.md` 统一口径,本文件不另立数字。
 14. 句间连接四法:重叠(下一句开头重复上一句结尾的概念)、替代指代(This method / These systems,名词与首次出现时相同)、分号、信号词;不必每句都以信号词开头。
 15. 同一概念全篇用同一术语,不为"避免重复"而换同义词。
 
@@ -68,14 +63,14 @@
 - it was later shown that
 
 **报告前人工作的精确动词**(替代 did / showed / found)
-- investigated / examined / analysed
+- investigated / examined / analyzed
 - developed / proposed / put forward
 - demonstrated / established / confirmed
 - measured / monitored / calculated
-- identified / characterised / classified
+- identified / characterized / classified
 - evaluated / assessed / compared
 - reported / described / reviewed
-- predicted / modelled / estimated
+- predicted / modeled / estimated
 
 **指出缺陷**(由 however / although / despite 引出)
 - a major drawback of X is
@@ -85,7 +80,7 @@
 - X is not sufficiently
 - X is time-consuming and costly
 - X remains controversial
-- 例:However, existing approaches are limited by their reliance on manually labelled data.
+- 例:However, existing approaches are limited by their reliance on manually labeled data.
 
 **指出空白 / 研究机会**(否定 + 现在完成时;may / could)
 - little is known about
@@ -98,13 +93,13 @@
 - X could offer a means of
 - 例:Few studies have examined whether X holds in Y, and its effect on Z remains unclear.
 
-**介绍本文**(一般现在时;目的可用过去时)
+**介绍本文**(一般现在时;目的默认现在时,可用过去时,全篇统一)
 - in this paper, we present / propose / report
 - this study focuses on
-- the aim of this work was to
+- the aim of this work is / was to(全篇统一一种)
 - to address this question, we investigated
 - here, we describe
-- the remainder of this paper is organised as follows
+- the remainder of this paper is organized as follows
 - we show that
 - 例:Here, we present a method that combines X with Y to improve Z.
 
@@ -158,31 +153,30 @@
 
 ## 自检清单
 
-1. 引言能按顺序标出四组功能:重要性/背景 → 研究地图 → 空白/动机 → 本文。✓/✗
-2. 第一句是宽泛的公认事实或重要性声明,不是本文的具体问题。✓/✗
+1. 引言能标出第 1 组(重要性/背景)在开头、第 4 组(本文)在结尾;第 2、3 组若弱化能说明领域惯例。✓/✗
+2. 第一句是宽泛的公认事实或重要性声明,不是本文的具体问题;第一段按 Why-Why-Why 倒序,每层背景附引用。✓/✗
 3. 开头几句之间没有"很宽 → 很窄"的跳跃。✓/✗
 4. 背景事实用一般现在时;带时间短语的重要性声明用现在完成时。✓/✗
 5. 每处时态切换都能说出前后功能有何不同。✓/✗
 6. 每一项被引研究都能回答"它如何通向本文动机"。✓/✗
 7. 文献综述采用了明确的组织模式,同类研究归为一组。✓/✗
 8. 引文位置紧贴其支持的内容,没有整句堆在句尾。✓/✗
-9. 空白句用否定 + 现在完成时,并由 however / although / despite 引出。✓/✗
+9. 空白句用否定 + 现在完成时或 remains unclear 类现在时,由转折词引出。✓/✗
 10. 空白用陈述句表达,没有问句。✓/✗
-11. 介绍本文的句子用一般现在时(目的可用过去时),方法和结果各只有一句概述。✓/✗
+11. 介绍本文的句子用一般现在时;目的句默认现在时,可用过去时,但全篇统一一种;方法和结果各只有一句概述。✓/✗
 12. 至少一个正面评价词,且强度不超过结果支撑的程度。✓/✗
 13. we 全篇只指本文作者;This / It / They 开头时所指唯一。✓/✗
 14. 同一概念全篇只用一个术语。✓/✗
 15. 每段只承担一个功能,只读各段首句能复述引言脉络。✓/✗
-16. 段落约 80–230 词,没有连续的单句段落。✓/✗
-17. 平均句长约 20–25 词,没有超过 40 词的句子。✓/✗
+16. 没有连续的单句段落;段长按 `09-academic-style.md` 口径。✓/✗
+17. 句长按 `09-academic-style.md` 口径,超阈值的句子已拆分或说明理由。✓/✗
 18. 引言立下的每个空白/目标在讨论或结论中都有对应回应,措辞一致。✓/✗
 
-## 待与书B对照的点
+## 两书分歧的处理
 
-- 重要性声明是否必须:书A默认引言以此开头但允许窄读者群期刊省略;书B若给出"直接从临床/工程问题切入"的起手式,两说并存,以目标期刊为准。
-- 研究目的的时态:书A允许 the aim of this work was 用过去时,也允许现在时;书B若统一要求现在时,需标注两说。
-- 主动 vs 被动、第一人称 we:书A立场是"看期刊、看指代是否清晰";书B若明确鼓励主动语态,以"指代清晰"为可检查标准,风格偏好为辅。
-- 句长与段长数字:书A给出句约 23 词、段 150–170 词;书B若给出不同阈值,以目标期刊统计为准、书B数值作保守兜底。
-- 引言是否预告主要结果:书A允许在第 4 组宣布主要结果;部分期刊或书B可能要求引言只写目的,需标注"看目标期刊"。
-- 正面评价词的强度:书A鼓励大胆表达价值;书B或国内审稿文化可能更强调克制;本文件已以"强度须与结果匹配"折中。
-- 同义替换:书A明确反对为避免重复而换词;若书B有相反建议,倾向书A(可检查且利于全球读者)。
+1. **引言起手式与重要性声明**:书A 允许窄读者群期刊省略重要性声明;书B 强制宏观入口(Why-Why-Why),没有"直接从临床/工程问题切入"的起手式。裁决:综合性期刊强制宏观入口,专业期刊可压缩;见细则 1、`05-abstract.md` 两书分歧第 4 条、`12-submission-checklist.md` 第 17 条。
+2. **研究目的的时态**:书A 允许 was / is,书B 附录用现在时。裁决:两者皆可,全篇统一一种,默认现在时;见 `08-verbs-tense-voice.md` 两书分歧第 4 条。
+3. **主动 vs 被动、we**:书A 看期刊与指代,书B 鼓励主动。裁决:主动优先不强制,标准是所有权可辨认,方法外被动需有理由;见细则 9、`08-verbs-tense-voice.md` 两书分歧第 3 条。
+4. **句长与段长数字**:两书数字不同。裁决:只在 `09-academic-style.md` 立一处,本文件只指向;见细则 12、13。
+5. **引言是否预告主要结果**:悬决:书A 允许在第 4 组宣布主要结果,书B 附录模板以"目标 + 一句总结"收尾,`05-abstract.md` 的 Nature 式用 Here we show,两书均未禁止;正文按"看目标期刊近 5 年惯例"处理(表行 4)。
+6. **正面评价词的强度**:书A 鼓励大胆表达价值,书B 与国内审稿文化偏克制。裁决:允许出现,但每个评价词须能在结果节指到对比数据;见细则 10、`05-abstract.md` 两书分歧第 6 条。

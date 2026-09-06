@@ -1,6 +1,6 @@
 # Methods(方法)写法
 
-> 来源:书A 第2单元
+> 来源:书A 第2单元;功能步 9 与统计分析小节参照书B 第1章与医学期刊通行格式(见 11、12)
 
 ## 何时读本文件
 
@@ -9,7 +9,7 @@
 - 审稿意见指出"细节不足以复现""为什么选这个方法""分不清哪些是作者做的、哪些是标准流程"。
 - 需要判断方法细节放正文还是放补充材料。
 
-前置约定:方法节的名称、篇幅、正文与补充材料的分配比例,一律以目标期刊近期同类论文为准。方法节的唯一功能是让同行能复现并得到相近结果;同时它也在说服读者相信作者称职、细心、可靠。拼写以目标期刊为准,未知时默认美式(analyze / minimize / modeling),全篇一致。
+前置约定:方法节的名称、篇幅、正文与补充材料的分配比例,一律以目标期刊近期同类论文为准。方法节的唯一功能是让同行能复现并得到相近结果;同时它也在说服读者相信作者称职、细心、可靠。拼写与字符见 `SKILL.md` 硬规则 9;方法节二级标题写法见 `06-title-keywords.md` 二级标题规则 2。
 
 ## 结构与规则
 
@@ -32,7 +32,7 @@
 4. 每个非显而易见的选择(材料、设备、参数、流程)至少附一个理由或优势说明;标准操作不必。原稿未给理由时不得替作者补造,列入输出末尾的「建议补充」(`SKILL.md` 硬规则 3 优先于本条)。
 5. 引用已有方法:界线与 `SKILL.md` 硬规则 4 一致——命名算法/模型(XGBoost、U-Net)、专用软件包与工具、非标准或改自他人的方法须引用,原稿无文献时用 `[REF]` 占位并说明该引什么;教科书级通用方法(逻辑回归、t 检验、交叉验证)不引用也不占位。不能只丢一个引用就让读者自己去查,常见做法是"按 [n] 进行,简述如下"。引文位置紧贴被引方法,放错会把工作误归给别人或误归给自己。
 6. 与文献的关系必须标明类型:完全相同(as described in)、相似(adapted from,可说明改动)、有本质差异(unlike / instead of,必须说明差异)。若差异是本文关键贡献,明确指出差异在哪。
-7. 已知的局限、难点或妥协在方法节首次出现处就提及,用淡化影响 / 降低责任 / 给出解决方向三种策略之一措辞;不得留到讨论或结论才第一次暴露。
+7. 已知的局限、难点或妥协在方法节首次出现处就提及,用淡化影响 / 降低责任 / 给出解决方向三种策略之一措辞;除下面链式规则所列两类外,不得留到讨论或结论才第一次暴露。
 8. 材料、样品、设备、软件给出来源(供应商 / 厂家 / 型号 / 版本),并区分购得 / 获赠 / 自制 / 按标准制备。
 9. 时态决定工作归属:一般过去时 = 本研究做了什么;一般现在时 = 标准流程、设备原理、已建立的方法。无施动者被动中两者只差一个助动词,却决定读者把工作归给谁。
 10. 消除归属歧义三招:改主动(we collected);加定位词(here / in this work / in our model / in their study);用指向本文的主语(This procedure / The setup used here)。领域惯例整篇用现在时(数学模型、算法描述)时同样要用定位词标出本文贡献。
@@ -45,9 +45,11 @@
 17. 结尾没有固定组件,常以最后一个流程步骤、数据分析/统计方法、或指出局限收束。
 18. 写完逐句核查:该句时态是否表达了想要的功能(本文所做 / 标准流程 / 图中所示 / 他人工作)。
 
+局限性位置链式规则(02 / 03 / 04 三处同文):方法、结果中已知的问题在各自节首次提及;只有"需进一步工作才能下结论"与"研究期间的非正式证据"两类可在讨论首次出现;讨论中后段集中一处(医学期刊常单列 Limitations 小节);结论最多一句并与未来工作合并;讨论与结论都不以局限收尾。
+
 ### 数据驱动 / 临床回顾性研究的功能步
 
-上表 6 组件与细则 1–18 同样适用;下面把"材料与方法细节"组件按数据驱动研究(机器学习、临床回顾性队列、真实世界数据)常见顺序拆成功能步。每步先给概述句,再展开;原稿缺哪一步,进「建议补充」而不是补造。
+上表 6 组件与细则 1–18 同样适用;下面把"材料与方法细节"组件按数据驱动研究(机器学习、临床回顾性队列、真实世界数据)常见顺序拆成功能步。每步先给概述句,再展开;相邻小步可合并成一段,小节分段粒度以目标期刊为准(见 06 规则 2);原稿缺哪一步,进「建议补充」而不是补造。顺序默认:数据来源 → 伦理(可紧随数据来源)→ 纳入/排除 → 划分 → 变量 → 模型 → 调参 → 指标 → 可解释性 → 统计分析(最后),以目标期刊为准。
 
 1. **数据来源与时间窗**:机构、数据库、采集时段、数据类型。
 - Data were retrospectively collected from [database/system] at [institution] between [month year] and [month year].
@@ -68,21 +70,21 @@
 5. **模型与对比基线**:模型名称与引用、输入形式、基线选择理由。
 - We developed a [model type] to predict [outcome] from [inputs] [REF].
 - [Model] was compared against [baseline 1] and [baseline 2], which represent [current practice / common alternatives].
-- Model inputs were [preprocessing] before being passed to the network.
+- Model inputs were [normalized and resized] before being passed to the network.
 6. **调参与验证**:超参数搜索范围与方法、交叉验证方案、早停规则、选模依据。
 - Hyperparameters were tuned by [grid/random/Bayesian] search on the validation set using [metric] as the selection criterion.
 - Five-fold cross-validation was performed on the training set, and the configuration with the highest mean [metric] was retained.
 - Training was stopped when [metric] on the validation set failed to improve for [n] consecutive epochs.
 7. **评价指标**:主指标与次指标、阈值确定方法、置信区间来源。
 - Model performance was assessed by [primary metric] as the primary measure and by [secondary metrics] as secondary measures.
-- The decision threshold was fixed on the validation set at the point that [criterion] and was then applied unchanged to the test set.
+- The decision threshold was fixed on the validation set at the value that maximized [criterion] and was then applied unchanged to the test set.
 - Confidence intervals were obtained by [bootstrap with n resamples / analytic method].
 8. **可解释性**:方法、输出形式、所用数据子集。
-- Feature contributions were estimated with [method] [REF] on the test set.
+- Feature contributions were estimated using [method] [REF] on the test set.
 - Saliency maps were generated for [subset] to examine which regions drove the predictions.
-9. **伦理与软件**:审批机构与批号、知情同意或豁免依据、软件与版本、代码可用性。
-- This retrospective study was approved by [committee] of [institution] (No. [x]), which waived informed consent because [reason].
-- All analyses were performed in Python [version] with [package] [version] [REF].
+9. **伦理与代码可用性**:审批机构与批号;遵循的规范(赫尔辛基宣言;动物实验按 ARRIVE 报告);批准日期时点——前瞻性研究早于入组,回顾性研究早于数据提取/分析(可晚于病历产生),并写明回顾性与豁免知情同意依据(唯一口径见 `11-ethics-and-readers.md` 四个伦理检查点表;批件晚于该时点无法补办,如实说明并咨询期刊,不得回溯改日期);知情同意或豁免依据;代码可用性。软件与版本归统计分析小节。更多声明句式见 `11-ethics-and-readers.md`。
+- This retrospective study was approved by the [committee] of [institution] (No. [XXXX-XXX]) before data extraction; the committee waived the requirement for informed consent because [reason].(草稿无提取日期时删去 before data extraction 并进「建议补充」)
+- The study was conducted in accordance with the Declaration of Helsinki.
 - Code is available at [repository] under [license].
 
 ### 统计分析小节
@@ -98,6 +100,7 @@
 
 - Continuous variables are presented as mean (SD) or median (IQR) according to their distribution, and were compared between groups by [Student's t test / Mann-Whitney U test].
 - Categorical variables are reported as counts (percentages) and were compared by [chi-square test / Fisher's exact test].
+- 注:上两句同句混用 are presented / were compared 合法——呈现方式是稿件的现状(现在时),检验是本研究做过的动作(过去时),不按细则 9 "纠错"。
 - A two-sided P value below 0.05 was considered statistically significant.
 - Effect sizes are reported as [odds ratios / mean differences] with 95% confidence intervals estimated by [method].
 - P values from [n] pairwise comparisons were adjusted by the [Bonferroni / Benjamini-Hochberg] procedure.
@@ -188,7 +191,7 @@
 | 引用他人方法但不说明与本文方法的关系 | 标明相同 / 相似 / 差异,差异必须说清 |
 | 只给一个引用让读者自己去查 | 补一句概要:performed as in [n]; briefly, |
 | 引文放句尾,整句工作被误归给他人 | 引文紧贴被引的方法或材料 |
-| 局限第一次出现在讨论或结论 | 在方法节首次出现处提及,用淡化 / 去责 / 给方向措辞 |
+| 方法层面的局限第一次出现在讨论或结论 | 在方法节首次出现处提及,用淡化 / 去责 / 给方向措辞;例外只有链式规则所列两类 |
 | 材料、软件无来源、无版本 | 补供应商 / 厂家 / 型号 / 版本,区分购得 / 获赠 / 自制 |
 | 一句话里堆四五个介词短语,修饰对象互相污染 | 拆句;条件、目的、防护措施分开写 |
 | 用 with 表达工具或过程 | 工具用 using,过程用 by + doing |
@@ -203,7 +206,7 @@
 3. 每个非显而易见的方法选择至少附一个理由或优势说明。✓/✗
 4. 步骤顺序用能表达时间关系的词,不只用 then / next。✓/✗
 5. 本研究所做用一般过去时;标准方法、设备原理、材料属性用一般现在时。✓/✗
-6. 每个无施动者被动句都不会被误读为他人工作或标准流程(有定位词或改主动)。✓/✗
+6. 每个无施动者被动句都不会被误读为他人工作或标准流程(有定位词或改主动;定位词同一小节内可共享,小节首句必须有)。✓/✗
 7. 每个引用的方法都标明了相同 / 相似 / 差异,差异已说清。✓/✗
 8. 引文紧贴被引方法,没有笼统放句末。✓/✗
 9. 用引用替代完整描述时仍给了一句概要。✓/✗
@@ -214,14 +217,14 @@
 14. 首次提及的单数可数名词有 a/an 或定义;关键术语首次出现没有直接用 the。✓/✗
 15. 本文的装置/流程图在正文中明确写为本文所用。✓/✗
 16. 单位、缩写、符号已按目标期刊或 SI 统一。✓/✗
-17. 方法节篇幅与正文/补充材料分配向目标期刊近期论文看齐。✓/✗
+17. 方法节篇幅与正文/补充材料分配向目标期刊近期论文看齐(目标期刊未知时记「待作者确认」,不计 ✗)。✓/✗
 18. 逐句核查过每句时态与其功能(本文所做 / 标准流程 / 图中所示 / 他人工作)一致。✓/✗
+19. 涉及人或动物数据时有伦理批准声明:机构、批号、规范、批准日期先于入组或数据提取、知情同意或豁免依据(要素见功能步 9,句式见 `11-ethics-and-readers.md`)。✓/✗
+20. 统计分析小节含检验方法与条件、阈值、效应量与 CI、多重比较校正、软件版本(见本文件统计分析小节;投稿前总检见 `12-submission-checklist.md` 第 71–75 条)。✓/✗
 
-## 待与书B对照的点
+## 两书分歧的处理
 
-- 被动 vs 主动:书A方法节以无施动者被动为主、靠定位词消歧;书B若倾向主动语态和第一人称,折中为"先看目标期刊,默认被动 + 定位词,归属易混处切换为 we"。
-- 理由语言的量:书A要求几乎每个选择都给理由;书B若主张简洁少冗词,本文件已限定为"非显而易见的选择才需理由"。
-- 谨慎副词(carefully, thoroughly):书A视为建立可信度的手段;书B若归为无信息量修饰词,本文件已限定为"只在确实反映操作差异时使用"。
-- 整篇现在时的领域例外(数学模型、算法描述):书A承认存在;需确认书B是否有对应说明,避免与"方法用过去时"的通用规则打架。
-- 伦理声明、知情同意、统计方法的独立小节:书A模板未单列;医学 SCI 通常要求,是书A未覆盖、需从书B或其他来源补充的缺口。
-- 冠词规则:书A以共享知识为核心,依赖语境;本文件只收了可检查的子规则,其余作提示;书B若有更机械的规则可补充。
+1. **理由语言的量**:悬决:书A 要求几乎每个选择都给理由;书B 第 9 章只说修饰语"带来新信息时保留",未针对理由句。本文件按"非显而易见的选择才需理由"处理(细则 4),并受 `SKILL.md` 硬规则 3 约束(原稿没给的理由不补造)。
+2. **谨慎副词(carefully, thoroughly)**:悬决:书A 视为建立可信度的手段;书B 只有"修饰语带来新信息时保留"的通用规则。本文件按"只在确实反映操作差异时使用"处理(常见错误表)。
+3. **伦理声明与统计小节**:书A 模板未单列,医学 SCI 通常要求。裁决:按 `11-ethics-and-readers.md` 声明段规则与 `12-submission-checklist.md` 第 71–75 条补入功能步 9 与统计分析小节;批准日期口径以 11 的检查点表为唯一来源。
+4. **局限性的位置**:书A 允许两类局限在讨论首次出现,本文件原写成绝对禁止。裁决:按上文链式规则(02 / 03 / 04 三处同文),细则 7 的"不得"改为"除两类外不得"。
