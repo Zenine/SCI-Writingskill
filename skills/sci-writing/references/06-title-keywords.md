@@ -1,0 +1,203 @@
+# Title、Keywords 与二级标题写法
+
+> 来源:书A 第7单元;书B 第4章(关键词、4.4 二级标题)
+
+## 何时读本文件
+
+- 用户要给论文定正式标题,或要把工作标题(working title,研究开始前的暂定题)改成投稿标题。
+- 用户要列关键词,或不确定标题与关键词该如何分工。
+- 用户要写或改各节的二级标题(subheading),或审稿意见指出"结构不清""小标题看不出内容"。
+- 用户要判断某个标题是否夸大、是否有语法歧义、是否对目标读者可读。
+
+前置约定:
+
+- 标题最后定:在结果分析完成、核心贡献确定、摘要写完之后;工作标题不得直接当正式标题。
+- 标题表达"研究产出"(读者读完能拿到的工具 / 分析 / 机制 / 结论),不是"研究活动"(在研究什么对象)。
+- 标题没有万能公式,可操作的做法是逆向工程目标期刊近期同类标题;本文件给的是流程与检查项。
+- 标题、关键词、摘要、正文结论使用同一套核心术语(见 `05-abstract.md`)。
+
+## 结构与规则
+
+### 标题逆向工程六步
+
+输入:目标期刊近 1–2 年 20–30 条同类研究标题。输出:本刊标题画像 + 自己的标题草案。
+
+| 步 | 做什么 | 产出 / 检查项 |
+|---|---|---|
+| 1 量长度 | 数样本标题词数,记平均值与波动范围 | 自己的标题偏离均值超过 50% 时要能说明理由;常见均值约 12 词 |
+| 2 查缩写 | 统计样本中缩写出现频率;列出本研究未来可能的读者类型(临床、政策、产业、相邻学科) | 每个缩写都要每类读者不查资料就能读懂,否则展开 |
+| 3 标题与关键词分工 | 看样本的关键词是比标题更宽(扩大读者面)还是更专(吸引本领域专家) | 决定自己的关键词走哪一路;把塞不进标题的名词卸到关键词 |
+| 4 查语法 | 统计样本中介词数量与种类、名词链长度 | 名词修饰链不超过 3 个;介词少且每个意义唯一;能用 that / using / based on 替代的介词短语替代 |
+| 5 建结构画像 | 统计以 A/An 开头、含冒号、含方法、含目的或应用、含评价词、含缩写、明显只面向微型群体的比例 | 得到"本刊标题通常长什么样",据此选自己的结构 |
+| 6 检查期望兑现 | 只看自己的标题写下预期从论文得到的内容,再对照结论 | 预期与结论有偏差处改标题 |
+
+### 标题规则
+
+1. 标题至少包含"贡献"或"应用 / 目的"之一;只命名研究领域或对象的不算标题。
+2. 以 A / An 开头意味着"提出一个新的方法 / 框架 / 装置 / 模型",论文必须确实提出了该东西。
+3. 冒号只承担两种功能之一:"领域 : 本文贡献"或"新术语 : 说明";不为显得学术而用冒号。
+4. 评价词(novel、robust、cost-effective、rapid、accurate)每个都要在结果或讨论中找到对应证据;没有对比数据的 novel / new 删除。
+5. 不夸大:结论尚不确定时用 may / might / could 调低承诺;标题承诺的每一项正文都要兑现。
+6. 句子式标题(有主语、动词的完整句,一般现在时)只在目标期刊有先例且结论强而明确时使用;结论未坐实时可用带情态动词的句子标题。
+7. 名词性短语是默认形式;中心名词在最右,左侧名词都在当形容词用,链越长关系越说不清。
+8. 介词 for / with / in / of 语义弹性大;with 尤其易歧义,优先换 using / based on / combined with。
+9. 标题中的关键术语必须是当前通用说法:用 Google Scholar 带引号与不带引号各搜一次,确认未被新命名取代。
+10. 投稿前把标题与关键词丢进搜索引擎,检查检出论文的读者群是否与目标读者一致。
+11. 大小写、斜体(物种学名)、化学式格式按目标期刊。
+
+### 关键词规则
+
+1. 数量按期刊要求,常见 3–6 个词或短语。
+2. 不简单重复标题中的词;用于两种目的之一:扩大读者面(比标题更宽的上位词)或补充技术术语(吸引本领域专家)。
+3. 标题名词过多时,把次要名词移入关键词,而不是全塞进标题。
+4. 医学期刊按受控词表(MeSH 等)选词;其它领域按本领域检索习惯选词。
+5. 关键词与标题、摘要合起来要覆盖:研究对象、方法、场景 / 应用、核心结论中的关键概念。
+
+### 二级标题规则
+
+1. 二级标题是导航(读者)、结构判据(审稿人)、路线图(作者)、共识载体(合作者);写正文前先产出到二级标题的提纲并与合作者确认,达不成共识说明对研究构思本身有分歧。
+2. 方法节:标题必须含动作或方法名(Detection of X / Measurement of Y / Z characterization of W),不能只是对象、模块或材料名;能对应研究问题时在标题前标 RQ1、RQ2。
+3. 结果节:标题用动词说出发现的关系或现象(X causes Y / X suppresses Y / X does not affect Y),不能只给主题名词。
+4. 引言与讨论节标题无从下手时,先定方法与结果的二级标题,再反推:引言按"总览 → 具体对象与机制 → 现有方案 → 本文目标"排;讨论每个标题对应一个结果标题(Effects of X on Y / Comparison of X with previous methods)。
+5. 引言、结果、讨论三组二级标题应能一一对应;检查方法:只读标题能否画出全文"鱼骨"。
+6. 小节开头前两句要出现标题中的关键词;标题必须准确代表小节内容。
+7. 小节之间分量均衡;某小节只有一段时考虑合并。
+8. 是否允许二级标题、允许几级、是否编号,按目标期刊近期论文。
+
+## 英文模板与短语
+
+**提出新东西的开头**(A / An 开头)
+- A framework for ...
+- A method for rapid ...
+- A robust approach to ...
+- A computational model of ...
+- An algorithm for accurate ...
+- A low-cost tool for ...
+- 例:A lightweight model for vessel segmentation in hand-held retinal images
+
+**方法与手段**(替代 with)
+- ... using X
+- ... based on X
+- ... via X
+- ... by means of X
+- ... combined with X
+- ... derived from X
+- 例:Predicting readmission using routinely collected laboratory data
+
+**目的与应用**
+- ... for the detection of X
+- ... for evaluating X
+- ... in low-resource settings
+- ... under clinical conditions
+- ... applied to X
+- ... to guide X
+- 例:Automated triage of chest radiographs to guide referral in rural clinics
+
+**评价词**(须有证据)
+- cost-effective
+- rapid and reliable
+- robust
+- efficient
+- accurate
+- improved
+- scalable
+
+**表达关系或发现**(短语式或句子式)
+- effects of X on Y
+- X reflects / controls / regulates Y
+- X contributes to Y
+- X may regulate Y
+- association between X and Y
+- role of X in Y
+- 例:Sleep fragmentation predicts next-day glucose variability in adults with type 2 diabetes
+
+**冒号后半句**
+- : a framework for ...
+- : evidence from ...
+- : a multicentre study
+- : implications for ...
+- : a combined experimental and modelling study
+- : design and validation
+- 例:Foundation models in radiology: a scoping review of clinical validation
+
+**方法节二级标题**
+- Study design and participants
+- Data collection
+- Detection of X
+- Measurement of X
+- Preparation of X
+- Statistical analysis
+- Model training and evaluation
+- 例:2.3 Measurement of intracellular oxygen
+
+**结果节二级标题**(含动词)
+- X causes / induces Y
+- X suppresses / inhibits Y
+- X does not affect Y
+- X is associated with Y
+- X outperforms Y on Z
+- X improves Y without Z
+- 例:3.2 Image quality, not model size, limits segmentation accuracy
+
+**引言与讨论节二级标题**
+- Background / Overview of X
+- Current approaches to X
+- Aim of the present study
+- Effects of X on Y
+- Comparison with previous methods
+- Limitations and future work
+- 例:5.1 Comparison of the proposed model with existing methods
+
+## 常见错误
+
+| 错误模式 | 修正原则 |
+|---|---|
+| 工作标题直接当正式标题(Study of X in Y) | 改为表达产出:X 的什么工具 / 机制 / 结论 |
+| 只命名领域或对象,没有贡献或应用 | 至少补贡献或应用之一 |
+| 四个以上名词连用(X Y Z W analysis) | 拆成介词短语或分词结构,或把次要名词卸到关键词 |
+| 介词堆叠或 with 歧义 | 少用介词;with 换 using / based on / combined with |
+| 缩写只有本课题组懂 | 按读者类型逐一核对,不通过就展开 |
+| A / An 开头但论文没有提出新东西 | 去掉冠词或改成关系式标题 |
+| 冒号前后功能不明 | 只保留"领域 : 贡献"或"新术语 : 说明" |
+| novel / new / first 没有对比证据 | 删除或补证据 |
+| 标题承诺强于结论 | 用 may / could 或改为陈述范围更窄的产出 |
+| 句子式标题但期刊无先例 | 改为名词短语标题 |
+| 关键词照抄标题 | 改为上位词或补充技术术语 |
+| 方法节标题只列对象(Intracellular oxygen) | 加动作(Detection of intracellular oxygen) |
+| 结果节标题只列主题(Oxygen fluctuation in macrophages) | 用动词说出关系(Bacterial invasion causes oxygen fluctuation in macrophages) |
+| 引言 / 结果 / 讨论标题互不对应 | 从结果标题反推引言与讨论标题 |
+| 标题、摘要、关键词术语不一致 | 三处统一为同一套术语 |
+
+## 自检清单
+
+1. 标题在结果分析完成、贡献确定后才定稿。✓/✗
+2. 已收集目标期刊 20–30 条同类标题并统计长度、缩写、冒号、A/An、方法、应用、评价词的频率。✓/✗
+3. 标题词数在目标期刊均值的 ±50% 内,或偏离有理由。✓/✗
+4. 标题表达研究产出(工具 / 分析 / 机制 / 结论),含贡献或应用至少一项。✓/✗
+5. 只看标题写下的预期与论文结论一致。✓/✗
+6. 每个缩写对所有目标读者类型都可读。✓/✗
+7. 连续名词修饰链不超过 3 个。✓/✗
+8. 介词少且每个意义唯一;没有歧义的 with。✓/✗
+9. 若以 A/An 开头,论文确实提出了新的方法 / 框架 / 装置 / 模型。✓/✗
+10. 若含冒号,功能是"领域 : 贡献"或"新术语 : 说明"之一。✓/✗
+11. 每个评价词能在结果或讨论中找到证据。✓/✗
+12. 标题承诺强度不超过结论;不确定处用情态动词。✓/✗
+13. 句子式标题只在期刊有先例且结论明确时使用。✓/✗
+14. 关键词不重复标题用词,数量符合期刊要求,走"扩大读者面"或"补技术术语"之一。✓/✗
+15. 标题与关键词在搜索引擎中检出的论文读者群与目标读者一致。✓/✗
+16. 方法节二级标题含动作或方法名。✓/✗
+17. 结果节二级标题含动词并说出发现的关系。✓/✗
+18. 引言、结果、讨论的二级标题能一一对应,只读标题能画出全文骨架。✓/✗
+19. 每个小节开头前两句出现标题关键词。✓/✗
+20. 标题、关键词、摘要、结论使用同一套核心术语。✓/✗
+
+## 两书分歧的处理
+
+1. 标题词数:书A 不给硬上限,只参照目标期刊均值;书B 未给具体数字。裁决:以目标期刊均值为准,偏离超过 50% 需说明理由;期刊作者须知有字符上限时以其为硬兜底。
+2. 句子式标题:书A 态度谨慎(不主流、须查期刊);书B 在结果节二级标题中主动推荐动词句式。裁决:两者层级不同——正文二级标题按书B 用动词句;论文总标题按书A,只在期刊有先例且结论明确时用句子式。生命科学期刊先例多,工程 / 物理期刊少。
+3. 缩写:书A 几乎不鼓励标题用缩写;书B 未专门讨论。裁决:按书A 的读者类型核对法;领域公认缩写(DNA、MRI、CT)在目标期刊样本中普遍出现时可保留,作为唯一例外。
+4. 评价词:书A 鼓励在标题用 cost-effective 等表达价值;当代审稿文化反感空泛的 novel。裁决:允许评价词,但每个必须有证据;novel / new 无对比数据即删。可检查的"有证据"优先于"少用"的风格建议。
+5. 关键词分工:书A 的"把名词卸到关键词"以检索曝光为前提;书B 强调"高相关 + 目标读者检索习惯"。裁决:两者并存——先按书B 定读者与相关性,再用书A 的卸载策略处理标题名词过载;医学期刊另按 MeSH 受控词表核对。
+6. 二级标题与小节开头:书A 要求小节开头前两句出现标题关键词;书B 要求标题本身"说事"(含动作 / 动词)。两说不冲突,合并为规则 2、3、6。
+7. 研究问题标注:书B 建议方法节标题前标 RQ1–RQ4;书A 无此做法。裁决:作为可选做法,仅在方法步骤与研究问题能一一对应且期刊不禁止时使用。
+8. 书A 第 7 单元的 36 条练习标题无标准答案,本文件不引为规则,只作为用户自练素材的提示。

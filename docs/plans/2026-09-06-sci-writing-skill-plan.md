@@ -76,14 +76,14 @@ SCI-Writingskill/
 
 **Files:** 创建 `.gitignore`、`README.md`、`AGENTS.md`、`TODO.md`、`CHANGELOG.md`、`.claude-plugin/plugin.json`、`skills/sci-writing/SKILL.md`(占位 frontmatter)、`scripts/verify.sh`(最小版);移动 PDF 到 `sources/`。
 
-- [ ] `mkdir -p sources && mv *.pdf sources/`
-- [ ] 写 `.gitignore`:`sources/`、`*.pdf`、`*.png`、`__pycache__/`、`.venv/`
-- [ ] 写最小 `scripts/verify.sh`(见 Task 2 完整版;此处先含 pdf/sources 未跟踪检查 + SKILL.md frontmatter 检查)
-- [ ] 写 README/AGENTS/TODO/CHANGELOG 骨架与 plugin.json
-- [ ] `git init -b main && bash scripts/verify.sh` → 期望 PASS
-- [ ] `git add -A && git commit -m "init: SCI 写作 skill 仓库骨架"`(无 AI 署名)
-- [ ] `gh repo create Zenine/SCI-Writingskill --public --source=. --push`
-- [ ] `git ls-files | grep -i pdf` → 期望空输出
+- [x] `mkdir -p sources && mv *.pdf sources/`
+- [x] 写 `.gitignore`:`sources/`、`*.pdf`、`*.png`、`__pycache__/`、`.venv/`
+- [x] 写最小 `scripts/verify.sh`(见 Task 2 完整版;此处先含 pdf/sources 未跟踪检查 + SKILL.md frontmatter 检查)
+- [x] 写 README/AGENTS/TODO/CHANGELOG 骨架与 plugin.json
+- [x] `git init -b main && bash scripts/verify.sh` → 期望 PASS
+- [x] `git add -A && git commit -m "init: SCI 写作 skill 仓库骨架"`(无 AI 署名)
+- [x] `gh repo create Zenine/SCI-Writingskill --public --source=. --push`
+- [x] `git ls-files | grep -i pdf` → 期望空输出
 
 ### Task 2: 文本抽取与验证脚本
 
@@ -93,12 +93,12 @@ SCI-Writingskill/
 - Produces: `sources/text/bookA-p{NNN}.txt`(书 A 逐页,NNN 三位 PDF 页码)、`sources/pages/bookB-{NNN}.png`(书 B 逐页 100dpi)。
 - Produces: `python3 scripts/check_overlap.py <目录...>`,退出码 0=无重合,1=有重合并打印文件:行:片段;无 `sources/text/` 时打印 `SKIPPED` 退出 0。
 
-- [ ] 写 `extract_text.sh`:书 A 用 `pdftotext -f N -l N -layout` 循环 1..506;书 B 用 `pdftoppm -r 100 -png` 输出到 `sources/pages/`。
-- [ ] 运行,确认 `ls sources/text | wc -l` = 506,`ls sources/pages | wc -l` = 311。
-- [ ] 写 `check_overlap.py`:把 `sources/text/*.txt` 合并、正则抽英文单词序列、建 12-gram 集合;扫描参数目录下所有 `.md`,同法切 12-gram,命中即报。
-- [ ] 自测:临时建一个含书 A 原句的 md,期望退出 1;删除后期望退出 0。
-- [ ] 完整 `verify.sh`:① `git ls-files` 无 pdf/sources;② SKILL.md 有 `name:`/`description:`;③ SKILL.md 中引用的每个 `references/*.md` 文件存在,且 references 目录下每个文件都在 SKILL.md 被引用;④ 每个 reference 首 5 行含 `> 来源:`;⑤ 调用 `check_overlap.py notes skills`;任一失败非零退出。
-- [ ] 运行 `bash scripts/verify.sh` → 当前阶段 ③④ 因文件未建会失败,把 ③④ 写成「references 目录不存在时跳过」以保持骨架可过;记录到 TODO。
+- [x] 写 `extract_text.sh`:书 A 用 `pdftotext -f N -l N -layout` 循环 1..506;书 B 用 `pdftoppm -r 100 -png` 输出到 `sources/pages/`。
+- [x] 运行,确认 `ls sources/text | wc -l` = 506,`ls sources/pages | wc -l` = 311。
+- [x] 写 `check_overlap.py`:把 `sources/text/*.txt` 合并、正则抽英文单词序列、建 12-gram 集合;扫描参数目录下所有 `.md`,同法切 12-gram,命中即报。
+- [x] 自测:临时建一个含书 A 原句的 md,期望退出 1;删除后期望退出 0。
+- [x] 完整 `verify.sh`:① `git ls-files` 无 pdf/sources;② SKILL.md 有 `name:`/`description:`;③ SKILL.md 中引用的每个 `references/*.md` 文件存在,且 references 目录下每个文件都在 SKILL.md 被引用;④ 每个 reference 首 5 行含 `> 来源:`;⑤ 调用 `check_overlap.py notes skills`;任一失败非零退出。
+- [x] 运行 `bash scripts/verify.sh` → 当前阶段 ③④ 因文件未建会失败,把 ③④ 写成「references 目录不存在时跳过」以保持骨架可过;记录到 TODO。
 
 ### Task 3: 读书笔记 —— 书 A(有文字层,4 个并行子代理)
 
@@ -121,22 +121,25 @@ SCI-Writingskill/
 ## 可直接转化为 skill 规则的条目(每条一句,可检查)
 ## 疑问 / 与书B可能冲突处
 ```
-- [ ] 各子代理读对应 `sources/text/` 页,写笔记。
-- [ ] 每个笔记完成后跑 `python3 scripts/check_overlap.py notes` → 期望 0。
+- [x] 各子代理读对应 `sources/text/` 页,写笔记。
+- [x] 每个笔记完成后跑 `python3 scripts/check_overlap.py notes` → 期望 0。
 
 ### Task 4: 读书笔记 —— 书 B(扫描版,4 个并行子代理,多模态读图)
 
 **Files:** `notes/bookB-fan-tong-mao/ch-{01..NN}.md`。
 
-分工(书页号 → PNG 编号需先由子代理读 `sources/pages/bookB-013.png` 附近校准偏移):
+分工:
 - B1:第 1、2 章(伦理、读者)
 - B2:第 3、4 章(故事线、骨架含摘要模板)
 - B3:第 5、6 章(逻辑之桥、动词)
-- B4:第 7、8 章及其后所有章(风格、中国作者错误、以及目录第 13 页后出现的章节)
+- B4:第 7、8 章(风格、中国作者错误)
+- B5:第 9 章(实用写作工具,短)、第 10 章(学术发表的成功秘籍,书页 234–297)及可能的附录
+
+已校准:**书页号 + 14 = PNG 编号**(书页 1 = bookB-015.png);书 B 共 10 章。
 
 每次 Read 不超过 20 页;笔记结构同 Task 3。
-- [ ] 各子代理读图写笔记。
-- [ ] 跑 `check_overlap.py notes` → 0(书 B 无文字层,重合检查对其不生效,子代理需自律:不抄整段)。
+- [x] 各子代理读图写笔记。
+- [x] 跑 `check_overlap.py notes` → 0(书 B 无文字层,重合检查对其不生效,子代理需自律:不抄整段)。
 
 ### Task 5: 合成 references(3 个并行子代理,按主题簇)
 
@@ -148,25 +151,25 @@ SCI-Writingskill/
 - S2:`05-abstract.md`、`06-title-keywords.md`、`12-submission-checklist.md`、`11-ethics-and-readers.md`(输入:A6–A8、B ch1–2、B 4.3)
 - S3:`00-workflow.md`、`07-paragraph-logic.md`、`08-verbs-tense-voice.md`、`09-academic-style.md`、`10-chinese-author-pitfalls.md`(输入:B ch3–8 + A 各单元语法节)
 
-- [ ] 各子代理写文件;书 A 与书 B 冲突处以「更可检查的规则」为准并在文中注明两说。
-- [ ] 跑 `check_overlap.py skills` → 0。
+- [x] 各子代理写文件;书 A 与书 B 冲突处以「更可检查的规则」为准并在文中注明两说。
+- [x] 跑 `check_overlap.py skills` → 0。
 
 ### Task 6: SKILL.md 路由 + 样例
 
 **Files:** `skills/sci-writing/SKILL.md`、`skills/sci-writing/samples/methods-draft-zh.md`、`samples/expected-points.md`。
 
-- [ ] SKILL.md:frontmatter(name/description 含触发词:SCI、英文论文、introduction、methods、abstract、审稿回复、润色、Chinglish);正文 ≤ 150 行:① 适用场景;② 总流程(引用 00);③ 「用户要做什么 → 读哪个文件」路由表;④ 硬规则(先定故事线再写句子、每节先给结构再填内容、输出附自检结果、不得编造引用);⑤ 输出格式约定。
-- [ ] 样例输入:一段 200 字中文医疗 AI 方法描述;expected-points 列出合格输出必须体现的 6–8 个要点(如时态一致、被动/主动选择、步骤顺序、样本描述、伦理声明位置)。
-- [ ] `bash scripts/verify.sh` → PASS。
+- [x] SKILL.md:frontmatter(name/description 含触发词:SCI、英文论文、introduction、methods、abstract、审稿回复、润色、Chinglish);正文 ≤ 150 行:① 适用场景;② 总流程(引用 00);③ 「用户要做什么 → 读哪个文件」路由表;④ 硬规则(先定故事线再写句子、每节先给结构再填内容、输出附自检结果、不得编造引用);⑤ 输出格式约定。
+- [x] 样例输入:一段 200 字中文医疗 AI 方法描述;expected-points 列出合格输出必须体现的 6–8 个要点(如时态一致、被动/主动选择、步骤顺序、样本描述、伦理声明位置)。
+- [x] `bash scripts/verify.sh` → PASS。
 
 ### Task 7: 技能实测(1 个子代理)
 
-- [ ] 子代理只读 `skills/sci-writing/`,按 SKILL.md 把 `samples/methods-draft-zh.md` 改写为英文 Methods 段并给自检结果。
-- [ ] 主会话对照 `expected-points.md` 逐条判定;未覆盖的要点回写到对应 reference 或 SKILL.md 路由。
-- [ ] 复测一次直到全部要点覆盖。
+- [x] 子代理只读 `skills/sci-writing/`,按 SKILL.md 把 `samples/methods-draft-zh.md` 改写为英文 Methods 段并给自检结果。
+- [x] 主会话对照 `expected-points.md` 逐条判定;未覆盖的要点回写到对应 reference 或 SKILL.md 路由。
+- [x] 复测一次直到全部要点覆盖。
 
 ### Task 8: 收尾
 
-- [ ] README:安装方式(拷目录 / plugin)、目录说明、参考书目、二次创作口径、本计划链接。
-- [ ] CHANGELOG 记录 2026-09-06 完成项;TODO 留未完成项(如:书 B 后续章节笔记、审稿回复信 reference、cover letter)。
-- [ ] `bash scripts/verify.sh` → PASS;`git status --short` 汇报,不提交。
+- [x] README:安装方式(拷目录 / plugin)、目录说明、参考书目、二次创作口径、本计划链接。
+- [x] CHANGELOG 记录 2026-09-06 完成项;TODO 留未完成项(如:书 B 后续章节笔记、审稿回复信 reference、cover letter)。
+- [x] `bash scripts/verify.sh` → PASS;`git status --short` 汇报,不提交。

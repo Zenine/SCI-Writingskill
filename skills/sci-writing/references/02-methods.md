@@ -1,0 +1,227 @@
+# Methods(方法)写法
+
+> 来源:书A 第2单元
+
+## 何时读本文件
+
+- 用户要写、改写或润色 Methods / Materials and Methods / Experimental / Methodology / Model 等描述"怎么做"的部分。
+- 用户有中文方法草稿,需要转成能复现、能自证可靠的英文方法节。
+- 审稿意见指出"细节不足以复现""为什么选这个方法""分不清哪些是作者做的、哪些是标准流程"。
+- 需要判断方法细节放正文还是放补充材料。
+
+前置约定:方法节的名称、篇幅、正文与补充材料的分配比例,一律以目标期刊近期同类论文为准。方法节的唯一功能是让同行能复现并得到相近结果;同时它也在说服读者相信作者称职、细心、可靠。拼写以目标期刊为准,未知时默认美式(analyze / minimize / modeling),全篇一致。
+
+## 结构与规则
+
+方法节由 6 个组件组成,是菜单而非必选序列;组件可以交错出现,理由/谨慎/优势语言是贯穿全节的"调味",不是独立段落。
+
+| 序号 | 组件功能 | 信息流作用 | 常用时态 |
+|---|---|---|---|
+| 1 | 总览或引入:概述做了什么、用了什么、目的是什么;或重述引言中的目标;或先交代材料与设备来源 | 建立顶层框架,让读者与作者共享同一张"地图" | 一般过去时;重述目标可用过去时或现在时 |
+| 2 | 材料与方法细节:参数、条件、顺序、设备型号,附理由与谨慎措辞 | 主体,篇幅最大;用精确的顺序词交代步骤先后与时长 | 一般过去时(无施动者被动为主,也可主动) |
+| 3 | 描述图表内容(装置图、流程图、样本表) | 把图像纳入叙述 | 一般现在时(图里显示什么) |
+| 4 | 与已有方法的关系:相同 / 相似 / 有本质差异,并说明自己选择的合理性 | 把本文方法定位到文献地图上 | 描述别人已建立的方法用现在时;自己怎么改用过去时 |
+| 5 | 背景事实:材料属性、设备原理、地区特征 | 填补读者可能缺失的知识,为选择辩护 | 一般现在时 |
+| 6 | 指出问题或困难 | 显示作者自知之明;为文末"未来工作"埋线 | 一般过去时;解决方向用 should / will |
+
+细则:
+
+1. 开头三选一:列研究参数做总览(样本数、材料、设备、目的);先给材料/设备的来源或背景属性;回指引言的目标或待解决问题。只有当期刊读者面窄且所有读者都熟悉该方法时,才可直接从材料细节开头。
+2. 自上而下:每个小节/段落以概述性"输入句"开头(In all cases / Most of the tests),再展开细节。先展示整堵墙,再谈砖块。
+3. 背景给多少,用两个问题判断:所有潜在读者都已知道这个方法吗?要理解我的具体做法他们还需要知道什么?答案来自目标论文;考虑到搜索引擎带来的跨学科读者,宁多勿少。
+4. 每个非显而易见的选择(材料、设备、参数、流程)至少附一个理由或优势说明;标准操作不必。原稿未给理由时不得替作者补造,列入输出末尾的「建议补充」(`SKILL.md` 硬规则 3 优先于本条)。
+5. 引用已有方法:界线与 `SKILL.md` 硬规则 4 一致——命名算法/模型(XGBoost、U-Net)、专用软件包与工具、非标准或改自他人的方法须引用,原稿无文献时用 `[REF]` 占位并说明该引什么;教科书级通用方法(逻辑回归、t 检验、交叉验证)不引用也不占位。不能只丢一个引用就让读者自己去查,常见做法是"按 [n] 进行,简述如下"。引文位置紧贴被引方法,放错会把工作误归给别人或误归给自己。
+6. 与文献的关系必须标明类型:完全相同(as described in)、相似(adapted from,可说明改动)、有本质差异(unlike / instead of,必须说明差异)。若差异是本文关键贡献,明确指出差异在哪。
+7. 已知的局限、难点或妥协在方法节首次出现处就提及,用淡化影响 / 降低责任 / 给出解决方向三种策略之一措辞;不得留到讨论或结论才第一次暴露。
+8. 材料、样品、设备、软件给出来源(供应商 / 厂家 / 型号 / 版本),并区分购得 / 获赠 / 自制 / 按标准制备。
+9. 时态决定工作归属:一般过去时 = 本研究做了什么;一般现在时 = 标准流程、设备原理、已建立的方法。无施动者被动中两者只差一个助动词,却决定读者把工作归给谁。
+10. 消除归属歧义三招:改主动(we collected);加定位词(here / in this work / in our model / in their study);用指向本文的主语(This procedure / The setup used here)。领域惯例整篇用现在时(数学模型、算法描述)时同样要用定位词标出本文贡献。
+11. 图中装置若是本文的,正文明确写为本文所用,不能只写 is shown in Fig. n。
+12. 顺序语言:then / next 只表先后不表间隔,复现时信息不足;涉及时长或间隔的步骤用能表达时间关系的词(prior to, until, at which point, immediately, after 10 min)。
+13. 介词:using + 工具、by + doing 的过程描述;with 含义太宽(伴随/工具/意图/属性),尽量替换。一句话内不得出现 3 个以上互相修饰的介词短语,超出则拆句。
+14. 冠词:首次提及的单数可数名词用 a/an 或作定义;宽读者面期刊首次出现的关键术语不直接用 the。a cause of(多因之一)与 the cause of(唯一原因)含义不同。
+15. 引用文献的介词:by / of 接人名或团队(described by X; the protocol of X et al.),in 接作品或文献条目(described in [12])。
+16. 单位、缩写、符号按目标期刊或 SI 现行版本统一。
+17. 结尾没有固定组件,常以最后一个流程步骤、数据分析/统计方法、或指出局限收束。
+18. 写完逐句核查:该句时态是否表达了想要的功能(本文所做 / 标准流程 / 图中所示 / 他人工作)。
+
+### 数据驱动 / 临床回顾性研究的功能步
+
+上表 6 组件与细则 1–18 同样适用;下面把"材料与方法细节"组件按数据驱动研究(机器学习、临床回顾性队列、真实世界数据)常见顺序拆成功能步。每步先给概述句,再展开;原稿缺哪一步,进「建议补充」而不是补造。
+
+1. **数据来源与时间窗**:机构、数据库、采集时段、数据类型。
+- Data were retrospectively collected from [database/system] at [institution] between [month year] and [month year].
+- This study used [type of records] from [n] centers covering [period].
+- All records were extracted from [system] on [date] and frozen for analysis.
+2. **纳入/排除与最终样本量**:逐条标准、每步剔除数量、最终 n(建议配流程图)。
+- Patients were eligible if [criterion 1] and [criterion 2].
+- Records were excluded when [condition]; [n] records were removed for [reason], leaving [n] for analysis.
+- The selection process is summarized in Fig. [n].
+3. **数据划分**:训练/验证/测试或内外部验证、划分单位(按患者而非按样本)、比例、是否分层、随机种子。
+- The cohort was split at the patient level into training, validation, and test sets in a [a:b:c] ratio.
+- Stratified splitting was used so that the outcome prevalence was similar across subsets.
+- Data from [site] were held out as an external test set and were not used for model development.
+4. **变量与结局定义**:预测变量来源与编码、结局的操作定义与判定时点、缺失值处理。
+- The primary outcome was defined as [definition] within [time] after [index event].
+- Candidate predictors comprised [k] variables available at [time point], including [examples].
+- Missing values were handled by [method]; variables with more than [x]% missingness were dropped.
+5. **模型与对比基线**:模型名称与引用、输入形式、基线选择理由。
+- We developed a [model type] to predict [outcome] from [inputs] [REF].
+- [Model] was compared against [baseline 1] and [baseline 2], which represent [current practice / common alternatives].
+- Model inputs were [preprocessing] before being passed to the network.
+6. **调参与验证**:超参数搜索范围与方法、交叉验证方案、早停规则、选模依据。
+- Hyperparameters were tuned by [grid/random/Bayesian] search on the validation set using [metric] as the selection criterion.
+- Five-fold cross-validation was performed on the training set, and the configuration with the highest mean [metric] was retained.
+- Training was stopped when [metric] on the validation set failed to improve for [n] consecutive epochs.
+7. **评价指标**:主指标与次指标、阈值确定方法、置信区间来源。
+- Model performance was assessed by [primary metric] as the primary measure and by [secondary metrics] as secondary measures.
+- The decision threshold was fixed on the validation set at the point that [criterion] and was then applied unchanged to the test set.
+- Confidence intervals were obtained by [bootstrap with n resamples / analytic method].
+8. **可解释性**:方法、输出形式、所用数据子集。
+- Feature contributions were estimated with [method] [REF] on the test set.
+- Saliency maps were generated for [subset] to examine which regions drove the predictions.
+9. **伦理与软件**:审批机构与批号、知情同意或豁免依据、软件与版本、代码可用性。
+- This retrospective study was approved by [committee] of [institution] (No. [x]), which waived informed consent because [reason].
+- All analyses were performed in Python [version] with [package] [version] [REF].
+- Code is available at [repository] under [license].
+
+### 统计分析小节
+
+医学与数据驱动论文通常单列 Statistical analysis 小节,放在方法节末尾;写法规则:
+
+1. 每项检验写明方法与适用条件(数据分布、配对与否、方差齐性),连续变量与分类变量分开说。
+2. 写明显著性阈值(如双侧 P < 0.05)与是否为双侧检验。
+3. 效应量与置信区间的报告格式固定(如 OR、95% CI;差值与 95% CI),并说明置信区间的计算方法。
+4. 多重比较时写明校正方法;未校正的探索性分析明确标为探索性。
+5. 样本量或功效说明:有则写依据(效应量假设、检验效能、alpha);原稿没有的进「建议补充」,不补造。
+6. 软件与版本、所用包与版本;涉及命名软件包时按细则 5 处理引用。
+
+- Continuous variables are presented as mean (SD) or median (IQR) according to their distribution, and were compared between groups by [Student's t test / Mann-Whitney U test].
+- Categorical variables are reported as counts (percentages) and were compared by [chi-square test / Fisher's exact test].
+- A two-sided P value below 0.05 was considered statistically significant.
+- Effect sizes are reported as [odds ratios / mean differences] with 95% confidence intervals estimated by [method].
+- P values from [n] pairwise comparisons were adjusted by the [Bonferroni / Benjamini-Hochberg] procedure.
+- The sample size was determined to detect a difference of [x] with [power]% power at a two-sided alpha of 0.05.
+- All statistical analyses were performed in [software] version [x].
+
+## 英文模板与短语
+
+**材料 / 设备 / 样本来源**
+- X was purchased from / was obtained from
+- X was supplied by / was provided by
+- X is commercially available
+- X was used as received
+- X was collected from / was acquired from
+- X was prepared in-house according to
+- 例:Reagents were obtained from commercial suppliers and used without further purification.
+
+**概述句与段落输入句**
+- A two-step procedure was used to
+- In all cases, / In most cases,
+- The majority of the experiments were
+- The system consists of three components:
+- An overview of the workflow is given in Fig. 1
+- 例:Three sets of experiments were performed to assess the effect of X on Y.
+
+**空间关系与装置描述**
+- was positioned / mounted / attached / installed
+- adjacent to / in close proximity to
+- parallel to / perpendicular to / aligned with
+- upstream of / downstream of
+- on either side of / equidistant from
+- was embedded in / was enclosed in
+
+**理由与优势**
+- in order to / so as to / with the aim of
+- to ensure / to prevent / to avoid / to minimize
+- for the sake of simplicity / for brevity
+- was chosen for its / was selected on the basis of
+- which allowed / which enabled / thereby
+- This approach offers the advantage of
+- 例:A stratified split was used to ensure that class proportions were preserved across folds.
+
+**谨慎态度**
+- carefully / thoroughly / rigorously
+- Care was taken to
+- at least three times / independently / repeatedly
+- immediately after / freshly prepared
+- randomly assigned / blinded to
+
+**顺序与时间关系**
+- prior to / beforehand / in advance
+- initially / to begin with / at the start
+- subsequently / followed by / after which
+- immediately / as soon as / once
+- until / at which point
+- finally / afterwards
+- 例:Samples were equilibrated for 30 min prior to measurement, after which the temperature was raised.
+
+**与已有方法的关系**
+- 相同:as described in / according to / following [ref] / in accordance with / using the method of
+- 相似:based on / adapted from / a modified version of / essentially the same as / with some modifications
+- 差异:instead of / unlike / with the following modifications / in contrast to the approach of [ref]
+- 例:The protocol was adapted from [ref], with the incubation time reduced to 2 h.
+
+**问题与困难(三种策略)**
+- 淡化:negligible / minor / only approximate / not significant
+- 去责:inevitably / unavoidable / it was not possible to / limited by
+- 转向好的方面或给出方向:acceptable / reasonably robust / Future work should / will be addressed in a subsequent study
+
+**归属定位词**
+- In this study, / In the present work,
+- Here, we
+- In our model, / In our implementation,
+- The setup used here
+- The procedure described in [ref]
+
+## 常见错误
+
+| 错误模式 | 修正原则 |
+|---|---|
+| 第一句就是具体操作细节(温度、浓度、参数) | 先给总览、目标回指或材料来源,再展开细节 |
+| 段落从细节直接开始,没有输入句 | 每段首句是概述,自上而下 |
+| 只写"做了什么",不写"为什么这样做" | 非显而易见的选择附理由或优势(in order to / to ensure) |
+| 每一步都加 carefully / thoroughly 当装饰 | 谨慎词只在确实反映操作差异时使用 |
+| 步骤只用 then / next 串联 | 涉及时长或间隔时用 prior to / until / after N min / at which point |
+| 无施动者被动 + 现在时,读者以为是标准流程 | 本研究所做用过去时;或加 here / in this study;或改 we |
+| 用现在时描述本文装置,读者以为是文献装置 | 加 the setup used here 之类明确归属 |
+| 引用他人方法但不说明与本文方法的关系 | 标明相同 / 相似 / 差异,差异必须说清 |
+| 只给一个引用让读者自己去查 | 补一句概要:performed as in [n]; briefly, |
+| 引文放句尾,整句工作被误归给他人 | 引文紧贴被引的方法或材料 |
+| 局限第一次出现在讨论或结论 | 在方法节首次出现处提及,用淡化 / 去责 / 给方向措辞 |
+| 材料、软件无来源、无版本 | 补供应商 / 厂家 / 型号 / 版本,区分购得 / 获赠 / 自制 |
+| 一句话里堆四五个介词短语,修饰对象互相污染 | 拆句;条件、目的、防护措施分开写 |
+| 用 with 表达工具或过程 | 工具用 using,过程用 by + doing |
+| 首次提及关键术语直接用 the | 首次用 a/an 并定义;the 只用于共享知识或已提及 |
+| evidence of / evidence for、substituted for / substituted with 混用 | 介词改变含义,从本领域最新文献取"动词 + 介词"固定搭配 |
+| 单位写法在 mL / ml 之间摇摆 | 按目标期刊或 SI 统一 |
+
+## 自检清单
+
+1. 第一句是总览、目标回指或材料来源之一,不是具体操作细节。✓/✗
+2. 每个小节/段落以概述性输入句开头。✓/✗
+3. 每个非显而易见的方法选择至少附一个理由或优势说明。✓/✗
+4. 步骤顺序用能表达时间关系的词,不只用 then / next。✓/✗
+5. 本研究所做用一般过去时;标准方法、设备原理、材料属性用一般现在时。✓/✗
+6. 每个无施动者被动句都不会被误读为他人工作或标准流程(有定位词或改主动)。✓/✗
+7. 每个引用的方法都标明了相同 / 相似 / 差异,差异已说清。✓/✗
+8. 引文紧贴被引方法,没有笼统放句末。✓/✗
+9. 用引用替代完整描述时仍给了一句概要。✓/✗
+10. 已知局限在方法节提及,并用淡化 / 去责 / 给方向之一措辞。✓/✗
+11. 材料、样品、设备、软件都有来源和型号/版本。✓/✗
+12. 没有一句话含 3 个以上互相修饰的介词短语。✓/✗
+13. 工具用 using、过程用 by + doing,with 已尽量替换。✓/✗
+14. 首次提及的单数可数名词有 a/an 或定义;关键术语首次出现没有直接用 the。✓/✗
+15. 本文的装置/流程图在正文中明确写为本文所用。✓/✗
+16. 单位、缩写、符号已按目标期刊或 SI 统一。✓/✗
+17. 方法节篇幅与正文/补充材料分配向目标期刊近期论文看齐。✓/✗
+18. 逐句核查过每句时态与其功能(本文所做 / 标准流程 / 图中所示 / 他人工作)一致。✓/✗
+
+## 待与书B对照的点
+
+- 被动 vs 主动:书A方法节以无施动者被动为主、靠定位词消歧;书B若倾向主动语态和第一人称,折中为"先看目标期刊,默认被动 + 定位词,归属易混处切换为 we"。
+- 理由语言的量:书A要求几乎每个选择都给理由;书B若主张简洁少冗词,本文件已限定为"非显而易见的选择才需理由"。
+- 谨慎副词(carefully, thoroughly):书A视为建立可信度的手段;书B若归为无信息量修饰词,本文件已限定为"只在确实反映操作差异时使用"。
+- 整篇现在时的领域例外(数学模型、算法描述):书A承认存在;需确认书B是否有对应说明,避免与"方法用过去时"的通用规则打架。
+- 伦理声明、知情同意、统计方法的独立小节:书A模板未单列;医学 SCI 通常要求,是书A未覆盖、需从书B或其他来源补充的缺口。
+- 冠词规则:书A以共享知识为核心,依赖语境;本文件只收了可检查的子规则,其余作提示;书B若有更机械的规则可补充。

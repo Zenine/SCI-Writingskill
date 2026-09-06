@@ -1,0 +1,256 @@
+# 投稿前总清单、选刊与审稿回复
+
+> 来源:书A 第8单元(清单与提示)及各单元小结;书B 第1–4章小结、第2章(五角色审读)、第10章(发表流程)、附录二/六/七
+
+## 何时读本文件
+
+- 全文各节都已按 `01`–`11` 号文件写完或改完,用户要做投稿前的最后一轮总检。
+- 用户要选目标期刊、写投稿信(cover letter)、准备标题页与各类声明、做匿名化。
+- 用户收到审稿意见,要写逐条回复(response / rebuttal letter),或被拒后要决定转投。
+- 用户只要"给我一份能打勾的清单"。
+
+前置约定:
+
+- 本文件是总入口,不重复各节的详细规则;某条 ✗ 时跳到括号里指向的文件修。
+- 顺序有意义:先故事线与结构,再各节,再句子,再语法词汇,最后声明与格式、选刊投稿、审稿回复。组织与写作好可以弥补语言错误,语言零错误弥补不了组织糟糕。
+- 任何一条 ✗ 都要处理:修改、或在汇报中写明为何保留;不得静默跳过。
+- 投稿前准备是独立工作,至少留两天;给合作者审读至少留两周。
+
+## 结构与规则
+
+### 清单的用法
+
+1. 每条一句,可打 ✓/✗;输出时按分组逐条列出结果,再汇总 ✗ 条数与处理方式。
+2. 分组与对应文件:A 故事线与结构(`00`、`11`)/ B 各节(`01`–`06`)/ C 句子(`07`)/ D 语法词汇(`08`–`10`)/ E 声明与格式(`11`、期刊须知)/ F 选刊与投稿流程 / G 审稿回复。
+3. 可搜索项优先:凡能用全文搜索定位的(can/could、there is、句首 And/But、-ing 开头、which、with、only、缩写形式),先搜再判。
+4. 五角色审读是清单之外的第二通道:执笔者以外的作者各扮演一种角色(信息收集者 / 竞争对手 / 问题寻找者 / 方案寻找者 / 研究新手)通读,结果并入本清单对应组。
+5. 清单通过不等于可投:还要与全体作者用一次会议确认投稿顺序与最终稿。
+
+### 投稿流程骨架
+
+投稿 → 编辑初审(不合基本要求则 desk reject,编辑直接退稿不送审)→ 外审(常见 2–3 人、数周)→ 编辑决定(拒稿 / 大改 / 小改 / 录用)→ 作者逐条回复并修改 → 大改稿通常回到原审稿人,只看第一轮问题是否解决 → 录用 → 排版校样(只能改格式、表达、拼写,不能增删分析)→ 出版。
+
+编辑决策规则:审稿人一致则采纳;一大改一小改按更严格的执行;一录一拒则加审或编辑亲自判断。
+
+### 审稿回复三原则
+
+1. 逐条回应,不跳过:把意见切分编号(Comment 1、2 ...),一一对应 Response 1、2 ...;可以答得不理想、可以直言暂无法解决,但不能装没看见;审稿人说看不懂某句,要改写并解释意图,不能只说"已删除"。
+2. 明确改了什么、改在哪:每条回应固定三段——如何理解该意见 → 自己的立场 → 修改内容与位置(引用修改后句子或写明"未修改及原因");修改稿用修订模式或颜色标出;另附一封修改稿封面信总结。
+3. 礼貌而坚定:敢于澄清误读与不同意(respectfully disagree);不过度感谢、不生硬否定;把审稿人当平等同行。全部照单全收反而显得对研究没有把握。
+
+处理分级:硬伤且认同 → 尽最大可能修,哪怕补数据或改故事线;硬伤但不影响结论 → 充分说明并写进局限;认为苛刻或数据已不可得 → 理智说明立场,交编辑判断。
+
+拒稿后:不当天回信;确认审稿有重大疏忽可数天后写平和的复核申请;更应做的是按意见改"大问题",再按新期刊读者差异调整重心后转投,不原稿直投。
+
+## 英文模板与短语
+
+**投稿信:开场与定位**(自写)
+- We are pleased to submit the manuscript entitled "X" for consideration as a [Research Article] in [Journal].
+- This work addresses [question], which falls within the scope of [Journal].
+- The manuscript has not been published previously and is not under consideration elsewhere.
+- All authors have read and approved the submitted version.
+- 例:We are pleased to submit "Image quality limits vessel segmentation in hand-held retinal imaging" for consideration as a Research Article in [Journal].
+
+**投稿信:贡献与读者价值**(自写)
+- Our main findings are threefold: (1) ...; (2) ...; (3) ...
+- To our knowledge, this is the first study to ...
+- These results are of direct relevance to readers of [Journal] working on ...
+- We believe the method will be useful to the wider community of ...
+- Data and code supporting the conclusions are available at ...
+- 例:These results are of direct relevance to readers of [Journal] who design screening programmes for primary care.
+
+**投稿信:可选事项**(自写)
+- We suggest the following potential reviewers: ...
+- Owing to a conflict of interest, we request that Dr X not be invited to review this work.
+- The authors declare no competing interests.
+- The manuscript has been edited by a professional language service.
+- Thank you for considering our submission; we look forward to your response.
+
+**审稿回复:同意并修改**(自写)
+- We thank the reviewer for this comment.
+- We agree that this point required clarification and have revised the text (Section 3.2, page 8).
+- Following this suggestion, we have added a new analysis (Table 4).
+- The sentence now reads: "..." (page 6, lines 10–12).
+- 例:We agree that the sample description was incomplete and have added the recruitment period and exclusion criteria to Section 2.1.
+
+**审稿回复:部分同意与说明**(自写)
+- We appreciate this concern; a brief clarification may resolve it.
+- We have retained the original analysis for the following reason, and now state this limitation explicitly in the Discussion.
+- The additional samples requested are no longer available; we have therefore ...
+- Our interpretation differs in one respect: ...
+- 例:We have retained the original threshold because it was pre-registered; we now note the sensitivity of the result to this choice in the Discussion.
+
+**审稿回复:礼貌但坚定地不同意**(自写)
+- We respectfully disagree with this interpretation, for the reasons given below.
+- The reviewer may have overlooked the control described in Section 2.3.
+- The cited study is not directly comparable because ...
+- We have nonetheless revised the wording to prevent a similar reading.
+- All changes are highlighted in the revised manuscript.
+- 例:We respectfully disagree that the effect is explained by sample size; the control cohort in Section 2.3 was matched on this variable.
+
+**匿名化时的自引写法**(自写)
+- A previous study [ref] reported ...
+- [Reference withheld for blind review]
+- 例:A previous study [ref] reported similar effects in a smaller cohort.
+
+## 常见错误
+
+| 错误模式 | 修正原则 |
+|---|---|
+| 投稿前一天才开始准备声明、标题页、格式 | 至少留两天独立做投稿准备 |
+| 稿件未按期刊结构、字数、参考文献格式准备 | 至少花一小时读作者须知与近期文章;不合规不会被送审 |
+| 参考文献表里没有目标期刊的文章,引言与结论没点到本刊关切 | 核对是否对口;对口则补引并在引言、结论点出本刊关心的问题 |
+| 投稿信复制摘要 | 只写贡献、为何适合本刊、读者收益三要素 |
+| 投稿信形容词堆叠(exciting, tremendous) | 热情但不夸张;贡献用列点 |
+| 双盲稿中出现 we previously showed + 自引、本单位链接 | 改第三人称引用或占位;附件不指向本单位网址 |
+| 致谢只写基金 | 补人员与机构;期刊要求时录用后再补 |
+| 四类声明(伦理、数据、作者同意、利益冲突)缺项 | 逐项补齐,让每位合作者确认 |
+| 审稿回复漏掉某条意见 | 编号一一对应,缺一条不合格 |
+| 回复只写"已删除该句" | 改写并解释意图,给位置 |
+| 回复用 you are wrong / we don't understand 一类生硬表达 | 改为 respectfully disagree + 理由 |
+| 回复全部照单全收,包括自相矛盾的意见 | 分级处理;不同意处理智说明 |
+| 被拒当天回信争辩 | 数天后再决定;优先换刊调整 |
+| 校样阶段要求增删分析 | 只能改格式、表达、拼写 |
+| 排版编辑邮件数周未回 | 三五天内回复;检查垃圾邮件 |
+
+## 自检清单
+
+### A 故事线与结构(`00-workflow.md`、`11-ethics-and-readers.md`)
+
+1. 故事线四问(数据 / 信息 / 新知识 / 新理解)都能回答,第 4 问有明确答案。✓/✗
+2. 全文只有一条主故事线,能用一句话写出张力(前人认为 X,本文表明 Y)。✓/✗
+3. 结果已按重要性排序,并分别写出对知识、对研究、对现实世界的贡献。✓/✗
+4. 研究的成就、贡献、影响在摘要、引言、讨论、结论中表述一致。✓/✗
+5. 目标期刊已定,分节方式(引言与综述是否合并、结果与讨论是否合并)与其近期论文一致。✓/✗
+6. 提纲到二级标题,方法节标题含动作、结果节标题含动词,引言 / 结果 / 讨论标题能一一对应。✓/✗
+7. 每个小标题准确代表小节内容,小节开头前两句出现标题关键词。✓/✗
+8. 每段一个功能,能写出功能句;段落约 150–170 词,无整页一段或连续单句段。✓/✗
+9. 段落以表明功能的叙述句开头;与功能无关的句子已删。✓/✗
+10. 小节开头无"很宽 → 很具体"的跳跃。✓/✗
+11. 跨学科读者不读前面各节也能理解本节关键概念。✓/✗
+12. 故事大小与目标期刊读者面匹配。✓/✗
+
+### B 各节(`01`–`06`)
+
+13. 标题在贡献确定后定稿,表达研究产出,词数在目标期刊均值 ±50% 内,评价词有证据。✓/✗
+14. 关键词 3–6 个,不重复标题用词,按读者检索习惯选取。✓/✗
+15. 摘要在全文定稿后重写,依次含背景、问题、做了什么、发现、价值,形态符合期刊要求。✓/✗
+16. 摘要结果句不超过一半,无 It is argued that 一类无主语句式,数字带限定语。✓/✗
+17. 引言第一句是公认事实或重要性声明,第一段从宏观推到具体并附引用。✓/✗
+18. 引言有明确的空白句(否定 + 现在完成时)与明确的"本文做什么"句。✓/✗
+19. 引言引用了领域核心文献与最新进展,并显式陈述本文新颖性。✓/✗
+20. 方法写到可复现:样本、数据收集、分析、方法学引用;每个方法与其回答的问题关联。✓/✗
+21. 所有事后数据处理在方法中写明并给理由。✓/✗
+22. 结果按研究问题组织,每个结果段有目标句、结果句、总结句;不重复方法细节、不与文献对话。✓/✗
+23. 每个数据带评价性修饰或参照(only / as high as / comparable to),无裸数字。✓/✗
+24. 讨论是评价性的:与前人对比、指出新理解、有引用;不再持续指向图表。✓/✗
+25. 讨论或结论含局限与未来方向。✓/✗
+26. 结论回答引言提出的问题,给出 take-home message,不只是概括讨论。✓/✗
+27. 引言立下的每个空白在讨论或结论有回应,用相同的关键动词与名词。✓/✗
+28. 图表图注能脱离正文理解:术语、缩写、单位、数量级、图例均说明。✓/✗
+
+### C 句子(`07-paragraph-logic.md`)
+
+29. 句内已知信息在前、新信息在句尾;下一句以上一句的新信息开头。✓/✗
+30. 句首只用三类:重复或 This + 名词、信号连接词、重要性标记;无 -ing 或介词短语开头。✓/✗
+31. 句长 20–26 词为常态;超过 35–40 词的句子已拆或有理由。✓/✗
+32. 一句中不多于一个 and 并列、不多于一个 which;名词与介词短语未堆叠。✓/✗
+33. and / or 的并列范围唯一。✓/✗
+34. therefore 前句是直接原因;for example 前句有概括语;in other words 是真正的同义改述。✓/✗
+35. 每句能一眼找到主语与主动词;非必要不把动词名词化。✓/✗
+36. 每句都能回答"那又怎样";答不出的已补 suggesting that / which means that 或删除。✓/✗
+37. 无 there is / there are 开头句(已重构)。✓/✗
+38. 句首无 And / But / So / Besides / Meanwhile / Nowadays。✓/✗
+39. 破折号对已改文字;括号内容已并入正文或删除;逗号超过三个的句子已拆。✓/✗
+
+### D 语法词汇(`08`–`10`)
+
+40. 时态:报告本研究发现用过去时,公认事实与图表用现在时,领域积累用现在完成时;每处切换有理由。✓/✗
+41. 无施动者的被动句有 here / in this study / in our model 锚定;被动动词不在长句末尾。✓/✗
+42. 方法节外的被动句都有保留理由(承接前文或突出受事)。✓/✗
+43. we / our 只指作者;泛指改用 It is now possible to / It is well established that。✓/✗
+44. 描述本文工作的非人称主语句(Modelling suggests ...)带 our / here。✓/✗
+45. 每个陈述能判定为作者假设 / 作者解释 / 公认事实 / 他人结论之一。✓/✗
+46. 确定性措辞(is / is likely to / may / might)与证据强度匹配;一句内不叠两层弱化。✓/✗
+47. 表能力的 can / could 已删或换精确动词;表推断的 may / might 保留。✓/✗
+48. this / these / that / those 后都有名词;it / which / this 所指唯一。✓/✗
+49. only / just / simply 紧贴被限定成分。✓/✗
+50. 句中 -ing 的施动者与逻辑关系唯一,否则已改从句。✓/✗
+51. have / get / make / do / bring / keep / spread 等弱动词已换精确动词。✓/✗
+52. 同一概念全文一个术语,不在 method / approach / technique / framework 间轮换;不为求变化换同义词。✓/✗
+53. 关键术语已用 Google Scholar 核实为当前通用说法。✓/✗
+54. comprise / consist of 后是全部成分;include 后是部分成分。✓/✗
+55. respectively 前后成分数量相等、顺序对应。✓/✗
+56. 多词前置定语加连字符,连字符位置未改变数量或范围。✓/✗
+57. with 可换 using / having / in combination with / as a result of 处已换。✓/✗
+58. 歧义的 with / for / of 已换为分词或动词结构。✓/✗
+59. for the first time 紧贴其修饰成分。✓/✗
+60. 主谓单复数一致(尤其主谓相隔远时);抽象名词不充当只有人能执行的动作主语。✓/✗
+61. a / the 的选择未改变句义;不可数名词无不定冠词。✓/✗
+62. affect / effect、adapt / adopt、imply / infer、e.g. / i.e.、effective / efficient、criterion / criteria、phenomenon / phenomena、alternately / alternatively、beside / besides、different / various 已逐对核对。✓/✗
+63. 连续名词修饰链不超过 3 个。✓/✗
+64. suggest / indicate / demonstrate / show 后接 that 从句。✓/✗
+65. 无缩写形式(don't、it's 等);缩写术语首次给全称。✓/✗
+66. 无 you / I / my;无直接疑问句作研究问题。✓/✗
+67. huge / a lot of / a little bit / amazing / quite 等程度词已换学术量词或删除。✓/✗
+68. indeed / in fact / basically / clearly 一类填充词已删。✓/✗
+69. 引文紧贴其支持的内容,不堆在句尾。✓/✗
+70. 英式 / 美式拼写按目标期刊统一。✓/✗
+
+### E 声明与格式(`11-ethics-and-readers.md`、期刊作者须知)
+
+71. 伦理批准声明含机构、批号、规范,批准日期早于数据采集;知情同意或豁免依据已写。✓/✗
+72. 利益冲突声明逐位作者披露或用标准否定句;每位合作者已确认。✓/✗
+73. 资助声明含机构与项目号;企业资助写明资助方角色。✓/✗
+74. 数据与代码可用性声明按期刊要求写明位置与条件。✓/✗
+75. 作者贡献声明齐全;署名与顺序经全员书面同意;通讯作者已定。✓/✗
+76. 致谢涵盖所有帮助过但未署名的人与机构,不只基金。✓/✗
+77. 参考文献格式按期刊;正文引注与参考文献表双向一一对应;要素核对过原文。✓/✗
+78. 引言与综述已查重(第三方工具只传这两部分);全文已自查自我重复。✓/✗
+79. 已在会议、预印本、其他期刊传播的数据将在投稿信说明;未一稿多投。✓/✗
+80. 标题页独立成文:作者信息、联系方式、摘要、关键词、致谢、各类声明。✓/✗
+81. 双盲评审稿已匿名:无 we previously + 自引,无本单位链接与带个人信息的网盘。✓/✗
+82. 字数、图表数、补充材料格式、文件类型(Word / LaTeX)符合期刊要求。✓/✗
+83. 图表分辨率、颜色、字号符合期刊要求;图注独立可读。✓/✗
+84. 已做一轮专门的语言编辑(自查清单 → 母语合作者 → 必要时专业编辑)。✓/✗
+85. 已让全体作者通读最终稿,预留了至少两周审读期。✓/✗
+
+### F 选刊与投稿流程(书B 第 10 章)
+
+86. 目标期刊在动笔前或至少成文后与全体作者确认,投稿顺序(首选与备选)已定。✓/✗
+87. 已花至少一小时读期刊网站与近期文章:只收综述还是实证、scope 偏机制还是实践、字数与结构要求。✓/✗
+88. 参考文献表含目标期刊的相关文章;引言与结论点出了本刊关心的问题、技术或概念。✓/✗
+89. 投专刊时直接回答了征稿启事里的问题。✓/✗
+90. 投稿信含三要素:主要发现与贡献(可列点)、为何适合本刊、本刊读者能得到什么;不复制摘要。✓/✗
+91. 投稿信含声明句:全体作者同意、未一稿多投、无利益冲突;需要时含推荐审稿人、回避请求、数据开放、语言编辑说明。✓/✗
+92. 投稿信语气热情但不夸张,无形容词堆叠。✓/✗
+93. 推荐审稿人使用真实机构邮箱,无作者控制的邮箱。✓/✗
+94. 已注册投稿系统并熟悉填写项;看不懂的项先问编辑再提交。✓/✗
+95. Highlights 或实践须知(若期刊要求)已备,每条一句、不复制摘要。✓/✗
+
+### G 审稿回复(书B 第 10 章)
+
+96. 每条审稿意见已编号,每条都有对应编号的回应;无遗漏。✓/✗
+97. 每条回应含三段:理解该意见 → 立场 → 修改内容与位置(或未修改及原因)。✓/✗
+98. 无"已删除该句"式回应;看不懂的句子已改写并解释意图。✓/✗
+99. 语域检查:无生硬否定、无过度感谢;不同意处用 respectfully disagree + 理由。✓/✗
+100. 修改稿用修订模式或颜色标出;另附修改稿封面信总结感谢与主要改动。✓/✗
+101. 意见已分级处理:认同的硬伤尽力修;不影响结论的写进局限;不可行的说明立场交编辑判断。✓/✗
+102. 大改稿回复覆盖了第一轮所有问题,便于原审稿人只核对是否解决。✓/✗
+103. 被拒稿件未当天回信;已按意见改大问题并按新期刊读者差异调整重心后再转投。✓/✗
+104. 录用后三五天内回复排版编辑;校样只改格式、表达、拼写;与全体作者确认作者顺序、单位、邮箱;版权与开放获取选项已决定。✓/✗
+
+## 两书分歧的处理
+
+1. 清单顺序:书A 按规划 → 造句 → 语法词汇 → 习惯;书B 附录二按风格 → 结构 → 其他。裁决:采用书A 顺序(组织先于语言),书B 的可搜索项并入 C、D 组。
+2. 句长与段长数字:书A 句 20–26 词、段 150–170 词;书B 附录"超过 4 行拆句"依赖排版。裁决:以词数为准(35–40 词触发拆句),目标期刊统计优先。
+3. 主动与被动:书B 附录要求"除方法节外用主动";书A 接受被动作为信息流手段。裁决:方法节外的被动句需有承接前文或突出受事的理由(第 42 条),不一刀切。
+4. can / could:书B 附录要求删除;书A 与书B 附录十一都把情态动词视为合法谨慎表达。裁决:表能力的 can 删或换精确动词,表推断的 may / might 保留但不叠加(第 46、47 条)。
+5. we 与匿名化:书B 第 10 章限制 "we did" + 自引;书A 支持 we 认领贡献。裁决:we 照常用;仅双盲稿的自引改第三人称或占位(第 81 条)。
+6. 标题必须含动词:书B 第 10 章要求;书A 名词短语标题为默认。裁决:降为"优先含动词",名词短语标题合法(第 13 条指向 `06`)。
+7. 投稿信语气:书B 鼓励 engaging 有热情;书A 基调克制可核查。裁决:热情但无形容词堆叠,贡献用列点(第 92 条)。
+8. 同义词替换:书A 反对为求变化换词;部分中文教材鼓励避免重复。裁决:按书A,术语一致更可检查(第 52 条)。
+9. 复合名词长度:书B 附录"平均 2 个"是均值;书A 无硬阈值。裁决:连续名词修饰链超过 3 个即触发拆分(第 63 条)。
+10. 审稿人数与周期(2–3 人、数周)、摘要字数区间:均为书B 的经验值,本文件标为"常见"而非规则。
+11. 开放获取与发表后宣传:属发表后事务,超出写作范围,只在第 104 条提一句。
+12. 查重范围:书B 建议只传引言与综述;期刊全稿查重会检全文。裁决:第三方工具只传两部分,作者自查全文(第 78 条)。
