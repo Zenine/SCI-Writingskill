@@ -10,13 +10,7 @@
 - 审稿意见含 "awkward phrasing""non-native expressions""language needs polishing"。
 - 本文件提到的其它 reference 只是出处指引;执行时以 SKILL.md 路由表的「先读 / 再读」为必读范围。
 
-前置约定:
-
-- 本文件是清单,不是替换词典;每条给"识别信号"(可用 grep 或肉眼快速定位)→ 修正原则 → 自写对比例。
-- 两档:**error 级** = 语法错或读者无法确定含义,必须改;**warning 级** = 语法正确但读起来别扭或有歧义风险,逐条裁决后可保留。
-- 扫描顺序:先 error 再 warning;报告格式见自检第 16 条(独立扫描任务与并入 `SKILL.md` 自检两种口径)。
-- 误报处理见「常见错误」一节;规则与语境冲突时以"读者是否需要猜"为最终判据。
-- 动词、时态、语态的规则本体另见 `08-verbs-tense-voice.md`;本文件只收其中母语溢出最集中的条目并给识别信号。
+前置约定:本文件是清单而非替换词典,每条给"识别信号(可 grep 或肉眼定位)→ 修正原则 → 1 个自写对比例"。两档:**error 级** = 语法错或读者无法确定含义,必须改;**warning 级** = 语法正确但别扭或有歧义风险,逐条裁决后可保留。扫描先 error 再 warning,报告格式见自检第 16 条;误报处理见「常见错误」一节,规则与语境冲突时以"读者是否需要猜"为最终判据。动词、时态、语态的规则本体另见 `08-verbs-tense-voice.md`,本文件只收母语溢出最集中的条目。
 
 ## 结构与规则
 
@@ -62,7 +56,7 @@
 | W8 | -ing 开头或歧义 -ing | 句首 `-ing`;句中 -ing 的施动者或关系(通过 / 因而 / 当 / 如果)不唯一 | 改带主语的从句或明确连接词;表结果的 -ing 前加 thus / thereby | ✗ Using a larger batch, the loss decreased. → ✓ When we used a larger batch, the loss decreased. |
 | W9 | 副词位置 | 方式 / 时间副词在句首(`Then,` / `Actually,`)或句尾(`... automatically.`);句中 ≥ 2 个动词;评价与连接类句子副词(`Interestingly,` / `Notably,` / `However,`)允许句首,不报 | 紧贴被修饰动词;被动放 be 与分词之间;only / just / simply 逐个核对 | ✗ Then the images were segmented and features were extracted automatically. → ✓ The images were then segmented, and the features were automatically extracted. |
 | W10 | 易混词对 | 中国作者最常错的四对:`affect` / `effect`;`adapt` / `adopt`;`imply` / `infer`;`e.g.` / `i.e.`。书外补充:`principle` / `principal`;`less` / `fewer`(可数用 fewer);`data is` / `data are`(data 作复数);`comprise` / `compose`(X comprises parts / X is composed of parts) | 逐对核对词义与单复数;更长的易混清单见书A 8.3,逐对核对时以词典为准 | ✗ The effect of noise affected less samples, and the data was rechecked. → ✓ Noise affected fewer samples, and the data were rechecked. |
-| W11 | 书A 8.3 三项语境判断条目(respectively / comprise vs include / 连字符;书A p485–486) | `respectively` 前后两组数量不等或顺序不一;`comprise` / `consist of` 后只列部分;多词前置定语无连字符,或连字符位置与数量不符(`five centimeter wide`) | respectively:数量相等、顺序一一对应,否则拆句。comprise / consist of / be composed of 接全部成分,include 接部分。连字符:多词修饰语作前置定语时加连字符,且连到哪个词决定数量落在哪里——five centimeter-wide layers(五层,每层 1 cm 宽)vs five-centimeter-wide layers(若干层,每层 5 cm 宽) | ✗ AUC and sensitivity were 0.91, 0.84 and 0.88 respectively. → ✓ On the internal and external sets, AUC was 0.91 and 0.88, respectively. Sensitivity was 0.84 and 0.80, respectively. ✗ The cohort comprised patients from hospital A, among others. → ✓ The cohort included patients from hospital A. ✗ a two stage detection model → ✓ a two-stage detection model |
+| W11 | 书A 8.3 三项语境判断条目(respectively / comprise vs include / 连字符;书A p485–486) | `respectively` 前后两组数量不等或顺序不一;`comprise` / `consist of` 后只列部分;多词前置定语无连字符,或连字符位置与数量不符(`five centimeter wide`) | respectively:数量相等、顺序一一对应,否则拆句。comprise / consist of / be composed of 接全部成分,include 接部分。连字符:多词修饰语作前置定语时加连字符,且连到哪个词决定数量落在哪里——five centimeter-wide layers(五层,每层 1 cm 宽)vs five-centimeter-wide layers(若干层,每层 5 cm 宽) | ✗ AUC and sensitivity were 0.91, 0.84 and 0.88 respectively. → ✓ On the internal and external sets, AUC was 0.91 and 0.88, respectively. Sensitivity was 0.84 and 0.80, respectively. |
 | W12 | for the first time 落点不明 | `for the first time` 不紧贴其修饰成分 | 移到被修饰成分旁,让新颖性落点唯一 | ✗ We applied for the first time attention to CT nodule detection. → ✓ We applied attention to CT nodule detection, a task to which it had not previously been applied. |
 | W13 | 冠词 a / the 改变句义 | `the cause of`(唯一)vs `a cause of`;首次提及却用 the;不可数名词加 a | 首次提及且非共享知识用 a;共享知识或已提及用 the;不可数名词不加 a | ✗ Scanner drift is the cause of the degradation. → ✓ Scanner drift is a cause of the degradation. |
 | W14 | Methods 以外的被动无锚定 | Results / Discussion 中 `it was found` / `was observed` 无 here / in this study | 改主动补 we,或加定位词 | ✗ It was found that recall dropped. → ✓ We found that recall dropped after month six. |
@@ -71,54 +65,24 @@
 
 ## 英文模板与短语
 
-**替换模糊介词的关系词**
+**替换模糊介词的关系词**(E2)
 - associated with / bound to / derived from
-- affecting / that affects
-- containing / comprising / characterized by
-- resulting in / leading to
-- between A and B(可区分实体)
+- affecting / that affects;containing / comprising / characterized by
+- resulting in / leading to;between A and B(可区分实体)
 - 例:Features derived from the tumor region were compared with those derived from healthy tissue.
 
-**指代替换(代替 it / they / which)**
-- this finding / these observations / this approach
-- this increase / this reduction / this discrepancy
-- the former / the latter(仅两项)
-- thereby + -ing / thus + -ing(替代表结果的 which)
+**指代替换**(E3 / W1 / W2;代替 it / they / which)
+- this finding / these observations / this approach / this increase / this discrepancy
+- the former / the latter(仅两项);thereby + -ing / thus + -ing(替代表结果的 which)
 
-**一致性与对比**
-- in agreement with / in line with previous reports
-- in contrast / in comparison
-- on the contrary(仅反驳同一议题)
-- whereas / unlike X
+**平行与选择**(E15)
+- neither X nor Y / both X and Y / X as well as Y / either X or Y;one of X, Y, or Z(三项以上)
 
-**目的 → 动作 → 方法**
-- To assess / To determine / To establish whether ...
-- we measured / quantified / compared ...
-- using / by applying / by means of ...
-- 例:To determine whether calibration transfers, we compared thresholds across sites using paired scans.
-
-**避险(一处一个)**
-- these results suggest / indicate that ...
-- ... is likely to / may ...
-- these data demonstrate / show that ...
-
-**平行与选择**
-- neither X nor Y
-- both X and Y
-- either X or Y;one of X, Y, or Z(三项以上)
-- X as well as Y
-
-**解开名词串**
-- a model that predicts ...
-- a pipeline for stratifying ...
-- the risk of ... in patients with ...
+**解开名词串**(E13)
+- a model that predicts ... / a pipeline for stratifying ... / the risk of ... in patients with ...
 - 例:a model that predicts malignancy of lung nodules in patients with a smoking history
 
-**否定的动词化**
-- yielded no / produced no
-- failed to / lacked
-- received little / few
-- 例:Dropout yielded no measurable gain on the external set.
+目的 → 动作 → 方法(E4)、避险单点(E14)、否定动词化(E16 / E17)与对比连接(E7 / E19)的模板见 `08-verbs-tense-voice.md` 与 `07-paragraph-logic.md`,本文件不重复。
 
 ## 常见错误(使用本清单时的误报)
 
@@ -143,6 +107,8 @@
 | 把 "Interestingly, ..." / "Notably, ..." / "However, ..." 判为 W9 | 句子副词允许句首;W9 只报方式 / 时间副词 |
 | 把 "As shown in Fig. 2, ..." 判为 E21 | 固定指示语,不报 |
 | 把 a total of / in terms of / the number of 计入 of 计数 | 固定量词短语与专名(University of)不计 |
+| `patients with diabetes` / `patients with T2DM`(疾病名作 with 的宾语) | E2 固定医学搭配,不报 |
+| `Using X, we ...`(句首 -ing 短语后紧跟明确主语 we / the model) | W8 施动者唯一,不报 |
 
 ## 自检清单
 

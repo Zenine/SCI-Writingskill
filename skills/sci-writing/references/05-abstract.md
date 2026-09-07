@@ -12,17 +12,15 @@
 
 前置约定:
 
-- 摘要在全文定稿后最后写,不是从各节各抄一句拼出来的;它是按自身结构重写的一篇"迷你论文"。
-- 摘要是被单独检索、单独阅读的独立文本;读者可能不读正文,所以摘要自身必须闭环(背景 → 问题 → 做了什么 → 发现 → 价值)。
+- 摘要在全文定稿后最后写,按九步序列重写成自身闭环(背景 → 问题 → 做了什么 → 发现 → 价值)的"迷你论文",不是各节各抄一句拼成;读者可能不读正文。
 - 动笔前查目标期刊作者须知的字数、形态(是否结构化、小标题名称)、是否禁用引文/缩写;不合规会被 desk reject(编辑不送审直接退稿)。
-- 写完摘要后回头核对标题与关键词,三者要用同一套核心术语(另见 `06-title-keywords.md`)。
-- 本文件英文模板按美式拼写与 ASCII 半角字符(见 `SKILL.md` 硬规则 9);投英式期刊时整体替换。
+- 摘要、标题、关键词用同一套核心术语(另见 `06-title-keywords.md`);英文模板按美式拼写与 ASCII 半角字符(见 `SKILL.md` 硬规则 9),投英式期刊时整体替换。
 
 ## 结构与规则
 
 ### 三种摘要形态的统一模型
 
-两本书共给出三套模型(书A 的 9 组件三块式、书B 转述的 Nature 七步、书B 转述的结构化五要素),功能上可以对齐成同一张表。下表是唯一权威序列;三种形态只是对同一序列做取舍与贴标签。
+书A 的 9 组件三块式、书B 转述的 Nature 七步与结构化五要素可对齐成同一序列;下表是唯一权威序列,三种形态只是对它做取舍与贴标签。
 
 | 步 | 功能 | 句式骨架 | 时态 | 一般摘要 | 结构化摘要 | Nature 式 |
 |---|---|---|---|---|---|---|
@@ -38,121 +36,68 @@
 
 各步句数是上限而非配额:总句数以 8–10 句、200–250 词为界(Nature 式含步 9 时可到 12 句),超出时按细则 13 合并。
 
-三种形态的差异一句话:一般摘要由作者用句首短语自行分段,步 1、2、5、7、9 可按字数取舍;结构化摘要用期刊指定的小标题替代过渡句,每句都必须能归入某个小标题;Nature 式把重心前移到步 1–3(面向学科外读者)并把步 4–5 压成一句 Here we show,步 9 用更广视角收尾。
-
 ### 通用细则
 
-1. 第一句只能是三种功能之一:宏观入口(步 1)、问题(步 3)、本文做了什么(步 4);不得以方法细节、样本量或设备名开头。Nature 式与综合性期刊强制用步 1。
-2. 步 3 用陈述句写成"已知—但未知"的对照,不写直接疑问句(our question is: how ...?)。
-3. 步 4 必须能被读者一眼识别为本文贡献:动词带 we / here / in this study / this paper 之一作为归属标记;背景句(步 1–2)用一般现在时或 it is known that 一类标记与之区分。
-4. 先确定唯一的核心贡献,再决定其余组件的取舍;摘要不是全文等比例缩影,不得平均罗列所有成果。
+1. 第一句只能是宏观入口(步 1)、问题(步 3)或本文做了什么(步 4)之一,不以方法细节、样本量或设备名开头;Nature 式与综合性期刊强制用步 1。
+2. 步 3 写成"已知—但未知"的陈述句,不写直接疑问句。
+3. 步 4 须带 we / here / in this study / this paper 之一作归属标记,与一般现在时的背景句(步 1–2)区分。
+4. 先确定唯一的核心贡献,再取舍其余组件;摘要不是全文等比例缩影。
 5. 结果句(步 6)单独不超过摘要一半;方法与结果句(步 5–6)合计不超过 60%;通篇只是结果清单的摘要不合格。
 6. 方法信息只留读者决定是否读全文所需的部分:模拟还是实测、单案例还是系列实验、关键条件;结果数字旁加限定语或参照对象(only / as high as / up to / comparable to)防止读者误判方向;方法数字(样本量、划分比例、变量数)豁免;结果数字无参照值且原稿未给时进「建议补充」标 N/A,不计 ✗。
 7. 含义与价值的强度不得超过正文数据;早期或潜在价值用 could / may / potential / possible 标示。
-8. first / novel / robust 一类评价词允许出现,但每个都要能在正文结果或讨论中指到对应证据;没有对比数据支撑的 novel 删除。
-9. 同一对象全篇只用一个名字:首次全称(the XGBoost model)后可用 the model 简称,不算换名;不得在 model / approach / algorithm / system 间轮换;this / it / which 可指向两个以上先行词时补名词;为清晰重复名词短语不算错。
-10. 句长与段长数字见 `09a-metrics-table.md`;摘要特例:平均句长 ≤ 25 词、单句 ≤ 40 词(比正文均值上限更紧,因为摘要单独被读、无上下文兜底)。
-11. 缩写:全篇只出现一两次的不缩写;确需缩写首次给全称;Nature 式尽量无缩写。(临床与领域公认缩写如 AUC、CI、HbA1c、MRI、CT 可直接用缩写,不占字数)
+8. first / novel / robust 一类评价词每个都要能在正文结果或讨论中指到证据;无对比数据支撑的 novel 删除。
+9. 同一对象全篇一个名字:首次全称后用 the model 简称不算换名;不在 model / approach / algorithm / system 间轮换;this / it / which 可指向两个以上先行词时补名词。
+10. 句长数字见 `09a-metrics-table.md`;摘要特例:平均句长 ≤ 25 词、单句 ≤ 40 词(摘要单独被读、无上下文兜底)。
+11. 只出现一两次的不缩写;确需缩写首次给全称;Nature 式尽量无缩写;领域公认缩写(AUC、CI、HbA1c、MRI、CT)可直接用。
 12. 默认不含引文;命名算法(XGBoost、random forest)也不放 `[REF]`,引文留给正文(与 `SKILL.md` 硬规则 4 的例外一致);只有本文直接继承、显著改进或反驳某一篇具体文献时才引用。
-13. 字数超限时按优先级合并功能:步 4 + 步 8(提出 X 并达到 Y)→ 步 5 + 步 6(用 X 得到 Y)→ 步 6 + 步 7(结果句尾接 suggesting that);不靠删衔接词省字;短摘要常需合并步 1 + 3(背景直接接空白),允许
-14. 结构化摘要各小标题下不得留空,各块内容不重复;Take-aways / Conclusions 必须回答 Background 里提出的问题。
-15. Highlights 可检查规则:默认 3–5 条(期刊有规定按期刊);每条一句、≤ 85 字符含空格(Elsevier 通用上限,期刊惯例而非书内规则);以动词或名词短语开头,不以 we / this study 开头;每条能对应步 6、7、8 之一(结果 / 含义 / 贡献);不与摘要任何一句逐字相同;禁用无主语的 It is shown that。Significance 段面向跨学科读者,固定三句骨架:为什么重要(步 1)/ 发现了什么(步 6)/ 更广影响(步 9)。两者是摘要的附件,不能替摘要承担功能。
-16. 图形摘要只呈现一个关键信息,配图文字不超过一句;本文件不给作图规则,按期刊指南。
+13. 字数超限时按优先级合并功能:步 4 + 步 8(提出 X 并达到 Y)→ 步 5 + 步 6(用 X 得到 Y)→ 步 6 + 步 7(结果句尾接 suggesting that);不靠删衔接词省字;短摘要常需合并步 1 + 3(背景直接接空白),允许。细则 5 的 60% 按词数计(09a 口径)。
+14. 结构化摘要各小标题下不留空、各块不重复;Take-aways / Conclusions 必须回答 Background 提出的问题。
+15. Highlights:默认 3–5 条(期刊有规定按期刊);每条一句、≤ 85 字符含空格(Elsevier 通用上限);以动词或名词短语开头,不以 we / this study 开头;每条对应步 6、7、8 之一;不与摘要任何一句逐字相同;禁用无主语的 It is shown that。Significance 段面向跨学科读者,固定三句骨架:为什么重要(步 1)/ 发现了什么(步 6)/ 更广影响(步 9)。两者是摘要的附件,不能替摘要承担功能。
+16. 图形摘要只呈现一个关键信息,配图文字不超过一句;作图规则按期刊指南。
 17. 长度以期刊要求为准;无明确要求时默认 200–250 词,一般摘要允许 80–250 词。
 18. 局限在摘要中最多半句,用 although / while 前置或放在末句之前;末句必须落在价值、应用或知识推进(步 8–9),不以局限收尾。例:Although evaluated on a single soil type, the sensor offers a low-cost route to early risk screening.
 
 ## 英文模板与短语
 
-**宏观入口与具体背景**(步 1–2,一般现在时)
-- X is essential for / central to Y
-- X plays a key role in Y
-- X is widely used to ...
+各步的骨架句式已在上表「句式骨架」列;下面只补表中没有的变体。
+
+**背景与问题**(步 1–3;背景一般现在时,空白句用 remains / little is known)
 - X has attracted growing attention because ...
-- more specifically, ... / in particular, ...
 - current approaches rely on ...
-- 例:Accurate segmentation of retinal vessels is essential for the early detection of diabetic retinopathy.
-
-**问题陈述:已知—但未知**(步 3)
-- while X is well documented, it remains unclear whether ...
-- however, little is known about ...
 - despite extensive work on X, Y has received little attention
-- the mechanisms underlying X remain to be elucidated
 - existing methods are limited by ...
-- there is a need for ...
-- X has proved difficult to ...
-- 例:However, whether these gains hold on low-quality images acquired in primary care remains unclear.
+- 例:Accurate segmentation of retinal vessels is essential for the early detection of diabetic retinopathy. However, whether these gains hold on low-quality images acquired in primary care remains unclear.
 
-**本文做了什么**(步 4,带归属标记)
-- here we show that ...
+**本文做了什么与方法**(步 4–5;步 4 带归属标记,步 5 一般过去时)
 - here, we present / propose / report ...
-- in this study, we investigated / examined ...
-- this paper presents / describes ...
-- we have developed ...
 - to address this gap, we ...
-- 例:Here, we present a lightweight model that segments vessels from images taken with a hand-held camera.
-
-**方法**(步 5,一般过去时)
-- X was measured / evaluated using Y
-- we used X to ...
-- using X, we ...
-- N samples were analyzed by ...
 - to test whether X, we ...
 - rather than X, we ...
-- 例:We trained the model on 1,200 images from three sites and tested it on an independent set of 400 images.
+- 例:Here, we present a lightweight model that segments vessels from images taken with a hand-held camera. We trained it on 1,200 images from three sites and tested it on an independent set of 400 images.
 
-**结果**(步 6)
-- we found that ...
-- X increased / decreased by up to N%
-- X outperformed Y by ...
-- X reached as high as ...
-- only N% of ...
-- X was comparable to Y
-- ..., with no loss of ...
-- 例:The model reached a Dice score of 0.82, comparable to a model ten times its size.
-
-**含义与已有知识的关系**(步 7)
-- these findings suggest / indicate that ...
-- ..., suggesting that ...
+**结果与含义**(步 6–7;结果数字带限定语,含义用 suggest / indicate)
+- X reached as high as ... / only N% of ...
+- X was comparable to Y, with no loss of ...
 - the data collectively support ...
-- X appears to ...
-- this extends earlier work by ...
-- contrary to previous reports, ...
-- 例:These findings suggest that image quality, rather than model size, limits performance in primary care.
+- this extends earlier work by ... / contrary to previous reports, ...
+- 例:The model reached a Dice score of 0.82, comparable to a model ten times its size, suggesting that image quality, rather than model size, limits performance in primary care.
 
-**成就 / 贡献**(步 8)
-- to our knowledge, our results provide the first evidence that ...
+**贡献与展望**(步 8–9;贡献可认领,展望用情态动词)
 - to our knowledge, this is the first ...
-- X fills a gap in ...
-- X improves on existing methods by ...
-- this work establishes ...
-- X offers a practical route to ...
-- 例:To our knowledge, this is the first vessel segmentation model validated on hand-held camera images.
-
-**应用 / 更广意义 / 展望**(步 9,情态动词)
-- X has broad application to ...
-- these results could inform ...
-- X may enable ...
-- X is suitable for ...
+- X improves on existing methods by ... / X offers a practical route to ...
+- X may enable ... / X is suitable for ...
 - further work is needed to determine whether ...
-- we anticipate that ...
-- 例:The approach could enable screening in settings without specialist equipment.
+- 例:To our knowledge, this is the first vessel segmentation model validated on hand-held camera images; the approach could enable screening in settings without specialist equipment.
 
-**结构化摘要小标题的常见写法**(按期刊指定为准)
-- Background / Introduction
-- Objective(s) / Aim(s) / Purpose
-- Methods / Design / Approach
-- Results / Findings
-- Conclusion(s) / Significance / Take-aways
-- 非标准小标题按功能对号入座:Importance → 步 1–3;Design, Setting, and Participants → 步 5;Main Outcomes and Measures → 步 6;Interpretation / Relevance → 步 7–9。
-- 结构化摘要禁止无主语的评价句式;每句都要能归入某个小标题。
+**结构化摘要小标题**(按期刊指定为准)
+- 常见组:Background / Introduction;Objective(s) / Aim(s) / Purpose;Methods / Design / Approach;Results / Findings;Conclusion(s) / Significance / Take-aways
+- 非标准小标题按功能对号入座:Importance → 步 1–3;Design, Setting, and Participants → 步 5;Main Outcomes and Measures → 步 6;Interpretation / Relevance → 步 7–9
+- 每句都要能归入某个小标题;禁止无主语的评价句式
 
 **Highlights**(每条一句,≤ 85 字符,对应步 6 / 7 / 8)
-- X outperforms Y on Z.
-- X reduces Y by up to N% without Z.
+- X outperforms Y on Z. / X reduces Y by up to N% without Z.
 - Image quality, not model size, limits X.
 - First external validation of X on Y.
-- A low-cost route to X in Y settings.
-- X generalizes across N sites and M devices.
 - 例:A 2-MB model segments retinal vessels from hand-held camera images.
 
 **Significance 段三句骨架**(为什么重要 / 发现 / 更广影响)
@@ -170,19 +115,14 @@
 | 从宏观背景直接跳到本文对象 | 补步 2,每句只比上句具体一步 |
 | 问题写成直接疑问句 | 改为"已知—但未知"陈述句 |
 | 通篇结果清单,看不出贡献 | 步 4 与步 8 各至少一句;结果不超过一半篇幅 |
-| It is argued / suggested / shown that ... 无主语句式 | 改为 We argue / suggest / show that ...;摘要中这类句式让读者分不清是背景还是本文贡献 |
-| 非人称主语描述本文工作(Modelling suggests ...) | 加 our / here / in this study 标明所有权 |
-| 一般现在时 + 非人称主语陈述本文发现,读起来像公认事实 | 改用过去时或现在完成时,或加 we / in this study |
-| we 一会儿指作者,一会儿泛指领域 | we 只指作者;泛指改用 it is now possible to / it is known that |
+| It is argued / suggested / shown that ... 无主语句式 | 改为 We argue / suggest / show that ...;读者分不清是背景还是本文贡献 |
 | 裸数字(accuracy was 92%) | 数字旁加限定语并给参照:as high as / only / comparable to |
 | 含义强度超过数据(demonstrates → 实际只是初步结果) | 与正文一致;不确定用 suggests / may / could |
 | novel / first 无对比证据 | 删除,或补上被比较的对象 |
-| this / it / which 所指不唯一 | 补名词;重复方法名不算错 |
-| 同一对象换名(method → approach → scheme) | 全篇一个名字 |
 | 单句超过 40 词 | 拆句;摘要特例平均句长 ≤ 25 词,其余数字见 `09a-metrics-table.md` |
-| 缩写只出现一次,或首次未给全称 | 一两次不缩写;确需缩写首次给全称 |
 | 结构化摘要某小标题下留空,或 Conclusions 复述 Results | 每块非空;Conclusions 回答 Background 的问题 |
 | Highlights 直接复制摘要句,或超过 85 字符 | 每条独立一句,对应步 6 / 7 / 8,≤ 85 字符,3–5 条 |
+| 末句落在局限 | 局限最多半句前置;末句回到价值、应用或知识推进 |
 | 摘要与正文结论、标题用词不一致 | 三处用同一套核心术语和同一强度 |
 
 ## 自检清单

@@ -10,11 +10,7 @@
 - 中文稿转英文后,出现大量 there be、名词化、can、of 串、双重 to 不定式。
 - 本文件提到的其它 reference 只是出处指引;执行时以 SKILL.md 路由表的「先读 / 再读」为必读范围。
 
-前置约定:
-
-- 时态是事实地位的标记,不是语法习惯:过去时 = 某人某时做过或观察到;现在时 = 学界接受的事实、系统固有行为、图表内容;现在完成时 = 跨越到现在仍成立的状态或积累。同一信息换时态就换了含义,语法正确不等于意思正确。
-- 校对与翻译工具抓不到时态错位;润色或翻译后要重新核对情态动词与程度副词是否被无意加强。
-- 目标期刊近 5 年同类文章的用法优先于本文件默认值;领域整篇现在时(数学模型、算法描述)属合法例外,但仍须用定位词标明哪些是本文贡献。
+前置约定:时态是事实地位的标记——过去时 = 某人某时做过或观察到,现在时 = 学界接受的事实 / 系统固有行为 / 图表内容,现在完成时 = 跨越到现在仍成立的状态;换时态就换了含义。目标期刊近 5 年同类文章的用法优先于本文件默认值;整篇现在时(数学模型、算法描述)属合法例外,仍须用定位词标明本文贡献。润色或翻译后要重新核对情态动词与程度副词是否被无意加强。
 
 ## 结构与规则
 
@@ -32,21 +28,15 @@
 
 未来工作(Discussion 中后段与 Conclusion):should be investigated / would be of interest / will be;不属于"他人工作"列。
 
-### 时态判定四步(逐句执行)
+### 时态判定(逐句执行)
 
-1. 这句说的是"学界接受的事实 / 规律 / 图表内容 / 系统固有行为",还是"某人在某时做过或观察到的事"?前者现在时,后者过去时。
-2. 若是"观察",它是否跨越到现在仍成立(has long been viewed / has been limited)?是则现在完成时。
-3. 同一段内,凡是"我们做了"的动作不得用现在时;每处时态切换都要能说出前后功能有何不同。
-4. 引用前人发现时先查最新文献里该事实的写法:五年前用过去时报告的发现,今天可能已"升级"为现在时的背景事实。
+事实 / 规律 / 图表内容 / 系统固有行为 → 现在时;某人某时做过或观察到 → 过去时;观察跨越到现在仍成立(has long been viewed)→ 现在完成时。同一段内"我们做了"的动作不得用现在时,每处时态切换都要能说出功能差异;引用前人发现先查最新文献里该事实的写法,五年前过去时报告的发现今天可能已升级为现在时的背景事实。
 
 ### 语态与主语规则
 
-1. Methods:无施动者被动 + 过去时为默认;句中必须有 here / in this study / in our model 等定位词,让读者分清是本文做的还是他人做的。
-2. Methods 以外:主动优先;we 只指作者团队,用于陈述作者的动作或发现。泛指"本领域 / 任何人"不用 we,改 It is known that / It is now possible to。
-3. 无施动者被动(it was found / it is suggested)出现时问一句"谁做的";上下文答不出就改主动并补主语;摘要中禁止 It is argued / It is suggested that 起句。
-4. 非人称主语第三条路:This paper describes / This study presents / Section 2 reviews;单作者不想用 I 时用这一路。
-5. 被动动词不得放在超过 20 词的句子末尾;长主语拆分或改主动。
-6. 非人类主语描述本文工作时加 our / here 表明所有权(Our model predicts ...;Modeling here suggests ...)。
+1. Methods:无施动者被动 + 过去时为默认,句中必须有 here / in this study / in our model 等定位词;Methods 以外主动优先,非人类主语描述本文工作时加 our / here 表明所有权(Our model predicts ...)。
+2. we 只指作者团队;泛指"本领域 / 任何人"改 It is known that / It is now possible to;单作者不想用 I 时用 This paper describes / This study presents。
+3. 无施动者被动(it was found / it is suggested)出现时问"谁做的",答不出就改主动补主语;摘要中禁止 It is argued / It is suggested that 起句;被动动词不得放在超过 20 词的句子末尾。
 
 ### 五类"藏动作"写法清理
 
@@ -60,10 +50,8 @@
 
 ### 汇报动词接 that 从句
 
-- 指示类(说图表在哪):shown in Fig. 2 / listed in Table 1 / Table 3 summarizes ... ——不接 that。
-- 汇报类(交代事实或发现):show / indicate / suggest / confirm / demonstrate / reveal / report ——默认接 that + 完整主谓从句。
-- 例外:宾语是具体可测对象时允许接名词短语(showed a 12% increase / revealed two clusters / demonstrated the potential of X for Y);宾语是抽象关系名词(the distinction / relation / importance / possibility / role / association)时读者猜不出"谁怎么样",改 that 从句。
-- 例:✗ These results confirm the benefit of pretraining. → ✓ These results confirm that pretraining improves accuracy on small datasets.
+- 指示类(shown in Fig. 2 / Table 3 summarizes ...)不接 that;汇报类(show / indicate / suggest / confirm / demonstrate / reveal / report)默认接 that + 完整主谓从句。
+- 例外:宾语是具体可测对象时允许接名词短语(showed a 12% increase / revealed two clusters);宾语是抽象关系名词(the distinction / relation / importance / possibility / role / association)时改 that 从句。例:✗ These results confirm the benefit of pretraining. → ✓ These results confirm that pretraining improves accuracy on small datasets.
 
 ### 确定性阶梯与委婉的单点选择
 
@@ -98,97 +86,50 @@
 
 can / could 裁决:
 
-1. 描述本研究已观察到的事实不用 can / could;用简单过去时加具体数字(detected ... in 92% of cases)。
-2. can 只在两种情形合法:列举明确可选项(the model can be run on CPU or GPU);Discussion 中推断普适能力且已写出条件(can generalize to portable radiographs when calibrated)。
-3. "X can occur" 有三义(有能力 / 有时 / 可能);有歧义就换 may、is able to 或 sometimes。
-4. could 表过去能力时优先 was able to;表假设可能时优先 may / might;could have 默认读作"本可以但没有"。
-5. must 只用于推断(说 must be 等于承认无直接证据);有证据就用陈述句。must not = 不允许,"不必"用 need not / do not need to。
-6. have to 偏口语,正式写作少用;might / perhaps / presumably 比 may 更不确定,是正规的弱档用法(另见 `03-results.md`)。
+1. 描述本研究已观察到的事实不用 can / could,用简单过去时加具体数字(detected ... in 92% of cases);can 只在两种情形合法:列举明确可选项(can be run on CPU or GPU),或 Discussion 中已写出条件的普适推断(can generalize ... when calibrated);"X can occur" 有歧义就换 may / is able to / sometimes。
+2. could 表过去能力优先 was able to,表假设可能优先 may / might;could have 默认读作"本可以但没有"。
+3. must 只用于推断(有证据就用陈述句);must not = 不允许,"不必"用 need not;have to 偏口语少用;might / perhaps / presumably 是正规弱档(另见 `03-results.md`)。
 
 ## 英文模板与短语
 
 **汇报发现(默认接 that)**
-- Our results show that ...
-- These findings indicate that ...
-- The data suggest that ...
+- Our results show that ... / These findings indicate that ... / The data suggest that ...
 - This analysis confirms that ...
-- Previous work demonstrated that ...
-- A recent study reported that ...
+- Previous work demonstrated that ... / A recent study reported that ...
 - 例:These findings indicate that vendor calibration accounts for most of the recovered sensitivity.
 
 **指示图表(不接 that)**
-- ... is shown in Fig. 2
-- ... are listed in Table 1
-- Table 3 summarizes ...
-- Fig. 4 presents ...
+- ... is shown in Fig. 2 / ... are listed in Table 1
+- Table 3 summarizes ... / Fig. 4 presents ...
 
-**替代懒惰动词与短语动词的精确动词**
-- obtain / acquire(替代 get)
-- perform / conduct(替代 do)
-- identify / determine / quantify(替代 find out)
-- constitute / comprise / represent(替代 is)
-- exhibit / display / achieve(替代 has)
-- contain / range from ... to ...
-- yield / generate(替代 give)
-- retain / maintain(替代 keep)
-
-**否定含义动词(替代 did not + 懒惰动词)**
-- failed to detect / failed to reach
-- lacked / yielded no
-- received little / few
-- is inconsistent with / does not support
+**精确动词替换表(替代懒惰动词、短语动词、did not + 懒惰动词)**
+- obtain / acquire(替代 get);perform / conduct(替代 do)
+- identify / determine / quantify(替代 find out);yield / generate(替代 give)
+- constitute / comprise / represent(替代 is);exhibit / display / achieve(替代 has)
+- contain / range from ... to ...;retain / maintain(替代 keep)
+- 否定:failed to detect / lacked / yielded no / received little / is inconsistent with / does not support
+- 替代模糊介词:using / containing / characterized by / derived from / located at / provided by / combined with
 
 **目的 → 动作 → 手段(单不定式)**
-- To evaluate ..., we measured ... using ...
-- To test whether ..., we compared ... by -ing ...
+- To evaluate ..., we measured ... using ... / To test whether ..., we compared ... by -ing ...
 - We achieved ... by -ing ...
 - 例:To test whether calibration transfers across sites, we compared sensitivity on a third hospital using the same thresholds.
-
-**替代模糊介词的分词与动词短语**
-- using / employing
-- containing / comprising
-- characterized by
-- derived from / obtained from
-- located at / positioned at
-- provided by / issued by
-- combined with / together with
-
-**确定性三档引导结构**
-- 强:it is evident that / this provides strong evidence that / it may be concluded that
-- 中:this suggests that / it is likely that / we propose that
-- 弱:it is possible that / we speculate that / presumably
-
-**"is + 评价形容词"合法结构**
-- It is essential / critical / necessary to ...
-- It remains unclear whether ...
-- It is advisable to ...
 
 ## 常见错误
 
 | 错误模式 | 修正原则 |
 |---|---|
 | 把写论文前做过的步骤写成现在时(We train ... and evaluate ...) | 过去时;只有系统固有行为(The classifier outputs a probability map)用现在时 |
-| 把某研究当时的发现写成一般现在时 | 先查最新文献;未成公认事实用过去时 |
 | Discussion 用现在时陈述本研究发现却无足够证据 | 回到过去时,或加 in most cases / appear to 软化 |
-| Methods 无施动被动没有定位词,读者分不清谁做的 | 加 here / in this study,或改 we |
-| we 一会儿指作者一会儿泛指领域 | we 只指作者;泛指改 It is known that |
-| 摘要以 It is argued / suggested that 起句 | We argue / suggest that |
-| There is / are 起句 | 删 there be,名词还原为动词 |
-| has / is / does 描述数值或性质 | achieves / ranges from / exhibits / lacks |
-| 名词化 + of 串(the determination of the effect of X on Y) | 还原为动词(we determined how X affects Y) |
-| 名词 + with + 名词关系不明 | using / containing / characterized by |
-| 一句两个目的 to | 目的 → 主动动作 → using / by -ing |
+| we 一会儿指作者一会儿泛指领域;摘要以 It is argued / suggested that 起句 | we 只指作者,泛指改 It is known that;摘要改 We argue / suggest that |
 | indicate / confirm + the + 抽象关系名词(role / importance / association) | + that + 主谓从句;具体可测对象(a 12% increase)可作宾语 |
 | 主谓一致跟着最近名词走(The set of images were) | 找中心词(The set ... was) |
-| we believe + may + possibly 叠加 | 一句一个避险词 |
-| 用 can 描述已观察到的事实 | 简单过去时 + 数字 |
-| could 表过去能力却被读作假设 | was able to |
-| must 用于有证据的陈述 | 直接陈述句 |
 | 悬垂修饰语(With limited data, transfer learning was adopted) | 补主语:Because data were limited, we adopted ... |
+| there be、懒惰动词、名词化、模糊介词、双重不定式、多重避险、can / could / must 误用 | 见上文藏动作表、阶梯规则 1、can / could 裁决,本表不重复 |
 
 ## 自检清单
 
-1. 每句已按四步法判定时态,同一段内"我们做了"的动作无现在时。✓/✗
+1. 每句已按时态判定规则核对,同一段内"我们做了"的动作无现在时。✓/✗
 2. 各节时态与总表一致;每处切换能说出功能差异。✓/✗
 3. 引用前人发现的时态已按最新文献核对(过去时 / 现在时 / 现在完成时)(离线或无引用时标 N/A)。✓/✗
 4. Methods 无施动被动句都有定位词。✓/✗
