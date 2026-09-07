@@ -109,6 +109,7 @@
 | 把 a total of / in terms of / the number of 计入 of 计数 | 固定量词短语与专名(University of)不计 |
 | `patients with diabetes` / `patients with T2DM`(疾病名作 with 的宾语) | E2 固定医学搭配,不报 |
 | `Using X, we ...`(句首 -ing 短语后紧跟明确主语 we / the model) | W8 施动者唯一,不报 |
+| `[n] of [N] patients`、`292 of the 1,563 patients`(比例写法的 of) | E2 与 of 计数均不计 |
 
 ## 自检清单
 

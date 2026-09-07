@@ -94,8 +94,9 @@
 
 医学与数据驱动结果的一句式骨架(医学期刊通行格式,不出自两书);格式须与方法节统计小节的声明一致,每个主指标带 CI 或 P 值:
 
+- CI 分隔符按目标期刊:`0.80 to 0.88`(BMJ/Lancet 系)或 `0.80-0.88`(多数期刊);未知默认连字符,全篇一致。
 - The model achieved an AUC of [x] (95% CI [a] to [b]) on the external test set, compared with [y] (95% CI [a] to [b]) for [baseline].
-- At the prespecified threshold, sensitivity was [x]% (95% CI [a] to [b]) and specificity was [y]% (95% CI [a] to [b]).
+- At the prespecified threshold, sensitivity reached [x]% (95% CI [a] to [b]) and specificity reached [y]% (95% CI [a] to [b]).
 - [Outcome] occurred in [n] of [N] patients ([%]) in group A versus [n] of [N] ([%]) in group B (OR [x], 95% CI [a] to [b]; P = [p]).
 - The mean difference between groups was [x] units (95% CI [a] to [b]; P = [p]).
 
@@ -138,6 +139,7 @@
 
 | 错误模式 | 修正原则 |
 |---|---|
+| 句首情绪或修辞副词(Unfortunately / Inevitably / Interestingly / Importantly) | 删除;缺数据只陈述事实并进「建议补充」,评价只用 only / as many as 一类可核查修饰 |
 | 以第一个原始数据点开头 | 前三句内给整体趋势概述、目标重述或方法回顾之一 |
 | 只写 X is shown in Fig. 3,不评论 | 每次引用图表都附一句评价或解读 |
 | 所有结果同等详细 | 关键结果展开并标记(Importantly),其余略写 |

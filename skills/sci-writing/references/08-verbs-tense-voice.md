@@ -137,7 +137,7 @@ can / could 裁决:
 6. we 全篇只指作者;摘要无 It is argued / suggested that 起句。✓/✗
 7. 全文无 There is / are 起句。✓/✗
 8. is / has / does 不作主要动词描述数值、关系、性质(it is essential to 除外)。✓/✗
-9. 一句中 of ≤ 2(固定量词短语 a total of / in terms of / the number of、专名 University of、固定术语 area under the ... curve / Department of X of Y 均不计);-tion / -ment / -ity 名词已还原为动词(固定流程名除外)。✓/✗
+9. 一句中 of ≤ 2(固定量词短语 a total of / in terms of / the number of、专名 University of、固定术语 area under the ... curve / Department of X of Y、比例写法 n of N 均不计);-tion / -ment / -ity 名词已还原为动词(固定流程名除外)。✓/✗
 10. 名词 + with / of / by 结构都能替换为唯一的分词或动词短语。✓/✗
 11. 一句只有一个目的 to;非研究者主语不接 to 表目的。✓/✗
 12. show / indicate / suggest / confirm / demonstrate 汇报发现时接 that 从句;接名词短语的宾语都是具体可测对象。✓/✗
