@@ -21,7 +21,7 @@
 | 1 进入领域 | 主题为何重要;理解全文所需的背景事实;领域当前的一般性问题 | 从最多读者共享的知识起步,每句只比上句具体一步 | has attracted / plays a key role / is widely used |
 | 2 研究地图 | 串联已有研究,让读者看到本文在领域中的坐标 | 组织模式三选一:一般到具体(最常用)/ 按方法或理论分组 / 按时间 | were the first to / was further developed by |
 | 3 转向本文 | 指出空白、缺陷、矛盾,或提出动机、假设、机会 | 由 However / Although / Despite 引出;必要时插入第二轮更具体的背景 | however / remains unclear / few studies have |
-| 4 介绍本文 | 本文做什么;可选:目的、方法概要、主要结果(是否预告看目标期刊近 5 年惯例)、文章结构 | 收口;方法与结果只做一句概述 | this paper presents / the aim of this work is |
+| 4 介绍本文 | 本文做什么;可选:目的、方法概要、主要结果(默认不预告,只写目标与做了什么;目标期刊近 5 年惯例明确预告时才加一句不带数字的主要结果)、文章结构 | 收口;方法与结果只做一句概述 | this paper presents / the aim of this work is |
 
 时态(展开见 `08-verbs-tense-voice.md`):
 

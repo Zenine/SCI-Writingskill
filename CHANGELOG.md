@@ -29,3 +29,4 @@
 - 回归集补齐 Results / Discussion / Title 三份样例与评审要点(七份样例全覆盖);skill 首测 10/10、10/10、10/10,同输入裸代理 7/10、4/10、5/10(`tests/regression/test-grading-2026-09-07-set2.md`、`baseline-delta` 第三节)。08 总表“suggest / indicate + may / could”字面双避险改为二选一。
 - 清掉第二组回归反馈的 6 条微调:09 结果节不用情绪副词;09a 加结论词数行;SKILL.md 硬规则 4 单节写作时已在 Methods 提及的算法不再占位;03 加 CI 分隔符口径;06 无样本时一行声明、结果方向未知时占位标 N/A;04 自检 10 加 N/A 出口。
 - 微调后 Results 回归 10/10(`tests/regression/test-grading-2026-09-07-results-r2.md`)。发现"情绪副词"规则放在 09 对 Results 路由不生效,补进 03 常见错误表;另修 03 模板 was→reached、03 细则 13 三选一、of 计数豁免 n of N、SKILL.md 硬规则 4 命名统计检验占位、09a 统计表达式计词。
+- 两书三条悬决项由用户拍板(2026-09-07):引言默认不预告主要结果(期刊惯例明确时加一句无数字);方法理由维持"非显而易见才需、不补造";谨慎副词一律删。已写入 `docs/decisions/two-book-divergences.md` 与 01/02 正文,TODO 该项关闭。
