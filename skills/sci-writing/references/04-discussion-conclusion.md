@@ -7,7 +7,8 @@
 - 用户要写、改写或润色 Discussion、Conclusion,或 Results and Discussion 中"解释与外推"的部分。
 - 用户的讨论只是复述结果,或结论只是摘要的复制。
 - 审稿意见指出"讨论没有回应引言的问题""结论看不出哪些是本研究得出的""语言力度与证据不匹配(过度自信或过度保守)"。
-- 需要核对情态动词(can / may / could / should / must)是否用对了确定性档位(档位母表在 `03-results.md`,情态动词六功能与 can / could 裁决在 `08-verbs-tense-voice.md`)。
+- 需要核对情态动词(can / may / could / should / must)是否用对了确定性档位(档位母表另见 `03-results.md`;情态动词六功能另见 `08-verbs-tense-voice.md`)。
+- 本文件提到的其它 reference 只是出处指引;执行时以 SKILL.md 路由表的「先读 / 再读」为必读范围。
 
 前置约定:先问用户目标期刊的结构选项——① Results / Discussion / Conclusion 分立;② Results / Discussion 无独立结论(讨论末 1–2 段承担结论功能);③ Results and Discussion 合并 + Conclusion;④ Results + 长 Conclusion(前半像讨论、末尾像结论)。形态不同,但功能组件相同。用户要求直接产出时默认选项 ①,并在「理解确认」标"请确认"(`SKILL.md` 硬规则 10)。
 
@@ -32,14 +33,14 @@
 细则:
 
 1. 第一句只能是两种之一:声明成就/贡献,或回顾背景/空白/关键结果以重启读者;不以"本节讨论......"开头(除非目标期刊惯例如此)。
-2. 引言里的每个空白/目标在讨论里有一处明确回应,且用相同的关键动词和名词;不为文风换同义词。二级标题层面以结果标题为锚逐块镜像,见 `00-workflow.md` 步 3 与 `06-title-keywords.md`。
+2. 引言里的每个空白/目标在讨论里有一处明确回应,且用相同的关键动词和名词;不为文风换同义词。二级标题层面以结果标题为锚逐块镜像(另见 `00-workflow.md` 步 3 与 `06-title-keywords.md`)。
 3. 每条引文所在句通过句首或句中短语(consistent with / in contrast to / as reported by)说明该引文与本研究的关系。
-4. 每个讨论模块开头概括发现最多两句,不重复数据与图号,同一句或紧邻句必须给出含义或解释;正文持续出现 as shown in Fig. 即判为"讨论写成了结果"(`08-verbs-tense-voice.md` 总表 Discussion 行、`12-submission-checklist.md` 第 24 条)。
+4. 每个讨论模块开头概括发现最多两句,不重复数据与图号,同一句或紧邻句必须给出含义或解释;正文持续出现 as shown in Fig. 即判为"讨论写成了结果"(另见 `08-verbs-tense-voice.md` 总表 Discussion 行、`12-submission-checklist.md` 第 24 条)。
 5. 区分"成就"(内向:引言提出的问题解决了没有)与"贡献"(外向:对知识或应用的影响),两者可分别陈述。
 6. 局限与未来工作至少各一处;区分"我们正在做"(work is underway)与"建议他人做"(should be investigated)。
 7. 结尾必须落在重申贡献或指出应用,不得以局限性收尾;局限的位置按下文链式规则。
-8. 语言力度与证据匹配:结果强而语言弱(满篇 may / might)要升级为 likely / probable / almost certain;结果弱而语言强要降级并加软化词(often / appear to / in most cases);每个结论句只留一个避险成分,档位以 `03-results.md` 确定性连续统为尺;结论与摘要的强度不得高于结果节(`SKILL.md` 硬规则 6、`05-abstract.md` 规则 7)。
-9. 正面评价词分两级:普通肯定词(robust, reliable, efficient, novel)与"感叹号替代词"(unprecedented, striking, remarkable, compelling);后者必须有数据撑腰;每个评价词须能指到结果节的证据(裁决见 `05-abstract.md` 两书分歧第 6 条)。
+8. 语言力度与证据匹配:结果强而语言弱(满篇 may / might)要升级为 likely / probable / almost certain;结果弱而语言强要降级并加软化词(often / appear to / in most cases);每个结论句只留一个避险成分,档位按确定性连续统三档(强 / 中 / 弱)只在一个杠杆上选一个点(另见 `03-results.md`);结论与摘要的强度不得高于结果节(`SKILL.md` 硬规则 6;另见 `05-abstract.md` 规则 7)。
+9. 正面评价词分两级:普通肯定词(robust, reliable, efficient, novel)与"感叹号替代词"(unprecedented, striking, remarkable, compelling);后者必须有数据撑腰;每个评价词须能指到结果节的证据(另见 `05-abstract.md`)。
 
 局限性位置链式规则(02 / 03 / 04 三处同文):方法、结果中已知的问题在各自节首次提及;只有"需进一步工作才能下结论"与"研究期间的非正式证据"两类可在讨论首次出现;讨论中后段集中一处(医学期刊常单列 Limitations 小节);结论最多一句并与未来工作合并;讨论与结论都不以局限收尾。
 
@@ -54,7 +55,7 @@
 | 3 | 相关背景(只在读者需要时,最少的词) | 一般现在时 |
 | 4 | 空白 / 目标 / 需求(一句回顾,措辞呼应引言) | 过去时或现在时 |
 | 5 | 方法(只提关键特征,不重复参数) | 过去时或现在完成时 |
-| 6 | 关键结果 + 评价(clearly, significantly, as expected;评价副词每段 ≤ 1 处且后接具体内容,口径见 `09-academic-style.md` 规则 7) | 过去时或现在时 |
+| 6 | 关键结果 + 评价(clearly, significantly, as expected;评价副词每段 ≤ 1 处且后接具体内容;另见 `09-academic-style.md` 规则 7) | 过去时或现在时 |
 | 7 | 结果的含义(suggest / indicate / it is apparent that) | 一般现在时 |
 | 8 | 局限(通常一句,常与未来工作合并) | 现在时 |
 | 9 | 应用 | 现在时 + 情态动词 |
@@ -70,15 +71,15 @@
 12. 禁止"非人称主语 + 一般现在时 + 无归属标记"的发现句(Analysis shows that ...),它读起来像背景知识。
 13. It is argued / suggested that 可能被读成他人观点;是本文观点则改为 we argue 或加 here。
 14. 不直接复制摘要句子;摘要不是结论的素材来源。期刊要求 Highlights / Synopsis 时分别写,不互相复制。
-15. 至少包含:对引言问题的判断(take-home message,能否 / 多大程度解决)、成就/贡献、关键结果 + 评价、含义或应用四类组件(`12-submission-checklist.md` 第 26 条按此检查)。
+15. 至少包含:对引言问题的判断(take-home message,能否 / 多大程度解决)、成就/贡献、关键结果 + 评价、含义或应用四类组件(另见 `12-submission-checklist.md` 第 26 条)。
 16. 结尾落在应用、知识推进或未来工作之一,不以局限性或否定陈述收尾。不引入新数据、新论证;可以引入前文没有明说的含义和应用。
 17. 动词与引言目标、讨论成就中的动词一致(回声原则)。
 
 ### 情态动词
 
-情态动词的六功能分级、替代结构与 can / could 裁决见 `08-verbs-tense-voice.md` 情态动词一节;确定性档位(may / could 中档,might 弱档)以 `03-results.md` 连续统为准,本文件不另立表。有歧义时优先非情态替代结构(it is possible that / is expected to)。三条陷阱:
+情态动词六功能分级与替代结构另见 `08-verbs-tense-voice.md` 情态动词一节;确定性档位(may / could 中档,might 弱档)另见 `03-results.md` 连续统,本文件不另立表。有歧义时优先非情态替代结构(it is possible that / is expected to)。三条陷阱:
 
-- can 三义(有能力 / 有时 / 可能):有歧义就换 may、is able to 或 sometimes;描述本研究已观察到的事实不用 can。
+- can 三义(有能力 / 有时 / 可能):有歧义就换 may、is able to 或 sometimes;描述本研究已观察到的事实不用 can,can 只在列举明确可选项或已写出条件的普适推断中合法。
 - must 表推断时暗示"无证据";真有证据直接用陈述句。must not = 不允许,"不必要"用 need not / do not need to。
 - "可能不"只能用 may not / might not;cannot / could not 表示"不可能"。
 

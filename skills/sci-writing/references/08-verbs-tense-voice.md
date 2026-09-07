@@ -8,6 +8,7 @@
 - 审稿意见说 "tense inconsistent""unclear who did what""overclaiming / too many hedges"。
 - 用户问"这里该用过去时还是现在时""能不能用 we""can 和 may 有什么区别"。
 - 中文稿转英文后,出现大量 there be、名词化、can、of 串、双重 to 不定式。
+- 本文件提到的其它 reference 只是出处指引;执行时以 SKILL.md 路由表的「先读 / 再读」为必读范围。
 
 前置约定:
 
@@ -24,7 +25,7 @@
 | Abstract | 动作与结果:过去时(we trained / X improved);论文本身与主张:现在时(this study presents / these results suggest);已完成的开发与贡献认领:现在完成时(we have developed)或现在时 | 现在时;带时间短语的重要性声明:现在完成时(has become) | 摘要一般不指图表 | 具体研究:过去时;领域积累或空白:现在完成时 |
 | Introduction | 本文做什么:现在时(we propose / this paper presents);研究目的可用过去时(the aim was to),全篇统一 | 现在时;带时间短语的重要性声明:现在完成时(has attracted considerable attention in recent years) | 现在时(Fig. 1 shows the overall architecture) | 某研究当时的发现:过去时;已成公认事实:现在时(常带引文);仍影响现状、引出空白:现在完成时(little attention has been paid) |
 | Methods | 过去时;默认无施动者被动 + 定位词(here / in this study);归属易混处切换为 we | 标准流程、设备工作原理、算法固有行为:现在时 | 现在时(the workflow is shown in Fig. 2) | 采用他人方法:过去时;引用已建立的方法可写 as described in [12] / following [12] |
-| Results | 本研究的观察:过去时;主动(we observed)或被动皆可,主动优先;段末含义句:现在时 + suggest / indicate + may / could(见 `03-results.md` 收束层) | 解释结果的背景事实:现在时 | 图中可见的内容:现在时(Fig. 3 shows);数据如何得到:过去时 | 用于比较:过去时或现在完成时 |
+| Results | 本研究的观察:过去时;主动(we observed)或被动皆可,主动优先;段末含义句:现在时 + suggest / indicate + may / could(另见 `03-results.md` 收束层) | 解释结果的背景事实:现在时 | 图中可见的内容:现在时(Fig. 3 shows);数据如何得到:过去时 | 用于比较:过去时或现在完成时 |
 | Discussion | 成就 / 贡献:现在时(this study provides);本研究发现:默认过去时;升级为现在时 = 声称它是独立于本研究的事实,需证据够硬且能自圆其说;含义与应用:现在时 + 情态动词 | 现在时 | 应少见;持续出现 as shown in Fig. 是"讨论写成了结果"的信号 | 具体研究:过去时;已被接受的结论:现在时;对文献的概括:现在完成时 |
 | Conclusion | 已完成的工作:现在完成时(we have shown)或过去时;贡献与主张:现在时(this study provides) | 现在时 | 不应出现 | 相关背景公认事实:现在时;领域积累:现在完成时 |
 | 投稿信 / 回复信 | 已完成的修改:现在完成时(we have revised / has been updated);为回应而重跑的分析:过去时(we re-ran, the tuned model reached);描述修改稿现状:现在时(Section 2.3 now describes);对审稿人观点表态:现在时(we agree) | 现在时 | 指修改稿中的图表位置:现在时(Table 4 now reports) | 审稿人引用的文献:过去时;已成公认事实:现在时 |
@@ -66,7 +67,7 @@
 
 ### 确定性阶梯与委婉的单点选择
 
-档位以 `03-results.md` 的确定性连续统为母表,本表只引用、不另立档位;一句只在一个杠杆上选一个点,其余杠杆保持中性。
+母表另见 `03-results.md` 确定性连续统,本表只引用、不另立档位;一句只在一个杠杆上选一个点,其余杠杆保持中性。
 
 | 杠杆 | 强 | 中 | 弱 |
 |---|---|---|---|
@@ -102,7 +103,7 @@ can / could 裁决:
 3. "X can occur" 有三义(有能力 / 有时 / 可能);有歧义就换 may、is able to 或 sometimes。
 4. could 表过去能力时优先 was able to;表假设可能时优先 may / might;could have 默认读作"本可以但没有"。
 5. must 只用于推断(说 must be 等于承认无直接证据);有证据就用陈述句。must not = 不允许,"不必"用 need not / do not need to。
-6. have to 偏口语,正式写作少用;might / perhaps / presumably 比 may 更不确定,是正规的弱档用法(档位见 `03-results.md`)。
+6. have to 偏口语,正式写作少用;might / perhaps / presumably 比 may 更不确定,是正规的弱档用法(另见 `03-results.md`)。
 
 ## 英文模板与短语
 

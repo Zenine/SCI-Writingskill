@@ -8,6 +8,7 @@
 - 用户说"帮我看看有没有 Chinglish""改一下中式英语""这是中文翻过来的"。
 - 用户给的是中译英稿件,或稿件中出现 there be、with 串、名词堆叠、多重 hedging 等母语溢出信号。
 - 审稿意见含 "awkward phrasing""non-native expressions""language needs polishing"。
+- 本文件提到的其它 reference 只是出处指引;执行时以 SKILL.md 路由表的「先读 / 再读」为必读范围。
 
 前置约定:
 
@@ -15,7 +16,7 @@
 - 两档:**error 级** = 语法错或读者无法确定含义,必须改;**warning 级** = 语法正确但读起来别扭或有歧义风险,逐条裁决后可保留。
 - 扫描顺序:先 error 再 warning;报告格式见自检第 16 条(独立扫描任务与并入 `SKILL.md` 自检两种口径)。
 - 误报处理见「常见错误」一节;规则与语境冲突时以"读者是否需要猜"为最终判据。
-- 动词、时态、语态的规则本体在 `08-verbs-tense-voice.md`;本文件只收其中母语溢出最集中的条目并给识别信号。
+- 动词、时态、语态的规则本体另见 `08-verbs-tense-voice.md`;本文件只收其中母语溢出最集中的条目并给识别信号。
 
 ## 结构与规则
 
@@ -25,14 +26,14 @@
 |---|---|---|---|---|
 | E1 | 谈话标记进入正文 | 句首 `So` / `Well` / `OK` / `Let me`;`actually` / `basically` | 删除,直接陈述事实 | ✗ So basically the attention module actually improves recall. → ✓ The attention module improves recall. |
 | E2 | 模糊介词 with / of 连接两个名词 | `名词 with 名词`;一句内 `with` ≥ 3(动词固定搭配 compared with / associated with / consistent with / together with 不计);`of` 表"携带 / 影响 / 来自" | 换成表明关系的分词或动词:associated with / containing / derived from / affecting;连续 with 改 between ... and | ✗ Features with the tumor region of the scans were compared with those with healthy tissue. → ✓ Features extracted from the tumor region were compared with those extracted from healthy tissue. |
-| E3 | 模糊代词 it / they / them / their | `It` 指上一整句或 ≥ 2 个候选名词;`they` 无复数先行词 | this / these + 概括名词,或重复名词;it / they 所指唯一或 it 作形式主语即合法(唯一口径见 `09-academic-style.md` 规则 4) | ✗ The model was trained on two centers. It improved the AUC, but they differed in scanner type. → ✓ The model, trained on data from two centers, improved the AUC; however, the two centers differed in scanner type. |
+| E3 | 模糊代词 it / they / them / their | `It` 指上一整句或 ≥ 2 个候选名词;`they` 无复数先行词 | this / these + 概括名词,或重复名词;it / they 所指唯一或 it 作形式主语即合法(另见 `09-academic-style.md` 规则 4) | ✗ The model was trained on two centers. It improved the AUC, but they differed in scanner type. → ✓ The model, trained on data from two centers, improved the AUC; however, the two centers differed in scanner type. |
 | E4 | 双重目标句 | 一句内 `to + 动词` 表目的 ≥ 2;`To ..., X was used to ...` | 一句一个目的 to;顺序 目的 → 主动动作 → using / by | ✗ To assess drift, a holdout set was used to compare predictions to evaluate calibration. → ✓ To assess drift, we compared predictions on a holdout set and evaluated calibration. |
 | E5 | 非研究者主语 + to 表目的 | 主语为基因 / 蛋白 / 装置 / 模型 + `to + 动词` | 改 resulting in / that + 动词 陈述因果 | ✗ The transporter accumulates at the membrane to import glucose. → ✓ The transporter accumulates at the membrane, resulting in increased glucose import. |
 | E6 | 主谓不一致 | 主语含 `of` / `with` / 分词后置修饰;动词跟着最近名词变 | 找主语中心词再定单复数;每个含后置修饰的主语逐个核对 | ✗ The set of hyperparameters selected by the two folds were fixed. → ✓ The set of hyperparameters selected by the two folds was fixed. |
 | E7 | 词性 / 近形词错用 | `In consistent with`;`consistently` 表"与前人一致";`administrate`;`on the contrast`;`on the contrary` 表一般对比 | in agreement with / in line with;administer;in contrast(on the contrary 仅反驳同一议题) | ✗ In consistent with prior work, the ensemble was better. → ✓ In agreement with prior work, the ensemble performed better. |
-| E8 | 汇报动词 + 抽象关系名词 | `indicate` / `show` / `reveal` / `confirm` + `the` + distinction / relation / importance / possibility / role / association(接具体可测对象 showed a 12% increase 不报) | + that + 主谓从句;口径见 `08-verbs-tense-voice.md` | ✗ Our findings indicate the association of scanner type with degradation. → ✓ Our findings indicate that performance degraded on certain scanner types. |
+| E8 | 汇报动词 + 抽象关系名词 | `indicate` / `show` / `reveal` / `confirm` + `the` + distinction / relation / importance / possibility / role / association(接具体可测对象 showed a 12% increase 不报) | + that + 主谓从句;另见 `08-verbs-tense-voice.md` | ✗ Our findings indicate the association of scanner type with degradation. → ✓ Our findings indicate that performance degraded on certain scanner types. |
 | E9 | 动词 + the + 名词化 + of | `perform the determination of`;`achieve the improvement of`;-tion / -ment / -ity 名词 + `of`;一句 `of` ≥ 3 | 还原为动词(determine / improve);Methods 固定流程名除外 | ✗ We performed the evaluation of the robustness of the model. → ✓ We evaluated the robustness of the model. |
-| E10 | 长句 / run-on | 单句 > 40 词;逗号 ≥ 4 只触发检查(拆不拆由句意定,数字口径见 `09-academic-style.md`);一句内出现 ≥ 2 个 `, and then` / `, and as a result` / `, and so` / `, therefore` 类逗号连接(单个 `, which` 非限定从句与单个 `, but` 并列句不报) | 一句一个想法;逗号后的这些词是句号候选点;句间用连接短语保留逻辑 | ✗ Masks were fragmented in apical slices, and as a result volumes were biased, and so we added post-processing, therefore the bias decreased. → ✓ Masks were fragmented in apical slices. As a result, volume estimates were biased. We therefore added a post-processing step, thereby reducing the bias. |
+| E10 | 长句 / run-on | 单句 > 40 词;逗号 ≥ 4 只触发检查(拆不拆由句意定,数字见 `09a-metrics-table.md`);一句内出现 ≥ 2 个 `, and then` / `, and as a result` / `, and so` / `, therefore` 类逗号连接(单个 `, which` 非限定从句与单个 `, but` 并列句不报) | 一句一个想法;逗号后的这些词是句号候选点;句间用连接短语保留逻辑 | ✗ Masks were fragmented in apical slices, and as a result volumes were biased, and so we added post-processing, therefore the bias decreased. → ✓ Masks were fragmented in apical slices. As a result, volume estimates were biased. We therefore added a post-processing step, thereby reducing the bias. |
 | E11 | 同义词轮换 | 同一概念用 ≥ 2 个动词或名词:`depict` / `illustrate` / `display` / `demonstrate`;method / approach / framework 混用 | 一个概念一个词,选最简单的(show)并全篇坚持 | ✗ Fig. 2 depicts ..., Fig. 3 illustrates ..., Fig. 4 demonstrates ... → ✓ Fig. 2 shows ..., Fig. 3 shows ..., Fig. 4 shows ... |
 | E12 | 重复主语 | `For X, its Y ...`;`As for X, it ...`;主题短语后主句再用代词 | 名词直接做主语或定语,删代词 | ✗ For the validation cohort, its sample size was too small. → ✓ The validation cohort was too small. |
 | E13 | 名词堆叠 / 自创术语串 | 连续 ≥ 4 个名词且非领域公认缩写术语 | 用 of / for / that + 动词 解开;只有核心贡献才允许命名 | ✗ a multicenter CT lung nodule malignancy risk stratification pipeline → ✓ a pipeline that stratifies malignancy risk of lung nodules on CT scans from multiple centers |
@@ -53,7 +54,7 @@
 |---|---|---|---|---|
 | W1 | which 指代不明 | `which` 前有 ≥ 2 个名词;一句 `which` > 1 | 移动 which 紧跟唯一先行词;能不用就不用 | ✗ We fed the embeddings from the encoder into the head, which was frozen. → ✓ We fed the encoder embeddings into a frozen classification head. |
 | W2 | which 表结果 / 因果 | `, which` 指代整句 | thus / thereby + -ing | ✗ The encoder compresses slices into embeddings, which reduces memory. → ✓ The encoder compresses slices into embeddings, thereby reducing memory use. |
-| W3 | 无信息修饰词 | `carefully` / `robust` / `plausible` / `novel` / `sophisticated` / `dramatically` / `very` / `really`(引言 / 摘要中有结果节证据支撑的评价词不报,见 `01-introduction.md` 细则 10) | 问"反义词成立吗";不成立则删;保留改变操作含义的修饰 | ✗ We carefully designed a robust and novel pipeline. → ✓ The pipeline increased sensitivity from 0.71 to 0.86. |
+| W3 | 无信息修饰词 | `carefully` / `robust` / `plausible` / `novel` / `sophisticated` / `dramatically` / `very` / `really`(引言 / 摘要中有结果节证据支撑的评价词不报;另见 `01-introduction.md` 细则 10) | 问"反义词成立吗";不成立则删;保留改变操作含义的修饰 | ✗ We carefully designed a robust and novel pipeline. → ✓ The pipeline increased sensitivity from 0.71 to 0.86. |
 | W4 | 错置修饰语 / 缺补语 | `superior N than`;`identical N with`;过去分词前置而读者需知施动者(cells released → cells released by X) | 修饰语紧邻名词并带出补语:superior to that of / identical to that of / N released by | ✗ The federated model showed superior accuracy than the baseline. → ✓ The federated model showed accuracy superior to that of the baseline. |
 | W5 | among / between 误用 | `among` + 两三个可区分实体;`between` + 集合名词 | between 用于可区分实体(不限两个);among 用于"在一群中";拿不准改动词句(differ / vary) | ✗ The distinction among the three scanners was significant. → ✓ The three scanners differed significantly. |
 | W6 | 从句堆叠 | 连接副词与主句相距 > 10 词;主信息前有 ≥ 2 个从句或状语 | 主信息前置紧邻连接副词;让步与背景用 despite / especially 推到句尾 | ✗ Similarly, in low-dose CT, although noise is higher, no consensus exists on the kernel. → ✓ Similarly, no consensus exists on the reconstruction kernel, despite the higher noise of low-dose CT. |
@@ -149,7 +150,7 @@
 2. W1–W16 已逐句扫描,每条保留项都写了保留理由。✓/✗
 3. 全文无 there be 起句、无动词缩写、无 etc.。✓/✗
 4. 一句内 with ≤ 2(固定搭配不计)、of ≤ 2(固定量词短语与专名不计)、目的 to ≤ 1。✓/✗
-5. it / they / which 所指唯一(口径见 `09-academic-style.md` 规则 4);this / these 后有名词。✓/✗
+5. it / they / which 所指唯一(另见 `09-academic-style.md` 规则 4);this / these 后有名词。✓/✗
 6. 汇报动词接 that 从句,接名词短语时宾语是具体可测对象;名词化已还原为动词(Methods 流程名除外)。✓/✗
 7. 每个结论句只有一个避险词。✓/✗
 8. 无 can 描述已观察事实;表过去发生的事的 could 已改 was able to,表推断的 could 已确认无歧义。✓/✗

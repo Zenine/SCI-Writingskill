@@ -19,3 +19,6 @@
 - skill 工程审阅(writing-skills / 官方规范口径)与两项后续:
   - RED 基线:四个样例用不加载 skill 的裸代理跑一遍,同一评审要点打分 8/10、7/10、8/11、6/10;skill 侧 10/10、10/10、11/11、10/10。增量全部落在不编造/不越权、篇幅与收尾、引用占位说明、自检输出,语言能力类要点裸代理本来就过。见 `tests/regression/baseline-delta-2026-09-07.md`。
   - 减重:13 个 reference 的「两书分歧的处理」整节抽到 `docs/decisions/two-book-divergences.md`(约 14 KB),reference 只留一行指针;句长段长口径表拆成 `references/09a-metrics-table.md`(28 行),01/05/12 的指针改指它;测试输出与判定从 `samples/` 挪到 `tests/regression/`,随 skill 分发的 samples 从 ~140 KB 降到 40 KB。references 总量 242 KB → 216 KB,单节任务加载约 124 KB → 99 KB。
+- 基线补跑至 5 次/样例(共 16 个裸代理):Methods 8/10 ×5、Introduction 7/10 ×5、Abstract 8/7/8/7/7 /11、Response 6/6/6/7/7 /10,失败点高度一致(领域惯例当事实写进正文、引用只给编号、摘要超 60% 且以局限收尾、回复信签名位置与承诺句、无自检);时态/语态/数字/术语类要点 5/5 通过。结论与减重指引写入 `tests/regression/baseline-delta-2026-09-07.md`。
+- SKILL.md description 补英文触发句(571 字符,仍远低于 1024 上限)。
+- reference 互指上提:14 个 reference 中"执行必读"的跨文件指针 5 处内联(06 二级标题规则、03 三档口径、08 can 合法情形、09 形式主语例外)、7 处上提到 SKILL.md 路由表「再读」列,其余 64 处统一改为"另见"或删除;每个 reference「何时读本文件」加一句"必读范围以 SKILL.md 路由表为准";10 与 09a 改为路由表下总则(每次都读)。各文件只增 1 行。

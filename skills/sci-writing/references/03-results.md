@@ -8,8 +8,9 @@
 - 用户把结果写成了图表清单或数字罗列,需要改成有导览、有轻重、有评价的叙述。
 - 审稿意见指出"overclaiming""结果与结论脱节""因果表述超出数据支撑"。
 - 需要把某条发现的"确定程度"表达到位(动词、时态、hedging、情态动词的组合)。
+- 本文件提到的其它 reference 只是出处指引;执行时以 SKILL.md 路由表的「先读 / 再读」为必读范围。
 
-前置约定:结果、讨论、结论分写还是合写由目标期刊和研究本身决定,本文件按分写讲;合写时把"含义"部分交给 `04-discussion-conclusion.md`。结果节允许评价性语言和一句式含义,深入解释与外推留给讨论。结果节只与本文的预测、模型、假设比较;与前人文献的比较默认放讨论(`12-submission-checklist.md` 第 22 条同此);Results and Discussion 合写或目标期刊惯例允许时例外,并在「理解确认」注明。
+前置约定:结果、讨论、结论分写还是合写由目标期刊和研究本身决定,本文件按分写讲;合写时"含义"部分按讨论节处理(另见 `04-discussion-conclusion.md`)。结果节允许评价性语言和一句式含义,深入解释与外推留给讨论。结果节只与本文的预测、模型、假设比较;与前人文献的比较默认放讨论(另见 `12-submission-checklist.md` 第 22 条);Results and Discussion 合写或目标期刊惯例允许时例外,并在「理解确认」注明。
 
 ## 结构与规则
 
@@ -29,23 +30,23 @@
 3. 图表放置:读者读到 Fig. 1 shows 会停下看图、形成自己的解释再回来。数据清晰无歧义时可先给图后评论;有多种解读可能时,评论放在引导看图的句子之前或同一句内。
 4. 每张图/表被引用时必须附一句作者的评价或解读,不得只写 X is shown in Fig. n。
 5. 轻重处理:不对所有结果同等详细;用 Importantly / Notably 显式标记重要结果;常见手法是先给总体判断,再用 for example 引出典型数值。
-6. 客观 vs 主观:说 A 比 B 高是事实(higher),说 A 本身"高"是评价(high);已发表论文几乎总带评价修饰(slightly lower / much lower),因为裸比较级对读者没有增量;评价修饰的方向须与数据一致,且有对比基准(裁决见 `08-verbs-tense-voice.md` 两书分歧第 8 条、`05-abstract.md` 两书分歧第 6 条)。
+6. 客观 vs 主观:说 A 比 B 高是事实(higher),说 A 本身"高"是评价(high);已发表论文几乎总带评价修饰(slightly lower / much lower),因为裸比较级对读者没有增量;评价修饰的方向须与数据一致,且有对比基准(另见 `08-verbs-tense-voice.md`、`05-abstract.md`)。
 7. 陈述某现象发生时带频率修饰词或具体比例;频率是相对预期而言的:前人认为不会发生的事出现 22% 可称 frequent,前人认为必然发生的事只出现 22% 可称 rare。
 8. 至少一处把本文结果与本文的预测、模型或假设显式比较;与前人文献的比较已留给讨论(合写例外)。
 9. 结果中的问题、缺口、异常值在结果节承认,并用淡化 / 去责 / 给方向至少一种措辞。
 10. 转折、评价、遗憾类信号词(However / Unfortunately / Interestingly)放句首,不放句末。
 11. 不用感叹号;惊喜用 striking / remarkable / unexpected 表达。
 12. 时态:本文发现默认过去时,只有作者有意将其提升为普遍事实时才用现在时;图中可见用现在时,数据如何获得用过去时;背景事实现在时,归因于本研究方法过去时。
-13. 含义句只保留一个避险成分(suggest / indicate 类汇报动词,或 may / could 类情态,二选一),点到为止;档位与证据匹配,尺子是下文确定性连续统(`08-verbs-tense-voice.md` 的阶梯表引用本表)。strongly suggest 不算叠加。
+13. 含义句只保留一个避险成分(suggest / indicate 类汇报动词,或 may / could 类情态,二选一),点到为止;档位与证据匹配,尺子是下文确定性连续统(另见 `08-verbs-tense-voice.md`,其阶梯表引用本表)。strongly suggest 不算叠加。
 14. 含义或应用句回应引言目标的用词(引言说 improve accuracy,结果说 more accurate);得到结果后回头核对引言的目标陈述,必要时改引言。
 15. 结果节应能独立成篇:直接从摘要跳来的读者仅凭结果节即可理解做了什么、发现了什么。
-16. 小节数量、小标题形式(短语式或陈述句式)、图表顺序向目标期刊近期论文看齐;小标题优先用动词说出关系,形式受限时按 `06-title-keywords.md` 规则 3 的兜底写法。
+16. 小节数量、小标题形式(短语式或陈述句式)、图表顺序向目标期刊近期论文看齐;小标题优先用动词说出关系,期刊只允许短语式时用含关系的名词短语(Effects of X on Y / Association between X and Y),两种形式下都不得只给主题名词(另见 `06-title-keywords.md` 规则 3)。
 
 局限性位置链式规则(02 / 03 / 04 三处同文):方法、结果中已知的问题在各自节首次提及;只有"需进一步工作才能下结论"与"研究期间的非正式证据"两类可在讨论首次出现;讨论中后段集中一处(医学期刊常单列 Limitations 小节);结论最多一句并与未来工作合并;讨论与结论都不以局限收尾。
 
 ### 单条结果的四要素段落
 
-每个结果段(或一个研究问题下的一块)按四要素写,`12-submission-checklist.md` 第 22 条按此检查:
+每个结果段(或一个研究问题下的一块)按四要素写(另见 `12-submission-checklist.md` 第 22 条):
 
 1. 目标句:这块结果回答哪个问题或检验哪个假设(To test whether ... / To assess ...)。
 2. 位置句:数据在哪张图表(Fig. n / Table n),可与下一要素合为一句。
@@ -126,7 +127,7 @@
 - 例:Overall, the model performed consistently across all three cohorts (Table 2).
 
 **邀请看图表**(in = 图里直接可见;from = 可由图中数据推断)
-- Fig. 1 shows(全篇图表引用只选一个动词,见 `08-verbs-tense-voice.md` 规则 4)
+- Fig. 1 shows(全篇图表引用只选一个动词;另见 `08-verbs-tense-voice.md` 规则 4)
 - As can be seen in / from Fig. 1,
 - Results are given in Table 2
 - X is apparent from Fig. 1 / X is clearly visible in Fig. 1
@@ -149,7 +150,7 @@
 - broadly / essentially / virtually / effectively
 - 例:Notably, the improvement was most pronounced in the smallest subgroup.
 
-**与本文预测 / 模型 / 假设比较**(与前人文献比较的短语见 `04-discussion-conclusion.md`)
+**与本文预测 / 模型 / 假设比较**(与前人文献比较的短语另见 `04-discussion-conclusion.md`)
 - consistent with / in line with / in good agreement with
 - comparable to / broadly similar to / essentially identical to
 - as expected / as predicted / as hypothesized
@@ -157,7 +158,7 @@
 - support / confirm / deviate from
 - 例:The observed decline is in good agreement with the model prediction, but the effect was smaller than we had hypothesized.
 
-**积极评价词**(有比较基准时可用,须能指到数据;裁决见 `05-abstract.md` 两书分歧第 6 条)
+**积极评价词**(有比较基准时可用,须能指到数据;另见 `05-abstract.md`)
 - accurate / precise / reliable / robust
 - effective / efficient / feasible
 - improved / superior / satisfactory

@@ -8,12 +8,13 @@
 - 审稿意见说 "hard to follow""logic unclear""paragraphs are disconnected",或用户说"感觉像句子堆在一起"。
 - 中文稿翻译成英文后,句子各自正确但读不出前后关系(中文的"和、同时、所以"直译成 and / meanwhile / so)。
 - 写任何一节前,决定这一段用哪种逻辑模型、首句怎么开、句与句怎么接。
+- 本文件提到的其它 reference 只是出处指引;执行时以 SKILL.md 路由表的「先读 / 再读」为必读范围。
 
 前置约定:
 
 - 段落是给读者的视觉信号:新段 = 换话题。一段一功能、一段一模型;整篇可以混用模型。
 - 显式逻辑优先于"语感":非母语作者把句间关系用连接词、重复、this + 概括名词钉在句子上,不算不专业;"清晰"是目标,"优雅"不是。
-- 段长与句长的统一口径见 `09-academic-style.md`;本文件只管段内逻辑。
+- 段长与句长的数字见 `09a-metrics-table.md`;本文件只管段内逻辑。
 
 ## 结构与规则
 
@@ -33,7 +34,7 @@
 | Problem-Solution(P-S) | 结果、讨论;有时用于摘要中段和引言末段 | 问题句(However / Despite this)→ 方案句(One approach is / We therefore ...)→ 结果或评价 | 能指出问题句与方案句各在哪里;二者之间有一个转折或因果连接词 |
 | Process | 方法;结果中的操作性描述 | 按实际顺序 First / Next / Then / Finally 逐步铺陈;方法默认被动 + 过去时 | 步骤动词具体可操作;顺序标记数与步骤数一致;读者按此顺序能复现 |
 
-混用规则:引言与方法、结果的各小节默认 G-S;讨论小节可用 S-G 或 G-S-G;摘要句序见 `05-abstract.md` 九步表,大致对应:步 1–3 = G-S、步 4–6 = P-S、步 7–9 = S-G。
+混用规则:引言与方法、结果的各小节默认 G-S;讨论小节可用 S-G 或 G-S-G;摘要句序另见 `05-abstract.md` 九步表,大致对应:步 1–3 = G-S、步 4–6 = P-S、步 7–9 = S-G。
 
 与书A 功能步(moves)的对应:功能步决定"这段写什么、排在哪",模型决定"段内句子怎么排"。引言功能步 1(进入领域)= G-S 开头;功能步 2(研究地图)= Old-to-New;功能步 3(空白)= P-S 的问题句;功能步 4(本文)= P-S 的方案句。结果的"回顾—展示—评论—含义"= P-S 加一句 S-G 收尾。
 
@@ -42,7 +43,7 @@
 | 手段 | 做法 | 规则 |
 |---|---|---|
 | 重叠重复 | 下一句开头重复上一句结尾的词或概念;被动动词改"过去分词 + 名词"放到下句主语位置(was pretrained → This pretrained network) | 优先手段;不为避免重复而换新名词指同一对象;不用 in which / which 长从句代替 |
-| this / these + 概括名词 | this process / this decrease / these findings / this discrepancy | 裸 This / These 开头视为错误;It / They 须所指唯一(唯一口径见 `09-academic-style.md` 规则 4);概括名词与首次出现时的名词一致(说了 a device 就写 this device) |
+| this / these + 概括名词 | this process / this decrease / these findings / this discrepancy | 裸 This / These 开头视为错误;It / They 须所指唯一(形式主语 it 除外;另见 `09-academic-style.md` 规则 4);概括名词与首次出现时的名词一致(说了 a device 就写 this device) |
 | 信号词 | However / Therefore / In addition 等直接告诉读者本句功能 | 先定关系类型再选词;用错比不用更糟;不必每句都用 |
 | 分号 | 两句关系极紧且其中一句很短时代替句号 | 合并后重新检查总句长 |
 
@@ -50,7 +51,7 @@
 
 1. 同一段落中以连接副词起句的句子不超过一半;超过即公式化,改用重叠重复或 this + 名词承接。计数范围:补充 / 让步 / 对比 / 因果 / 解释 / 举例 / 强调 / 总结八类信号词(However / Therefore / Moreover / In addition / In contrast / For example / Notably / In summary 等);顺序标记(First / Next / Finally)与表所有权的定位词(In this study / Here)不计。
 2. 不允许连续两句以同一类连接词起句(However ... However ...;Moreover ... Furthermore ...)。豁免:顺序标记允许连续(First, ... Next, ... Finally, ...),不计入密度上限。
-3. 每个连接词都必须能归入"补充 / 让步 / 对比 / 因果 / 解释 / 举例 / 强调 / 顺序 / 总结 / 转题"十类之一;归不进去的删除。转题类(Regarding X, / With respect to X, / Turning to X,)只在小节内换对象时用,是否保留按 `10-chinese-author-pitfalls.md` W7 裁决。
+3. 每个连接词都必须能归入"补充 / 让步 / 对比 / 因果 / 解释 / 举例 / 强调 / 顺序 / 总结 / 转题"十类之一;归不进去的删除。转题类(Regarding X, / With respect to X, / Turning to X,)只在小节内换对象时用(另见 `10-chinese-author-pitfalls.md` W7)。
 4. 信号词自带约束语义:Moreover / Furthermore 要求本句与上句功能相同(都是理由、都是例子);Therefore / Consequently 之后必须是读者能看出因果的结果,因果链只在作者脑中时先补信息;For example 之前必须有被举例的概括语;In other words 必须真是同义改述。
 5. 转折与评价信号(However / Unfortunately / Interestingly)放句首,不放句末;放句末会迫使读者回读整句。
 
@@ -63,9 +64,9 @@
 | while / whereas / meanwhile | while 可表 at the same time,有歧义;whereas 只表对比;meanwhile 是时间词 | 学术对比优先 whereas;while 放句首让读者一开始就知道要比较;真正同时发生用 simultaneously;不用 meanwhile |
 | however / but | 都可表对比或意外;句首 But 偏口语 | 句首 But 改 However / In contrast / Unexpectedly;要强调"意外"时选 Nevertheless / Unexpectedly |
 | moreover / in addition / besides | moreover 要求功能相同;besides 语气更强、偏论辩 | 默认 In addition / Furthermore;besides 正文默认不用,论辩段落可用(见分歧 12) |
-| on the other hand | on the one hand ... on the other hand 用于权衡同一议题的两个考虑;两书立场不同(见分歧 11) | 单纯并列两个对象的数据优先 whereas / in contrast;用于权衡时可保留(warning,与 `10-chinese-author-pitfalls.md` W15 同口径) |
+| on the other hand | on the one hand ... on the other hand 用于权衡同一议题的两个考虑;两书立场不同(见分歧 11) | 单纯并列两个对象的数据优先 whereas / in contrast;用于权衡时可保留(warning;另见 `10-chinese-author-pitfalls.md` W15) |
 | in fact / indeed | 只用于强化前句 | 可删则删;不作句间连接 |
-| thus + -ing / which(表结果) | which 指代整句时所指不明 | 表结果优先 ", thus / thereby + -ing";", which" 所指唯一(前只有一个候选名词)时可保留(与 `10-chinese-author-pitfalls.md` W2 同口径);每句最多一个 -ing 从句 |
+| thus + -ing / which(表结果) | which 指代整句时所指不明 | 表结果优先 ", thus / thereby + -ing";", which" 所指唯一(前只有一个候选名词)时可保留(另见 `10-chinese-author-pitfalls.md` W2);每句最多一个 -ing 从句 |
 
 ## 英文模板与短语
 
@@ -104,7 +105,7 @@
 - That is, ... / i.e.
 - For example, ... / For instance, ...
 - Specifically, ... / More specifically, ...
-- It is noteworthy that ...(每段 ≤ 1 处,后面必须跟具体内容;口径见 `09-academic-style.md` 规则 7)
+- It is noteworthy that ...(每段 ≤ 1 处,后面必须跟具体内容;另见 `09-academic-style.md` 规则 7)
 
 **顺序(Process 模型)**
 - First, ... / Second, ... / Third, ...
@@ -155,7 +156,7 @@
 | Moreover 引出功能不同的句子 | 换 In addition,或先确认本句与上句同为理由/例子 |
 | Therefore 之前没有明示原因 | 先补原因句,再用 Therefore |
 | 为避免重复换新名词指同一对象 | 重复同一名词;学术写作鼓励重复 |
-| 句首 And / But / So、meanwhile、on the contrary 表一般对比、裸 This / It、which 指代不明、-ing 从句堆叠、转折词放句末、in fact 作连接 | 逐句规则见 `09-academic-style.md` 规则 3、7 与 `10-chinese-author-pitfalls.md` E19 / E7 / E3 / W1 / W2 / W8 / W9,本文件不重复维护 |
+| 句首 And / But / So、meanwhile、on the contrary 表一般对比、裸 This / It、which 指代不明、-ing 从句堆叠、转折词放句末、in fact 作连接 | 逐句规则另见 `09-academic-style.md` 规则 3、7 与 `10-chinese-author-pitfalls.md` E19 / E7 / E3 / W1 / W2 / W8 / W9,本文件不重复维护 |
 
 ## 自检清单
 
@@ -172,7 +173,7 @@
 11. Moreover / Therefore / For example / In other words 各自满足约束语义。✓/✗
 12. 句首无 And / But / So / Though;全文无 meanwhile。✓/✗
 13. on the contrary 只用于反驳同一议题;on the other hand 只用于权衡两个考虑,并列两个对象的数据已改 whereas / in contrast。✓/✗
-14. 所有 This / These 后紧跟概括名词;It / They 所指唯一(口径见 `09-academic-style.md` 规则 4)。✓/✗
+14. 所有 This / These 后紧跟概括名词;It / They 所指唯一(另见 `09-academic-style.md` 规则 4)。✓/✗
 15. 表结果的关系优先 thus / thereby + -ing,保留的 ", which" 所指唯一;每句最多一个 -ing 从句。✓/✗
 16. 同一对象全段用同一名词承接,没有为变化而换词。✓/✗
 17. 转折与评价信号词都在句首。✓/✗

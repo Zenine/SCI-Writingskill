@@ -7,7 +7,8 @@
 - 总流程(`00-workflow.md`)进入第 7 步:逻辑与动词已通,做一轮独立的"语言与风格改写"。
 - 审稿意见说 "informal""wordy""colloquial""sentences too long",或编辑要求 language editing。
 - 用户问句子多长合适、段落多长合适、能不能用 you / we / I、能不能写问句、etc. 能不能用。
-- 与 `10-chinese-author-pitfalls.md` 配合:本文件给风格原则与统一口径,10 号给逐句扫描清单。
+- 另见 `10-chinese-author-pitfalls.md`:本文件给风格原则与统一口径,10 号给逐句扫描清单。
+- 本文件提到的其它 reference 只是出处指引;执行时以 SKILL.md 路由表的「先读 / 再读」为必读范围。
 
 前置约定:
 
@@ -20,7 +21,7 @@
 
 ### 句长与段长统一口径
 
-数字全部在 `09a-metrics-table.md`(全 skill 唯一数字源),本文件不重复;自检涉及句长段长时读那张表。
+数字见 `09a-metrics-table.md`(全 skill 唯一数字源),本文件不重复。
 
 ### 风格规则
 
@@ -45,7 +46,7 @@
 ## 英文模板与短语
 
 **口语程度词的学术替换**
-- a lot of / lots of → considerable / numerous(能给数字就给数字,见 `10-chinese-author-pitfalls.md` W3)
+- a lot of / lots of → considerable / numerous(能给数字就给数字;另见 `10-chinese-author-pitfalls.md` W3)
 - big / huge → substantial / marked / large
 - a little bit → slightly / marginally
 - get → obtain / yield / become
