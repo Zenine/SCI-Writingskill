@@ -29,7 +29,7 @@
 7. **简洁**:删空转开头(There are ... that / 非强调的 It is ... that);删无信息强化语(very / really / indeed / quite / rather / of course / obviously / basically / actually / in fact);clearly 与 it is worth noting / it is noteworthy that 条件保留——作评价副词紧贴比较(clearly higher)或作句首重要性标记时可用,每段 ≤ 1 处且后接具体内容(数字、对比、机制),作口头禅或填充时删(`07-paragraph-logic.md` 与 `04-discussion-conclusion.md` 同此口径);删反义不成立的修饰词(plausible / robust / novel / sophisticated / carefully / dramatically),只保留改变操作含义的修饰;of + 抽象名词可改形容词时改形容词(materials of inorganic origin → inorganic materials),in the process of → while / during;一句一个事实。
 8. **口语程度词**:a lot of / big / huge / get / really / a little bit / bigger and bigger 换学术等价词(considerable / substantial / obtain / slightly / is increasing)。
 9. **评价词强度**:Results / Discussion 中报告发现的数字要带评价性修饰(only 23% / as many as 23%)而不是裸数字,方向与数据一致且不超证据;Methods 中的参数与样本量(n = 120 / batch size 32)豁免,回复信、投稿信、方法节不适用本条;unprecedented / striking / remarkable 一类"感叹号替代词"必须有数据支撑,superior / excellent 只在有比较基准时用;不用感叹号。
-10. **标点**:破折号对改写为文字;括号内容要么并入正文要么删除;引文放在句中被引内容旁,不堆在句尾。
+10. **标点**:破折号对改写为文字;括号内容要么并入正文要么删除(统计量括号如 (95% CI 0.80-0.88)、回复信中的位置括号 (Section 2.3, page 6) 不在此列);引文放在句中被引内容旁,不堆在句尾。
 11. **术语一致**:同一概念全文一个词,不用同义词典换词求"变化";关键术语用 Google Scholar 带引号 / 不带引号各搜一次确认仍是通用说法。
 12. **拼写变体**:英式 / 美式(analyse / analyze)按目标期刊统一,全文一致;期刊未知时默认美式(见 `SKILL.md` 硬规则 9)。
 
