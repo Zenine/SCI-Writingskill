@@ -1,8 +1,10 @@
 # SCI-Writingskill
 
+*English version: [README.en.md](README.en.md)*
+
 英文 SCI 论文写作的 agent skill(可被 Claude Code、Codex 等加载的可复用指令包)。覆盖标题、摘要、引言、方法、结果、讨论、结论的结构模板,学术英语的时态/语态/动词规范,段落逻辑模型,中国作者常见错误的逐句扫描清单,伦理与声明写法,以及投稿前总清单、选刊、投稿信与审稿回复。
 
-内容来自两本写作教材的读书笔记式二次创作(见文末「参考书目与版权口径」),经 4 批审阅与 4 份样例回归测试(Methods、Introduction、Abstract、Response to reviewers)校验。
+内容来自两本写作教材的读书笔记式二次创作(见文末「参考书目与版权口径」),经 4 批审阅与 7 份样例回归测试(Methods、Introduction、Abstract、Results、Discussion、Title、Response to reviewers)及裸代理基线对照校验。
 
 ## 安装
 
@@ -71,17 +73,18 @@ cp -r SCI-Writingskill/skills/sci-writing ~/.codex/skills/sci-writing      # Cod
 | `references/05-abstract.md`、`06-title-keywords.md` | 摘要(一般/结构化/Nature 式、Highlights)、标题、关键词、二级标题 |
 | `references/07-paragraph-logic.md` | 四种段落逻辑模型、连接词分组、句间承接 |
 | `references/08-verbs-tense-voice.md` | 各节时态/语态总表(含投稿信/回复信行)、确定性阶梯、藏动作写法清理 |
-| `references/09-academic-style.md` | 学术风格;全 skill 唯一的句长段长与词数计数口径 |
+| `references/09-academic-style.md`、`09a-metrics-table.md` | 学术风格;09a 是全 skill 唯一的句长段长与词数计数口径表 |
 | `references/10-chinese-author-pitfalls.md` | 中国作者错误逐句扫描清单(error / warning 两级,带识别信号与误报表) |
 | `references/11-ethics-and-readers.md` | 伦理与各类声明句式、读者意识、故事线四问 |
 | `references/12-submission-checklist.md` | 投稿前总清单 104 条、选刊、投稿信、审稿回复信结构 |
-| `samples/` | 回归测试集:四份中文输入 + 评审要点 + 实测输出与判定 |
+| `samples/` | 回归测试集:七份中文输入 + 评审要点(实测输出与判定在仓库 `tests/regression/`) |
 
 ## 仓库结构
 
 - `skills/sci-writing/` 最终产品。
 - `notes/` 两本参考书的中文阅读笔记(二次创作),是 references 的中间产物,保留以便追溯。
-- `docs/plans/` 实施计划;`docs/reviews/` 审阅报告与统一裁决。
+- `docs/plans/` 实施计划;`docs/reviews/` 审阅报告与统一裁决;`docs/decisions/` 两书分歧裁决。
+- `tests/regression/` 回归输出与判定、裸代理基线与增量分析。
 - `scripts/verify.sh` 验证入口:检查无 PDF 入库、SKILL.md 与 references 互相引用完整、来源标注、与原书文本的 12 词连续重合。
 - `.claude-plugin/` Claude Code 插件与 marketplace 清单。
 

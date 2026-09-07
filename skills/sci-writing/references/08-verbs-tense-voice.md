@@ -21,7 +21,7 @@
 | Abstract | 动作与结果:过去时(we trained / X improved);论文本身与主张:现在时(this study presents / these results suggest);已完成的开发与贡献认领:现在完成时(we have developed)或现在时 | 现在时;带时间短语的重要性声明:现在完成时(has become) | 摘要一般不指图表 | 具体研究:过去时;领域积累或空白:现在完成时 |
 | Introduction | 本文做什么:现在时(we propose / this paper presents);研究目的可用过去时(the aim was to),全篇统一。原稿以已完成动作叙述(“我们建了模型”)时,引言仍默认现在时 we develop / this study develops,过去时 we developed 只在全篇目的句也用过去时时使用 | 现在时;带时间短语的重要性声明:现在完成时(has attracted considerable attention in recent years) | 现在时(Fig. 1 shows the overall architecture) | 某研究当时的发现:过去时;已成公认事实:现在时(常带引文);仍影响现状、引出空白:现在完成时(little attention has been paid) |
 | Methods | 过去时;默认无施动者被动 + 定位词(here / in this study);归属易混处切换为 we | 标准流程、设备工作原理、算法固有行为:现在时 | 现在时(the workflow is shown in Fig. 2) | 采用他人方法:过去时;引用已建立的方法可写 as described in [12] / following [12] |
-| Results | 本研究的观察:过去时;主动(we observed)或被动皆可,主动优先;段末含义句:现在时 + suggest / indicate + may / could(另见 `03-results.md` 收束层) | 解释结果的背景事实:现在时 | 图中可见的内容:现在时(Fig. 3 shows);数据如何得到:过去时 | 用于比较:过去时或现在完成时 |
+| Results | 本研究的观察:过去时;主动(we observed)或被动皆可,主动优先;段末含义句:现在时 + suggest / indicate 或 may / could(二选一,见 03 细则 13)(另见 `03-results.md` 收束层) | 解释结果的背景事实:现在时 | 图中可见的内容:现在时(Fig. 3 shows);数据如何得到:过去时 | 用于比较:过去时或现在完成时 |
 | Discussion | 成就 / 贡献:现在时(this study provides);本研究发现:默认过去时;升级为现在时 = 声称它是独立于本研究的事实,需证据够硬且能自圆其说;含义与应用:现在时 + 情态动词 | 现在时 | 应少见;持续出现 as shown in Fig. 是"讨论写成了结果"的信号 | 具体研究:过去时;已被接受的结论:现在时;对文献的概括:现在完成时 |
 | Conclusion | 已完成的工作:现在完成时(we have shown)或过去时;贡献与主张:现在时(this study provides) | 现在时 | 不应出现 | 相关背景公认事实:现在时;领域积累:现在完成时 |
 | 投稿信 / 回复信 | 已完成的修改:现在完成时(we have revised / has been updated);为回应而重跑的分析:过去时(we re-ran, the tuned model reached);描述修改稿现状:现在时(Section 2.3 now describes);对审稿人观点表态:现在时(we agree) | 现在时 | 指修改稿中的图表位置:现在时(Table 4 now reports) | 审稿人引用的文献:过去时;已成公认事实:现在时 |

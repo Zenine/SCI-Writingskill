@@ -25,3 +25,5 @@
 - 第二轮减重(按基线增量指引,规则见 `docs/reviews/2026-09-07-slimming-round2-rules.md`):三个代理按文件所有权压缩裸代理 5/5 已过的护栏细则,增值规则逐字冻结;references 2,609 → 2,032 行、216 KB → 188 KB,Methods 任务加载约 91 KB。四份回归 10/10、10/10、10/11、10/10(`tests/regression/test-grading-2026-09-07-r2.md`);顺带修 05 细则 13 截断、10 误报表两条白名单。
 - 清理两轮回归代理反馈的小缝隙:SKILL.md(09 何时算“需”、再读文件自检范围、引言路由对 11 括注小节);10 W11 comprise/include 默认译 include;11/02 豁免依据最小合格写法;09a 加“叠加判据”行与两项固定搭配豁免;08 引言 develop/developed 口径;09 规则 10 对统计量与位置括号豁免;12 修改位置到节号即合格、语言编辑意见不另致谢、150 词不含摘述与占位;05 细则 5 背景材料极少时的取舍。
 - 缝隙修复后 Abstract 回归 11/11(`tests/regression/test-grading-2026-09-07-abstract-r3.md`),60% 取舍新口径生效;顺带把 05 句数上限放宽为 8–12 句、09a 的 and 豁免补两项对比对象。
+- 新增 `README.en.md`(英文版,含安装、用法、结构、来源与版权口径);中文 README 顶部加链接并同步样例数、09a、docs/decisions 与 tests/regression 说明。
+- 回归集补齐 Results / Discussion / Title 三份样例与评审要点(七份样例全覆盖);skill 首测 10/10、10/10、10/10,同输入裸代理 7/10、4/10、5/10(`tests/regression/test-grading-2026-09-07-set2.md`、`baseline-delta` 第三节)。08 总表“suggest / indicate + may / could”字面双避险改为二选一。
