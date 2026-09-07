@@ -37,7 +37,7 @@
 10. 转折、评价、遗憾类信号词(However / Unfortunately / Interestingly)放句首。
 11. 不用感叹号;惊喜用 striking / remarkable / unexpected 表达。
 12. 时态:本文发现默认过去时(有意提升为普遍事实时才用现在时);图中可见现在时,数据获得过去时;背景事实现在时(展开见 `08-verbs-tense-voice.md`)。
-13. 含义句只保留一个避险成分(suggest / indicate 类汇报动词,或 may / could 类情态,二选一),点到为止;档位与证据匹配,尺子是下文确定性连续统(另见 `08-verbs-tense-voice.md`,其阶梯表引用本表)。strongly suggest 不算叠加。
+13. 含义句只保留一个避险成分(suggest / indicate 类汇报动词、may / could 类情态、appear to / tend to 类降险短语,三选一),点到为止;档位与证据匹配,尺子是下文确定性连续统(另见 `08-verbs-tense-voice.md`,其阶梯表引用本表)。strongly suggest 不算叠加。
 14. 含义或应用句回应引言目标的用词(引言说 improve accuracy,结果说 more accurate);得到结果后回头核对引言,必要时改引言。
 15. 结果节应能独立成篇:直接从摘要跳来的读者仅凭结果节即可理解做了什么、发现了什么。
 16. 小节数量、小标题形式、图表顺序向目标期刊近期论文看齐;小标题优先用动词说出关系,期刊只允许短语式时用含关系的名词短语(Effects of X on Y / Association between X and Y),两种形式下都不得只给主题名词(另见 `06-title-keywords.md` 规则 3)。
