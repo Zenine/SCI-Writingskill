@@ -16,6 +16,8 @@
 
 ## 2026-09-07
 
+- 发布许可:新增目录划分的双许可。`scripts/`、`.github/`、`tests/`、`.claude-plugin/` 等代码与配置采用 MIT；`skills/`、`notes/`、`docs/`、README 与 `assets/` 采用 CC BY 4.0。根目录 `LICENSE` 明确两本原书与本机 `sources/` 不受本仓库许可且不得入库。
+- README 视觉说明:新增文生图生成的 HERO 图、三层结构图、八步流程图(`assets/`),嵌入中英文 README;`.gitignore` 明确允许 `assets/*.png`,AGENTS 补充展示资产的来源边界与双语 README 同步规则。
 - skill 工程审阅(writing-skills / 官方规范口径)与两项后续:
   - RED 基线:四个样例用不加载 skill 的裸代理跑一遍,同一评审要点打分 8/10、7/10、8/11、6/10;skill 侧 10/10、10/10、11/11、10/10。增量全部落在不编造/不越权、篇幅与收尾、引用占位说明、自检输出,语言能力类要点裸代理本来就过。见 `tests/regression/baseline-delta-2026-09-07.md`。
   - 减重:13 个 reference 的「两书分歧的处理」整节抽到 `docs/decisions/two-book-divergences.md`(约 14 KB),reference 只留一行指针;句长段长口径表拆成 `references/09a-metrics-table.md`(28 行),01/05/12 的指针改指它;测试输出与判定从 `samples/` 挪到 `tests/regression/`,随 skill 分发的 samples 从 ~140 KB 降到 40 KB。references 总量 242 KB → 216 KB,单节任务加载约 124 KB → 99 KB。

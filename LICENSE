@@ -1,0 +1,14 @@
+# SCI-Writingskill 的双许可说明
+
+除下文明确排除的材料外，本仓库按目录分别许可：
+
+- `scripts/`、`.github/`、`tests/`、`.claude-plugin/` 及其他代码或配置文件，适用 [MIT License](LICENSES/MIT.txt)。
+- `skills/`、`notes/`、`docs/`、`README.md`、`README.en.md` 与 `assets/`，适用 [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSES/CC-BY-4.0.txt)。
+
+`LICENSES/` 中的许可证文本或其官方法律文本链接仅用于说明适用条款，不改变上述目录边界。
+
+## 不在本仓库许可范围内的材料
+
+两本参考书及其任何原文、PDF、扫描页、OCR/抽取文本、图片和其他受版权保护的内容，不由本仓库授权。`sources/` 是本机参考材料目录，已被忽略，绝不得提交；其中任何文件也不因本文件而获得许可。请从合法来源取得参考书原作。
+
+仓库中的 `skills/` 与 `notes/` 是独立撰写的读书笔记式二次创作；其许可只适用于这些仓库文件本身，不适用于参考书原作。

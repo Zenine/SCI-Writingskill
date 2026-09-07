@@ -125,11 +125,11 @@ error 级 E1–E23 无命中。保留的 warning 及理由:
 
 ## 实际读取的文件
 
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/SKILL.md`(全文)
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/samples/abstract-draft-zh.md`(全文)
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/00-workflow.md`(全文,重点切入点表第 45–57 行)
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/05-abstract.md`(全文)
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/06-title-keywords.md`(全文)
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/08-verbs-tense-voice.md`(全文)
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/10-chinese-author-pitfalls.md`(全文)
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/09-academic-style.md`(只 grep 了句长 / 口径 / 词数相关行,未读全文;依据 `SKILL.md` 第 49 行"凡自检涉及句长数字读 09 口径表")
+- `[LOCAL_PATH]/skills/sci-writing/SKILL.md`(全文)
+- `[LOCAL_PATH]/skills/sci-writing/samples/abstract-draft-zh.md`(全文)
+- `[LOCAL_PATH]/skills/sci-writing/references/00-workflow.md`(全文,重点切入点表第 45–57 行)
+- `[LOCAL_PATH]/skills/sci-writing/references/05-abstract.md`(全文)
+- `[LOCAL_PATH]/skills/sci-writing/references/06-title-keywords.md`(全文)
+- `[LOCAL_PATH]/skills/sci-writing/references/08-verbs-tense-voice.md`(全文)
+- `[LOCAL_PATH]/skills/sci-writing/references/10-chinese-author-pitfalls.md`(全文)
+- `[LOCAL_PATH]/skills/sci-writing/references/09-academic-style.md`(只 grep 了句长 / 口径 / 词数相关行,未读全文;依据 `SKILL.md` 第 49 行"凡自检涉及句长数字读 09 口径表")

@@ -141,11 +141,11 @@ On behalf of all authors
 
 ## 读取清单
 
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/SKILL.md`(全文)
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/12-submission-checklist.md`(全文,先读)
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/08-verbs-tense-voice.md`(全文,再读)
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/09-academic-style.md`(全文,再读)
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/10-chinese-author-pitfalls.md`(全文,总则)
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/09a-metrics-table.md`(全文,总则)
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/samples/reviewer-comments.md`(全文,输入)
+- `[LOCAL_PATH]/skills/sci-writing/SKILL.md`(全文)
+- `[LOCAL_PATH]/skills/sci-writing/references/12-submission-checklist.md`(全文,先读)
+- `[LOCAL_PATH]/skills/sci-writing/references/08-verbs-tense-voice.md`(全文,再读)
+- `[LOCAL_PATH]/skills/sci-writing/references/09-academic-style.md`(全文,再读)
+- `[LOCAL_PATH]/skills/sci-writing/references/10-chinese-author-pitfalls.md`(全文,总则)
+- `[LOCAL_PATH]/skills/sci-writing/references/09a-metrics-table.md`(全文,总则)
+- `[LOCAL_PATH]/skills/sci-writing/samples/reviewer-comments.md`(全文,输入)
 - 未读:samples/ 下 expected-points-* 与 README.md、tests/、notes/、docs/;未运行 git。

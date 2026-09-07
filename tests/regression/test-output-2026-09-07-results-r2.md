@@ -126,12 +126,12 @@ To test whether performance depended on age or sex, we recomputed the AUC of XGB
 
 ## 读取清单
 
-1. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/SKILL.md`(全文)
-2. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/03-results.md`(全文,先读)
-3. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/08-verbs-tense-voice.md`(全文,再读)
-4. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/10-chinese-author-pitfalls.md`(全文,总则)
-5. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/09a-metrics-table.md`(全文,总则)
-6. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/samples/results-draft-zh.md`(材料)
-7. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/samples/methods-draft-zh.md`(背景)
+1. `[LOCAL_PATH]/skills/sci-writing/SKILL.md`(全文)
+2. `[LOCAL_PATH]/skills/sci-writing/references/03-results.md`(全文,先读)
+3. `[LOCAL_PATH]/skills/sci-writing/references/08-verbs-tense-voice.md`(全文,再读)
+4. `[LOCAL_PATH]/skills/sci-writing/references/10-chinese-author-pitfalls.md`(全文,总则)
+5. `[LOCAL_PATH]/skills/sci-writing/references/09a-metrics-table.md`(全文,总则)
+6. `[LOCAL_PATH]/skills/sci-writing/samples/results-draft-zh.md`(材料)
+7. `[LOCAL_PATH]/skills/sci-writing/samples/methods-draft-zh.md`(背景)
 
 未读:`09-academic-style.md`(10 号扫描未命中 W3 / W12 / W16,用户未要求风格润色,按 SKILL.md 总则不读);samples/ 下 expected-points-*、README.md;tests/、notes/、docs/ 与仓库其它文件。未运行 git。

@@ -170,11 +170,11 @@
 
 ## 读取清单
 
-1. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/SKILL.md`(全文,77 行)
-2. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/samples/title-draft-zh.md`(全文,10 行)
-3. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/06-title-keywords.md`(全文,143 行;先读)
-4. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/05-abstract.md`(全文,153 行;再读)
-5. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/10-chinese-author-pitfalls.md`(全文,135 行;总则)
-6. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/09a-metrics-table.md`(全文,30 行;总则)
+1. `[LOCAL_PATH]/skills/sci-writing/SKILL.md`(全文,77 行)
+2. `[LOCAL_PATH]/skills/sci-writing/samples/title-draft-zh.md`(全文,10 行)
+3. `[LOCAL_PATH]/skills/sci-writing/references/06-title-keywords.md`(全文,143 行;先读)
+4. `[LOCAL_PATH]/skills/sci-writing/references/05-abstract.md`(全文,153 行;再读)
+5. `[LOCAL_PATH]/skills/sci-writing/references/10-chinese-author-pitfalls.md`(全文,135 行;总则)
+6. `[LOCAL_PATH]/skills/sci-writing/references/09a-metrics-table.md`(全文,30 行;总则)
 
 未读:samples/ 下 expected-points-*、README.md,tests/、notes/、docs/ 及其它 reference;未运行 git。

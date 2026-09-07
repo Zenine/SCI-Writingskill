@@ -1,0 +1,12 @@
+Creative Commons Attribution 4.0 International
+CC BY 4.0
+
+Canonical legal text:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Human-readable deed:
+https://creativecommons.org/licenses/by/4.0/
+
+This repository distributes the files identified in the root LICENSE under
+the Creative Commons Attribution 4.0 International Public License. The
+canonical legal text at the URL above is the controlling license text.

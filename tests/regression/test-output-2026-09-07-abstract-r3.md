@@ -130,10 +130,10 @@ Patients with type 2 diabetes mellitus (T2DM) face a high risk of readmission wi
 
 ## 读取清单
 
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/SKILL.md`(全文,77 行)
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/05-abstract.md`(全文,154 行;路由表「先读」)
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/08-verbs-tense-voice.md`(全文,153 行;路由表「再读」)
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/10-chinese-author-pitfalls.md`(全文,135 行;总则必读)
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/09a-metrics-table.md`(全文,30 行;总则必读)
-- `/home/zenine/github/SCI-Writingskill/skills/sci-writing/samples/abstract-draft-zh.md`(全文,8 行;输入材料)
+- `[LOCAL_PATH]/skills/sci-writing/SKILL.md`(全文,77 行)
+- `[LOCAL_PATH]/skills/sci-writing/references/05-abstract.md`(全文,154 行;路由表「先读」)
+- `[LOCAL_PATH]/skills/sci-writing/references/08-verbs-tense-voice.md`(全文,153 行;路由表「再读」)
+- `[LOCAL_PATH]/skills/sci-writing/references/10-chinese-author-pitfalls.md`(全文,135 行;总则必读)
+- `[LOCAL_PATH]/skills/sci-writing/references/09a-metrics-table.md`(全文,30 行;总则必读)
+- `[LOCAL_PATH]/skills/sci-writing/samples/abstract-draft-zh.md`(全文,8 行;输入材料)
 - 未读:`references/09-academic-style.md`(10 号扫描未命中 W3 / W12 / W16,按总则不读)、`references/06-title-keywords.md`(路由表注明不必读)、samples 下 expected-points-* 与 README.md、tests/、notes/、docs/ 及仓库其它文件。

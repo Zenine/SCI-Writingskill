@@ -2,6 +2,9 @@
 sources/
 *.pdf
 *.png
+# README 展示图是项目资产；书 B 的扫描页仍受 sources/ 规则保护。
+!assets/
+!assets/*.png
 __pycache__/
 .venv/
 .DS_Store

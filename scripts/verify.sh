@@ -3,6 +3,7 @@
 set -uo pipefail
 cd "$(dirname "$0")/.."
 fail=0
+overlap_skipped=0
 ok()   { echo "  PASS $*"; }
 bad()  { echo "  FAIL $*"; fail=1; }
 
@@ -39,7 +40,14 @@ else
   ok "(references 尚未创建,跳过)"
 fi
 
-echo "[4] 来源标注"
+echo "[4] README 本地链接"
+if python3 scripts/check_readme_links.py README.md README.en.md; then
+  ok "README 本地链接"
+else
+  bad "README 本地链接"
+fi
+
+echo "[5] 来源标注"
 found=0
 for f in notes/*/*.md "$REFS"/*.md; do
   [ -f "$f" ] || continue
@@ -48,8 +56,39 @@ for f in notes/*/*.md "$REFS"/*.md; do
 done
 [ $found = 1 ] || ok "(暂无 notes/references,跳过)"
 
-echo "[5] 与原书文本重合检查"
-python3 scripts/check_overlap.py notes skills && ok "overlap" || bad "overlap"
+echo "[6] 与原书文本重合检查"
+if overlap_output=$(python3 scripts/check_overlap.py notes skills); then
+  printf '%s\n' "$overlap_output"
+  if printf '%s\n' "$overlap_output" | grep -q '^SKIPPED:'; then
+    overlap_skipped=1
+    echo "  SKIPPED 重合检查未执行（缺少 sources/text/）"
+  else
+    ok "overlap"
+  fi
+else
+  printf '%s\n' "$overlap_output"
+  bad "overlap"
+fi
+
+echo "[7] 公开隐私扫描"
+# 扫描会随仓库公开发布的说明、技能及回归输出；tests/scripts 的 fixture 与
+# 扫描器规则本身含刻意风险样例，不属于发布面。扫描器内部仍会排除 .git 与 sources。
+public_paths=()
+for path in README.md README.en.md AGENTS.md CHANGELOG.md docs notes skills tests/regression; do
+  [ -e "$path" ] && public_paths+=("$path")
+done
+if [ ${#public_paths[@]} -eq 0 ]; then
+  ok "(无公开文本可扫描,跳过)"
+elif python3 scripts/check_public_privacy.py "${public_paths[@]}"; then
+  ok "公开文本无隐私风险"
+else
+  bad "发现公开隐私风险"
+fi
 
 echo
-[ $fail = 0 ] && echo "verify: PASS" || { echo "verify: FAIL"; exit 1; }
+if [ "$fail" = 0 ]; then
+  [ "$overlap_skipped" = 1 ] && echo "verify: PASS (overlap skipped)" || echo "verify: PASS"
+else
+  echo "verify: FAIL"
+  exit 1
+fi

@@ -122,14 +122,14 @@ China has more people with diabetes than any other country ([year]) [REF]. Howev
 
 ## 读取清单
 
-1. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/SKILL.md`(全文)
-2. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/01-introduction.md`(全文)
-3. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/07-paragraph-logic.md`(全文)
-4. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/08-verbs-tense-voice.md`(全文)
-5. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/11-ethics-and-readers.md`(全文)
-6. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/10-chinese-author-pitfalls.md`(全文,总则必读)
-7. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/09a-metrics-table.md`(全文,总则必读)
-8. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/samples/introduction-draft-zh.md`(输入)
-9. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/samples/methods-draft-zh.md`(背景)
+1. `[LOCAL_PATH]/skills/sci-writing/SKILL.md`(全文)
+2. `[LOCAL_PATH]/skills/sci-writing/references/01-introduction.md`(全文)
+3. `[LOCAL_PATH]/skills/sci-writing/references/07-paragraph-logic.md`(全文)
+4. `[LOCAL_PATH]/skills/sci-writing/references/08-verbs-tense-voice.md`(全文)
+5. `[LOCAL_PATH]/skills/sci-writing/references/11-ethics-and-readers.md`(全文)
+6. `[LOCAL_PATH]/skills/sci-writing/references/10-chinese-author-pitfalls.md`(全文,总则必读)
+7. `[LOCAL_PATH]/skills/sci-writing/references/09a-metrics-table.md`(全文,总则必读)
+8. `[LOCAL_PATH]/skills/sci-writing/samples/introduction-draft-zh.md`(输入)
+9. `[LOCAL_PATH]/skills/sci-writing/samples/methods-draft-zh.md`(背景)
 
 未读:`samples/expected-points-*`、`samples/README.md`、`tests/`、`notes/`、`docs/` 及仓库其它文件;未运行 git。

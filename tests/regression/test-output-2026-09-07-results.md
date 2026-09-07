@@ -120,11 +120,11 @@ To test whether discrimination depended on patient subgroup, we recomputed the A
 
 ## 读取清单
 
-- /home/zenine/github/SCI-Writingskill/skills/sci-writing/SKILL.md(全文)
-- /home/zenine/github/SCI-Writingskill/skills/sci-writing/references/03-results.md(全文,先读)
-- /home/zenine/github/SCI-Writingskill/skills/sci-writing/references/08-verbs-tense-voice.md(全文,再读;重点确定性阶梯)
-- /home/zenine/github/SCI-Writingskill/skills/sci-writing/references/10-chinese-author-pitfalls.md(全文,总则必读)
-- /home/zenine/github/SCI-Writingskill/skills/sci-writing/references/09a-metrics-table.md(全文,总则必读)
-- /home/zenine/github/SCI-Writingskill/skills/sci-writing/samples/results-draft-zh.md(输入材料)
-- /home/zenine/github/SCI-Writingskill/skills/sci-writing/samples/methods-draft-zh.md(背景)
+- [LOCAL_PATH]/skills/sci-writing/SKILL.md(全文)
+- [LOCAL_PATH]/skills/sci-writing/references/03-results.md(全文,先读)
+- [LOCAL_PATH]/skills/sci-writing/references/08-verbs-tense-voice.md(全文,再读;重点确定性阶梯)
+- [LOCAL_PATH]/skills/sci-writing/references/10-chinese-author-pitfalls.md(全文,总则必读)
+- [LOCAL_PATH]/skills/sci-writing/references/09a-metrics-table.md(全文,总则必读)
+- [LOCAL_PATH]/skills/sci-writing/samples/results-draft-zh.md(输入材料)
+- [LOCAL_PATH]/skills/sci-writing/samples/methods-draft-zh.md(背景)
 - 未读:09-academic-style.md(10 号扫描未命中 W3/W12/W16 需改项,用户未要求风格润色)、其它 references、samples/expected-points-*、samples/README.md、tests/、notes/、docs/

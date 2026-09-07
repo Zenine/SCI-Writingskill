@@ -2,11 +2,25 @@
 
 *English version. 中文版见 [README.md](README.md).*
 
+![SCI-Writingskill: from research evidence to a submission-ready English manuscript](assets/sci-writing-hero.png)
+
 An agent skill for writing English journal (SCI) manuscripts, loadable by Claude Code, Codex and other agents that read `SKILL.md` files. It covers structural templates for title, abstract, introduction, methods, results, discussion and conclusion; tense, voice and verb conventions for academic English; paragraph-logic models; a sentence-level checklist of errors typical of Chinese authors; ethics and declaration wording; and a pre-submission checklist, journal selection, cover letters and responses to reviewers.
 
-The content is a second-order rewrite (study notes) of two writing textbooks (see "Sources and copyright" below). It has been through four batches of review and a regression suite of seven samples (Methods, Introduction, Abstract, Results, Discussion, Title, Response to reviewers), each also run against a no-skill baseline. The rules the skill adds value on, measured against that baseline, are: never inventing facts or citations, keeping abstract length and closing sentences in shape, explaining what each citation placeholder should cite, letter-format discipline, and an explicit self-check.
+The content is a study-notes style rewrite based on two print writing textbooks held by the maintainer (see “Copyright” below). It has been through four batches of review and a regression suite of seven samples (Methods, Introduction, Abstract, Results, Discussion, Title, Response to reviewers), each also run against a no-skill baseline. The rules the skill adds value on, measured against that baseline, are: never inventing facts or citations, keeping abstract length and closing sentences in shape, explaining what each citation placeholder should cite, letter-format discipline, and an explicit self-check.
 
 All instructional text is in Simplified Chinese; the English templates, phrase banks and example sentences are in English. The skill works for any user, but its explanations will read in Chinese.
+
+## Architecture: from notes to a callable skill
+
+![Three-layer SCI-Writingskill architecture: source notes feed a routing and rules layer, which branches to manuscript sections and submission outputs](assets/sci-writing-architecture.png)
+
+The repository keeps traceable Chinese study notes, `SKILL.md` routing, and focused `references/` separate. An agent selects the rules for the task first, then applies them to manuscript sections or submission materials. The visual is an overview; the file map below is authoritative.
+
+## Workflow: from evidence to submission
+
+![Eight-step workflow: evidence, storyline, outline, section drafting, paragraph linking, sentence editing, quality checking, and submission](assets/sci-writing-workflow.png)
+
+1. Storyline → 2. Tension statement → 3. Subheadings → 4. Section drafting → 5. Paragraph logic → 6. Sentences and verbs → 7. Style and sentence scan → 8. Self-check and submission. See [`references/00-workflow.md`](skills/sci-writing/references/00-workflow.md) for entry points and deliverables.
 
 ## Install
 
@@ -84,17 +98,19 @@ Start a new session and ask, for example, "turn this Chinese methods paragraph i
 ## Repository layout
 
 - `skills/sci-writing/` — the deliverable.
-- `notes/` — Chinese study notes on the two source books (second-order rewrites), kept for traceability.
+- `notes/` — Chinese study notes based on two print reference books (second-order rewrites), kept for traceability.
 - `docs/plans/`, `docs/reviews/`, `docs/decisions/` — implementation plan, review reports, unified rulings, and the book-divergence log.
 - `tests/regression/` — regression outputs and gradings, plus the no-skill baseline runs and the delta analysis.
-- `scripts/verify.sh` — verification entry: no PDFs tracked, SKILL.md and references cross-referenced completely, source annotations present, no 12-word overlap with the source texts.
+- `scripts/verify.sh` — verification entry: restricted reference materials are not tracked; SKILL.md and references are cross-referenced; source annotations and public-privacy risks are checked.
 - `.claude-plugin/` — Claude Code plugin and marketplace manifests.
+- `assets/` — README hero, architecture, and workflow images; product documentation only, with no restricted reference material.
 
-## Sources and copyright
+## License and copyright
 
-This skill is a study-notes style rewrite of the two books below. Methodology, structural models and checklists are rewritten in our own words; the English content collects only generic academic phrases, regrouped, and every example sentence is original. During review, tables that mirrored the books' structure (beyond what the overlap check can detect) were also restructured. The repository contains no text from the books, and the PDFs are not in the repository.
+This repository uses directory-scoped dual licensing: code and configuration such as `scripts/`, `.github/`, `tests/`, and `.claude-plugin/` are under the [MIT License](LICENSES/MIT.txt); `skills/`, `notes/`, `docs/`, this README, and `assets/` are under [CC BY 4.0](LICENSES/CC-BY-4.0.txt). See the root [LICENSE](LICENSE) for the complete directory boundaries and exclusions.
 
-1. Hilary Glasman-Deal. *Science Research Writing for Native and Non-Native Speakers of English*, 2nd ed. World Scientific, 2021. Chinese edition: 雷锦志、李晓文、武林晓 译,《英语科技写作(第二版)》, 世界图书出版公司, 2023.
-2. 范逸洲、童士敦、毛君.《英文学术写作实战》(*English Academic Writing in Practice*). 清华大学出版社 (Tsinghua University Press), 2024.
+The two print reference books and any copyrighted material from them are outside this repository's license and are not included in this repository.
 
-Please buy the books for the full material.
+## Copyright approach
+
+This skill is a study-notes style rewrite based on two print reference books held by the maintainer. Methodology, structural models and checklists are rewritten in our own words; the English content collects only generic academic phrases, regrouped, and every example sentence is original. The repository neither includes nor distributes any material from the reference books.

@@ -148,13 +148,13 @@ All analyses in this study were performed in Python version 3.10 using scikit-le
 
 按读取顺序,均为完整读取:
 
-1. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/SKILL.md`
-2. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/samples/methods-draft-zh.md`
-3. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/02-methods.md`(先读)
-4. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/08-verbs-tense-voice.md`(再读)
-5. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/11-ethics-and-readers.md`(再读)
-6. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/06-title-keywords.md`(再读)
-7. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/10-chinese-author-pitfalls.md`(总则必读)
-8. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/09a-metrics-table.md`(总则必读)
+1. `[LOCAL_PATH]/skills/sci-writing/SKILL.md`
+2. `[LOCAL_PATH]/skills/sci-writing/samples/methods-draft-zh.md`
+3. `[LOCAL_PATH]/skills/sci-writing/references/02-methods.md`(先读)
+4. `[LOCAL_PATH]/skills/sci-writing/references/08-verbs-tense-voice.md`(再读)
+5. `[LOCAL_PATH]/skills/sci-writing/references/11-ethics-and-readers.md`(再读)
+6. `[LOCAL_PATH]/skills/sci-writing/references/06-title-keywords.md`(再读)
+7. `[LOCAL_PATH]/skills/sci-writing/references/10-chinese-author-pitfalls.md`(总则必读)
+8. `[LOCAL_PATH]/skills/sci-writing/references/09a-metrics-table.md`(总则必读)
 
 未读:samples/expected-points-*、samples/README.md、tests/、notes/、docs/、其它 references(00、01、03、04、05、07、09、12)。未运行 git。

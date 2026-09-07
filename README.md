@@ -2,9 +2,23 @@
 
 *English version: [README.en.md](README.en.md)*
 
+![SCI-Writingskill：从研究证据到可投稿英文论文](assets/sci-writing-hero.png)
+
 英文 SCI 论文写作的 agent skill(可被 Claude Code、Codex 等加载的可复用指令包)。覆盖标题、摘要、引言、方法、结果、讨论、结论的结构模板,学术英语的时态/语态/动词规范,段落逻辑模型,中国作者常见错误的逐句扫描清单,伦理与声明写法,以及投稿前总清单、选刊、投稿信与审稿回复。
 
-内容来自两本写作教材的读书笔记式二次创作(见文末「参考书目与版权口径」),经 4 批审阅与 7 份样例回归测试(Methods、Introduction、Abstract、Results、Discussion、Title、Response to reviewers)及裸代理基线对照校验。
+内容基于维护者持有的两本纸质写作教材进行读书笔记式二次创作(见文末「版权口径」),经 4 批审阅与 7 份样例回归测试(Methods、Introduction、Abstract、Results、Discussion、Title、Response to reviewers)及裸代理基线对照校验。
+
+## 结构：从笔记到可调用技能
+
+![SCI-Writingskill 的三层结构：来源笔记经路由与规则层，分发到论文各节与投稿产物](assets/sci-writing-architecture.png)
+
+仓库将可追溯的中文阅读笔记、`SKILL.md` 路由和专题 `references/` 分开维护。agent 先按任务选读规则，再把它应用到各论文部分或投稿材料；视觉图只概括关系，准确文件映射以下方表格为准。
+
+## 流程：从研究证据到投稿
+
+![八步工作流：证据、故事线、提纲、分节写作、段落衔接、句子编辑、自检、投稿](assets/sci-writing-workflow.png)
+
+1. 故事线 → 2. 张力陈述 → 3. 二级标题 → 4. 分节填充 → 5. 段落逻辑 → 6. 句子与动词 → 7. 风格与逐句扫描 → 8. 自检与投稿。完整的切入点与各步交付物见 [`references/00-workflow.md`](skills/sci-writing/references/00-workflow.md)。
 
 ## 安装
 
@@ -82,17 +96,19 @@ cp -r SCI-Writingskill/skills/sci-writing ~/.codex/skills/sci-writing      # Cod
 ## 仓库结构
 
 - `skills/sci-writing/` 最终产品。
-- `notes/` 两本参考书的中文阅读笔记(二次创作),是 references 的中间产物,保留以便追溯。
+- `notes/` 两本纸质参考书的中文阅读笔记(二次创作),是 references 的中间产物,保留以便追溯。
 - `docs/plans/` 实施计划;`docs/reviews/` 审阅报告与统一裁决;`docs/decisions/` 两书分歧裁决。
 - `tests/regression/` 回归输出与判定、裸代理基线与增量分析。
-- `scripts/verify.sh` 验证入口:检查无 PDF 入库、SKILL.md 与 references 互相引用完整、来源标注、与原书文本的 12 词连续重合。
+- `scripts/verify.sh` 验证入口:检查受限参考材料未入库、SKILL.md 与 references 互相引用完整、来源标注与公开隐私风险。
 - `.claude-plugin/` Claude Code 插件与 marketplace 清单。
+- `assets/` README 的 HERO 图、结构图与流程图；仅作产品说明，不含受限参考材料。
 
-## 参考书目与版权口径
+## 许可与版权口径
 
-本 skill 的内容是对下列两本书的读书笔记式二次创作:方法论、结构模型、清单用自己的话重写,英文只收通用学术短语并重新归类,所有例句为自写;审阅阶段对机检抓不到的"整表沿用原书结构"也做了重组。仓库不包含原书文本,原书 PDF 不在仓库中。
+本仓库采用按目录划分的双许可：`scripts/`、`.github/`、`tests/`、`.claude-plugin/` 等代码与配置适用 [MIT License](LICENSES/MIT.txt)；`skills/`、`notes/`、`docs/`、本 README 与 `assets/` 适用 [CC BY 4.0](LICENSES/CC-BY-4.0.txt)。使用或再发布时，请同时查阅根目录 [LICENSE](LICENSE) 中的完整目录边界与排除项。
 
-1. Hilary Glasman-Deal 著,雷锦志、李晓文、武林晓译.《英语科技写作(第二版)》. 世界图书出版公司, 2023.(原著 *Science Research Writing for Native and Non-Native Speakers of English*, 2nd ed., World Scientific, 2021)
-2. 范逸洲、童士敦、毛君.《英文学术写作实战》. 清华大学出版社, 2024.
+两本纸质参考书及其任何受版权保护的材料均不在本仓库许可范围内。
 
-请购买原书获取完整内容。
+## 版权口径
+
+本 skill 是基于两本维护者持有的纸质参考书所作的读书笔记式二次创作：方法论、结构模型和清单均以自己的话重写；英文只保留通用学术短语并重新归类；所有例句均为自写。仓库不包含或分发任何参考书内容。

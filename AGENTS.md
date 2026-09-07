@@ -9,6 +9,8 @@
 3. **语言。** 说明性文字用简体中文;英文句式模板、短语、示例保留英文。
 4. **来源标注。** 每个 `notes/` 与 `references/` 文件顶部必须有 `> 来源:书A 第N单元 / 书B 第N章`。
 5. **不自动提交。** 除用户当轮明确要求外不跑 `git commit`;commit message 不加任何 AI 署名。
+6. **README 视觉资产。** README 使用的展示图统一放在 `assets/`，可以提交；不得把原书页、抽取图或任何 `sources/` 下文件复制到该目录。新增或替换图片时，README 与 `README.en.md` 应同步更新，并提供有意义的 alt 文本。
+7. **许可边界。** `scripts/`、`.github/`、`tests/`、`.claude-plugin/` 等代码与配置适用 MIT；`skills/`、`notes/`、`docs/`、README 与 `assets/` 适用 CC BY 4.0，详见根目录 `LICENSE`。原书与 `sources/` 下任何材料均不在本仓库许可范围内且不得入库。
 
 ## 两本参考书
 
@@ -25,3 +27,4 @@
 - `notes/` 按书按章的中文阅读笔记,是 references 的中间产物。
 - `scripts/` 抽取与验证脚本。
 - `docs/plans/` 实施计划。
+- `assets/` README 使用的 HERO 图、结构图与流程图。

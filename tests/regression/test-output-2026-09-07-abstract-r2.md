@@ -106,11 +106,11 @@ error 级 E1-E23 无命中。warning 级保留项及理由:
 
 按 SKILL.md 路由表与总则确定的必读范围,全部完整读取,未读其它文件:
 
-1. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/SKILL.md`(全文,77 行)
-2. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/05-abstract.md`(先读,全文,154 行)
-3. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/08-verbs-tense-voice.md`(再读,全文,154 行)
-4. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/10-chinese-author-pitfalls.md`(总则必读,全文,133 行)
-5. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/references/09a-metrics-table.md`(总则必读,全文,29 行)
-6. `/home/zenine/github/SCI-Writingskill/skills/sci-writing/samples/abstract-draft-zh.md`(输入材料,全文,8 行)
+1. `[LOCAL_PATH]/skills/sci-writing/SKILL.md`(全文,77 行)
+2. `[LOCAL_PATH]/skills/sci-writing/references/05-abstract.md`(先读,全文,154 行)
+3. `[LOCAL_PATH]/skills/sci-writing/references/08-verbs-tense-voice.md`(再读,全文,154 行)
+4. `[LOCAL_PATH]/skills/sci-writing/references/10-chinese-author-pitfalls.md`(总则必读,全文,133 行)
+5. `[LOCAL_PATH]/skills/sci-writing/references/09a-metrics-table.md`(总则必读,全文,29 行)
+6. `[LOCAL_PATH]/skills/sci-writing/samples/abstract-draft-zh.md`(输入材料,全文,8 行)
 
 未读:samples/expected-points-*、samples/README.md、tests/、notes/、docs/、其它 references(06、09 等路由表未列入本任务)。未运行 git。
