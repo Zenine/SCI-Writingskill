@@ -179,15 +179,4 @@
 
 ## 两书分歧的处理
 
-1. **because 的地位**:书B 第 5 章把 because 列为不恰当表述并建议改 as;书A 与通行用法都接受 because。裁决:because 合法且比 as / since 更无歧义(as 可表 when,since 可表 from that time);句首优先 Given that / Because,不把 because 判错。
-2. **in fact / on the contrary 的双重身份**:书B 同章既把二者列为强化类连接词又建议 in fact 直接删。裁决:可删则删;保留时 in fact 只强化前句,on the contrary 只反驳同一议题上的前述判断;不作硬禁。
-3. **there be 的处理**:书B 第 5 章说"删除或改写",第 6 章更严;书A 模板偶见 there is a need for。裁决:P-S 骨架中默认用 "X remains open / few solutions exist" 替代;详细规则在 `08-verbs-tense-voice.md`。
-4. **连接词密度**:书B 鼓励非母语作者主动多用连接词,书A 的示例更依赖信息流承接。裁决:两者不矛盾——显式逻辑必须有,但载体优先级为"重叠重复 > this + 名词 > 信号词",并设上限"以连接副词起句的句子 ≤ 段内一半"。
-5. **一段一模型与功能步**:书A 按功能步拆段,书B 按逻辑模型拆段。裁决:并行使用,对应关系见上文;功能步管内容顺序,模型管句序。
-6. **文献综述的组织模式**(01 待对照点):书B 的 Old-to-New 要求年份递增;书A 给出三种模式(一般到具体 / 按方法分组 / 按时间)。裁决:三种都允许;"年份单调递增"只在选了时间模式时作为判据,按方法分组时判据改为"同组文献相邻、组间有一次转折"。
-7. **moreover / as / since / while 的歧义**(01 待对照点):书A 强调其约束语义与多义性,书B 只做口语替换。裁决:采书A 的更细规则,见易混对表。
-8. **同义替换**(01 待对照点):书A 明确反对为避免重复而换词,书B 第 5 章同样鼓励重复承接。两书一致,采为硬规则。
-9. **段长数字**(01 待对照点):书A 给出段 150–170 词、80–230 词区间,书B 未给数字。裁决:采书A,统一口径写在 `09-academic-style.md`,本文件不另立数字。
-10. **Results 段以"主动 + 过去时"起句**:书B 第 5 章允许 we performed / we employed 起句;与书A 的时态规则不冲突,采纳;语态细则见 `08-verbs-tense-voice.md`。
-11. **on the other hand 的适用对象**:书B 第 8 章限定为"同一对象的两个相反特征";书A 第 1 单元把 on the other hand 与 whereas / in contrast 并列为对比信号词,例句即比较两个不同对象。裁决:不作硬禁;口径为"on the one hand ... on the other hand 用于权衡同一议题的两个考虑,单纯并列两个对象的数据优先 whereas / in contrast",列 warning(`10-chinese-author-pitfalls.md` W15)。
-12. **besides 的地位**:书A 视为语气更强、宜用于说服性语境的正规信号词;书B 归为口语连接词。裁决:正文默认不用,论辩段落(讨论中反驳某一解释)可用;句首 Besides 仍按 `10-chinese-author-pitfalls.md` E19 报。
+裁决与理由见仓库 `docs/decisions/two-book-divergences.md` 对应小节;本文件正文已按裁决写定,执行时不必回看。

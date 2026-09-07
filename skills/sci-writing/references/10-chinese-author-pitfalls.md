@@ -165,15 +165,4 @@
 
 ## 两书分歧的处理
 
-1. **hedging 的度**:书A Discussion 单元鼓励充分 hedging 以免过度声称;书B 第 8 章强调中国作者 hedging 过度。裁决:两者不矛盾——"要有"且"不叠加":每个结论一个避险词,强度与证据匹配(E14);确定性阶梯见 `08-verbs-tense-voice.md`。
-2. **among / between**:书B 依据词典给"可区分性"标准;书A 未专门讨论,常见教材用"两个 / 多个"口径。裁决:采书B 可区分性标准,列 warning 级(W5),不判 error。
-3. **which 的态度**:书B 主张能不用就不用;书A 允许但要求所指唯一且一句最多一个。裁决:不禁止 which;可检查标准"前只有一个候选名词、一句一个",列 warning(W1、W2)。
-4. **名词化**:书B 反对无用名词化;书A 与期刊惯例接受 Methods 中 analysis was performed。裁决:E9 只在 Results / Discussion 核心结论处报;Methods 固定流程名豁免,写入误报表。
-5. **error / warning 分级依据**:书B 第 8 章自述"8.3 语感类条目修改前后无绝对语法错误"。裁决:语感类(W1–W9)与书A 8.3 中依赖语境判断的条目(W10–W13)列 warning;W14 无锚定被动、W15 on the other hand、W16 拼写变体语法皆正确,只影响归属清晰或一致性,同列 warning;语法错、读者无法确定含义、两书一致禁止的条目列 error。
-6. **谨慎副词 carefully**(02 待对照点):书A 视为可信度手段,书B 视为废词。裁决:列 warning(W3),用"反义词是否成立、是否改变操作含义"裁决,不一刀切。
-7. **can / could**:书B 附录二要求"删 can/could";书A 视为常规情态。裁决:E20 只报"can + 已观察事实"与"could 表过去发生的事";可选项与已写条件的推断允许,写入误报表。
-8. **主动 + we 在 Results**:书B 鼓励;书A 中性。裁决:不判错且列为鼓励写法(误报表);Methods 以外的无锚定被动列 warning(W14)。
-9. **"约 80% 中国作者混淆 on the contrary"**:书B 的经验判断,不是统计。裁决:不引用该数字;on the contrary 表一般对比的误用进 E7(与 on the contrast 并列),`07-paragraph-logic.md` 常见错误表只留指针。
-10. **语感问题需要"读本领域论文"**:书B 承认无法完全规则化。裁决:warning 级条目允许以"给出 3 篇目标期刊论文中的同类句"作为保留理由的替代验证。
-11. **on the other hand 的适用对象**:书B 第 8 章限定为同一对象的两面;书A 第 1 单元把它与 whereas / in contrast 并列为对比信号词,例句即比较两个不同对象。裁决:不作硬禁,列 warning(W15):用于权衡同一议题的两个考虑可保留,并列两个对象的数据优先 whereas / in contrast;`07-paragraph-logic.md` 分歧 11 同此。
-12. **名词堆叠阈值**:书B 附录说复合名词平均约 2 个、不要 5–8 个,未给硬阈值;书A 未量化。裁决:E13 取"连续 ≥ 4 个名词"作可 grep 的触发点——3 个名词的固定术语(lung nodule dataset)极常见,4 个起读者需拆解;公认术语豁免写入误报表。
+裁决与理由见仓库 `docs/decisions/two-book-divergences.md` 对应小节;本文件正文已按裁决写定,执行时不必回看。

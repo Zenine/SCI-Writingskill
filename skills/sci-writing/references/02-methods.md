@@ -82,7 +82,7 @@
 8. **可解释性**:方法、输出形式、所用数据子集。
 - Feature contributions were estimated using [method] [REF] on the test set.
 - Saliency maps were generated for [subset] to examine which regions drove the predictions.
-9. **伦理与代码可用性**:审批机构与批号;遵循的规范(赫尔辛基宣言;动物实验按 ARRIVE 报告);批准日期时点——前瞻性研究早于入组,回顾性研究早于数据提取/分析(可晚于病历产生),并写明回顾性与豁免知情同意依据(唯一口径见 `11-ethics-and-readers.md` 四个伦理检查点表;批件晚于该时点无法补办,如实说明并咨询期刊,不得回溯改日期);知情同意或豁免依据;代码可用性。软件与版本归统计分析小节。更多声明句式见 `11-ethics-and-readers.md`。
+9. **伦理与代码可用性**(位置二选一、全篇一致:紧随数据来源段,或与软件版本一起放方法节末尾;下面默认顺序句取前者):审批机构与批号;遵循的规范(赫尔辛基宣言;动物实验按 ARRIVE 报告);批准日期时点——前瞻性研究早于入组,回顾性研究早于数据提取/分析(可晚于病历产生),并写明回顾性与豁免知情同意依据(唯一口径见 `11-ethics-and-readers.md` 四个伦理检查点表;批件晚于该时点无法补办,如实说明并咨询期刊,不得回溯改日期);知情同意或豁免依据;代码可用性。软件与版本归统计分析小节。更多声明句式见 `11-ethics-and-readers.md`。
 - This retrospective study was approved by the [committee] of [institution] (No. [XXXX-XXX]) before data extraction; the committee waived the requirement for informed consent because [reason].(草稿无提取日期时删去 before data extraction 并进「建议补充」)
 - The study was conducted in accordance with the Declaration of Helsinki.
 - Code is available at [repository] under [license].
@@ -105,7 +105,7 @@
 - Effect sizes are reported as [odds ratios / mean differences] with 95% confidence intervals estimated by [method].
 - P values from [n] pairwise comparisons were adjusted by the [Bonferroni / Benjamini-Hochberg] procedure.
 - The sample size was determined to detect a difference of [x] with [power]% power at a two-sided alpha of 0.05.
-- All statistical analyses were performed in [software] version [x].
+- All statistical analyses in this study were performed in [software] version [x].
 
 ## 英文模板与短语
 
@@ -224,7 +224,4 @@
 
 ## 两书分歧的处理
 
-1. **理由语言的量**:悬决:书A 要求几乎每个选择都给理由;书B 第 9 章只说修饰语"带来新信息时保留",未针对理由句。本文件按"非显而易见的选择才需理由"处理(细则 4),并受 `SKILL.md` 硬规则 3 约束(原稿没给的理由不补造)。
-2. **谨慎副词(carefully, thoroughly)**:悬决:书A 视为建立可信度的手段;书B 只有"修饰语带来新信息时保留"的通用规则。本文件按"只在确实反映操作差异时使用"处理(常见错误表)。
-3. **伦理声明与统计小节**:书A 模板未单列,医学 SCI 通常要求。裁决:按 `11-ethics-and-readers.md` 声明段规则与 `12-submission-checklist.md` 第 71–75 条补入功能步 9 与统计分析小节;批准日期口径以 11 的检查点表为唯一来源。
-4. **局限性的位置**:书A 允许两类局限在讨论首次出现,本文件原写成绝对禁止。裁决:按上文链式规则(02 / 03 / 04 三处同文),细则 7 的"不得"改为"除两类外不得"。
+裁决与理由见仓库 `docs/decisions/two-book-divergences.md` 对应小节;本文件正文已按裁决写定,执行时不必回看。

@@ -34,19 +34,19 @@ description: 英文 SCI 论文写作与润色。当用户要写或修改英文�
 |---|---|---|
 | 从零写全文 / 不知道从哪开始 / "看看逻辑对不对" | `references/00-workflow.md` | `references/11-ethics-and-readers.md` |
 | 写或改 Introduction / Background | `references/01-introduction.md` | 07、08 |
-| 写或改 Methods / Materials and Methods | `references/02-methods.md` | 08、11(伦理声明) |
+| 写或改 Methods / Materials and Methods | `references/02-methods.md` | 08、11(伦理声明)、06(二级标题规则) |
 | 写或改 Results / 报告发现 / "overclaiming" | `references/03-results.md` | 08(确定性阶梯) |
 | 写或改 Discussion / Conclusion / "讨论只是复述结果" | `references/04-discussion-conclusion.md` | 01(镜像核对)、08 |
-| 写或压缩 Abstract / Highlights / 结构化摘要 | `references/05-abstract.md` | 06(仅术语一致条)、09(口径表) |
+| 写或压缩 Abstract / Highlights / 结构化摘要 | `references/05-abstract.md` | 06(仅术语一致条)、09a(口径表) |
 | 定标题、关键词、二级标题 | `references/06-title-keywords.md` | 05 |
 | "hard to follow" / 段落像句子堆 / 连接词用不对 | `references/07-paragraph-logic.md` | 09 |
 | 时态语态 / can vs may / 能不能用 we / 名词化 / there be | `references/08-verbs-tense-voice.md` | 10 |
-| "wordy" / "informal" / 句子太长 / etc. / 问句 / 缩写 | `references/09-academic-style.md` | 10 |
+| "wordy" / "informal" / 句子太长 / etc. / 问句 / 缩写 | `references/09-academic-style.md` | 09a、10 |
 | Chinglish / 中译英稿逐句扫描 / "awkward phrasing" | `references/10-chinese-author-pitfalls.md` | 08、09 |
 | 伦理 / 知情同意 / 利益冲突 / 资助 / 署名 / 故事线 / 读者定位 | `references/11-ethics-and-readers.md` | 00 |
 | 投稿前总检 / 选刊 / cover letter / 回复审稿人 / 匿名化 | `references/12-submission-checklist.md` | 某条 ✗ 时跳对应文件 |
 
-一次请求涉及多节时,按总流程顺序逐节处理,每节各读其文件;不要凭记忆写规则。路由表「再读」列是最低要求:只写某一节时,正文起草完仍要按 10 号清单做一遍逐句扫描(09 按需),扫描结果并入自检;凡自检涉及句长、段长数字,读 `09-academic-style.md` 的口径表。信件类文本(投稿信、回复信)同样视为"一节":结构 = `12-submission-checklist.md`「回复信的结构」给的骨架,逐句扫描照做,自检 = 核心五项 + 12 的 G 组(审稿回复)或 F 组(投稿信)中 ✗ 的条目,衔接提示写"信与稿件修改位置的对应"。
+一次请求涉及多节时,按总流程顺序逐节处理,每节各读其文件;不要凭记忆写规则。路由表「再读」列是最低要求:只写某一节时,正文起草完仍要按 10 号清单做一遍逐句扫描(09 按需),扫描结果并入自检;凡自检涉及句长、段长数字,读 `references/09a-metrics-table.md`(只有一张表)。信件类文本(投稿信、回复信)同样视为"一节":结构 = `12-submission-checklist.md`「回复信的结构」给的骨架,逐句扫描照做,自检 = 核心五项 + 12 的 G 组(审稿回复)或 F 组(投稿信)中 ✗ 的条目,衔接提示写"信与稿件修改位置的对应"。
 
 ## 硬规则(任何场景都适用)
 

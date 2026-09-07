@@ -13,3 +13,9 @@
 - 回归集扩充:新增引言、摘要、审稿回复三份样例与评审要点(`samples/README.md` 为索引;`expected-points.md` 改名 `expected-points-methods.md`)。首测 Introduction 10/10、Abstract 9/11、Response 8/10;4 处 ✗ 均为规则缝隙(05 篇幅口径不一致与缺"不以局限收尾"、12 对信件缺修改句来源与汇总格式),连同 32 条代理反馈回写 SKILL.md、00、01、05、08、09、10、12;复测 Abstract 11/11、Response 10/10。
 - README 重写安装章节:marketplace 安装(新增 `.claude-plugin/marketplace.json`,本机已验证 `marketplace add` 可识别)、拷目录/软链接(Claude Code 用户级、项目级、Codex)、其它 agent 手动加载;补验证安装方法与用法概览。
 - 一行安装:README 安装章节改为 `npx skills add Zenine/SCI-Writingskill -g -y`(已验证能从仓库发现 skill)、`curl ... scripts/install.sh | bash`(新增脚本,支持拷贝/软链接、TARGET/DEST/REF,临时 HOME 下实测两种模式)、marketplace 一行版、对 agent 说一句;手动安装下沉为备选。
+
+## 2026-09-07
+
+- skill 工程审阅(writing-skills / 官方规范口径)与两项后续:
+  - RED 基线:四个样例用不加载 skill 的裸代理跑一遍,同一评审要点打分 8/10、7/10、8/11、6/10;skill 侧 10/10、10/10、11/11、10/10。增量全部落在不编造/不越权、篇幅与收尾、引用占位说明、自检输出,语言能力类要点裸代理本来就过。见 `tests/regression/baseline-delta-2026-09-07.md`。
+  - 减重:13 个 reference 的「两书分歧的处理」整节抽到 `docs/decisions/two-book-divergences.md`(约 14 KB),reference 只留一行指针;句长段长口径表拆成 `references/09a-metrics-table.md`(28 行),01/05/12 的指针改指它;测试输出与判定从 `samples/` 挪到 `tests/regression/`,随 skill 分发的 samples 从 ~140 KB 降到 40 KB。references 总量 242 KB → 216 KB,单节任务加载约 124 KB → 99 KB。
