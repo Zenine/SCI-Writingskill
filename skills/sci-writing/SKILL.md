@@ -1,11 +1,11 @@
 ---
 name: sci-writing
-description: 英文 SCI 论文写作与润色。当用户要写或修改英文论文的 title/abstract/introduction/methods/results/discussion/conclusion,把中文稿改成英文学术稿,检查 Chinglish、时态语态、段落逻辑或学术风格,写伦理与利益冲突声明,做投稿前自检,写 cover letter 或回复审稿意见时使用。Use when the user asks to write, rewrite, or polish a section of an English journal manuscript (title, abstract, introduction, methods, results, discussion, conclusion), turn a Chinese draft into academic English, fix Chinglish, tense, voice, or paragraph flow, write ethics or conflict-of-interest statements, run a pre-submission checklist, or draft a cover letter or response to reviewers.
+description: 撰写、改写或润色英文期刊论文及投稿材料；适用于各论文章节、学术表达、伦理声明、投稿信与审稿回复。
 ---
 
 # 英文 SCI 论文写作
 
-把两本写作教材(Glasman-Deal《英语科技写作》、范逸洲等《英文学术写作实战》)提炼成可执行的规则。本文件只做路由与硬规则,细则全部在 `references/`。
+文件只做路由与硬规则,细则全部在 `references/`。
 
 ## 适用场景
 
@@ -46,7 +46,11 @@ description: 英文 SCI 论文写作与润色。当用户要写或修改英文�
 | 伦理 / 知情同意 / 利益冲突 / 资助 / 署名 / 故事线 / 读者定位 | `references/11-ethics-and-readers.md` | 00 |
 | 投稿前总检 / 选刊 / cover letter / 回复审稿人 / 匿名化 | `references/12-submission-checklist.md` | 08、09(信件类逐句);总检中某条 ✗ 时跳对应文件 |
 
-总则(每次任务都适用,路由表各行不再重复列出):`references/10-chinese-author-pitfalls.md` 与 `references/09a-metrics-table.md` 每次都读——正文起草完按 10 号清单做一遍逐句扫描(09 只在用户明确要求风格润色、或 10 号扫描命中 W3/W12/W16 类风格条目、或稿件是审稿人指出 wordy/informal 时读),结果并入自检;凡自检涉及句长、段长、词数,数字只以 09a 为准(只有一张表)。「先读 / 再读」加这两个文件就是本次任务的必读范围;reference 内部对其它文件的"另见"只是出处指引,不扩大读取范围。一次请求涉及多节时,按总流程顺序逐节处理,每节各读其文件;不要凭记忆写规则。信件类文本(投稿信、回复信)同样视为"一节":结构 = `12-submission-checklist.md`「回复信的结构」给的骨架,逐句扫描照做,自检 = 核心五项 + 12 的 G 组(审稿回复)或 F 组(投稿信)中 ✗ 的条目,衔接提示写"信与稿件修改位置的对应"。
+总则(每次写作或改写任务都适用,路由表各行不再重复列出):正文起草完读 `references/10-chinese-author-pitfalls.md`,按清单做一遍逐句扫描并将结果并入自检;涉及句长、段长或词数时读 `references/09a-metrics-table.md`,数字只以 09a 为准(只有一张表)。`references/09-academic-style.md` 只在用户明确要求风格润色、10 号扫描命中 W3/W12/W16 类风格条目、或审稿人指出 wordy/informal 时读。「先读 / 再读」加上述按条件触发的文件就是本次任务的必读范围;reference 内部对其它文件的"另见"只是交叉引用,不扩大读取范围。一次请求涉及多节时,按总流程顺序逐节处理,每节各读其文件;不要凭记忆写规则。信件类文本(投稿信、回复信)同样视为"一节":结构 = `12-submission-checklist.md`「回复信的结构」给的骨架,逐句扫描照做,自检 = 核心五项 + 12 的 G 组(审稿回复)或 F 组(投稿信)中 ✗ 的条目,衔接提示写"信与稿件修改位置的对应"。
+
+## 统一执行口径
+
+本 skill 只提供一套最终规则，不并列备选体系或冲突说法。跨文件同题只认下列唯一标准：流程与切入点以 `00-workflow.md` 为准；章节结构以对应的 01–06 文件为准；确定性与避险强度以 `03-results.md` 连续统为准；时态、语态和动词选择以 `08-verbs-tense-voice.md` 为准；句长、段长和词数以 `09a-metrics-table.md` 为准；逐句语言错误以 `10-chinese-author-pitfalls.md` 为准；伦理与作者责任以 11 为准；投稿与信件以 12 为准。目标期刊的作者指南或近 5 年同类文章是唯一可覆盖这些默认值的外部依据，覆盖时必须在「理解确认」说明。
 
 ## 硬规则(任何场景都适用)
 

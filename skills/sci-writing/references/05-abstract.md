@@ -1,7 +1,5 @@
 # Abstract(摘要)写法
 
-> 来源:书A 第6单元、第8单元(摘要相关条目);书B 第4章(4.3 摘要模板)
-
 ## 何时读本文件
 
 - 用户要写、改写或压缩英文论文的 Abstract,或要把摘要改成目标期刊要求的形态(一般 / 结构化 / Nature 式 / 附 Highlights)。
@@ -20,7 +18,7 @@
 
 ### 三种摘要形态的统一模型
 
-书A 的 9 组件三块式、书B 转述的 Nature 七步与结构化五要素可对齐成同一序列;下表是唯一权威序列,三种形态只是对它做取舍与贴标签。
+一般摘要、Nature 式摘要与结构化摘要都使用同一功能序列;下表是唯一权威序列,三种形态只是对它做取舍与贴标签。
 
 | 步 | 功能 | 句式骨架 | 时态 | 一般摘要 | 结构化摘要 | Nature 式 |
 |---|---|---|---|---|---|---|
@@ -29,7 +27,7 @@
 | 3 | 问题 / 空白:已知—但未知的对照 | While X is well documented, it remains unclear whether ... / However, little is known about ... | 现在完成时(否定)或一般现在时(引言中用否定 + 现在完成时,另见 `01-introduction.md`;摘要允许 remains unclear / is limited by 一类一般现在时) | 必写,1 句 | Background 末句 | 必写,1 句 |
 | 4 | 本文做了什么 / 目标:认领贡献 | Here we show that ... / In this study, we ... / This paper presents ... | 论文本身用一般现在时(this paper presents);已完成的开发用现在完成时(we have developed);陈述所做研究或目的可用一般过去时(we investigated) | 必写,1 句(可与步 8 合并) | Objectives,1 句 | 必写,1 句,常用 Here we show |
 | 5 | 方法:只给决定"是否读全文"的关键信息 | X was measured using Y / We used X to ... / Using X, we ... | 一般过去时 | 可选,0–2 句,可与步 6 合并 | Methods,2–3 句 | 并入步 4 后半句,不单独展开 |
-| 6 | 主要结果:关键发现,数字带限定语 | We found that ... / X increased by up to N% / X outperformed Y | 一般过去时;摘要中允许一般现在时以增强即时感(默认过去时,例外条件见分歧 2) | 必写,1–3 句 | Results,2–3 句 | 必写,2–3 句,与既有认识直接对比 |
+| 6 | 主要结果:关键发现,数字带限定语 | We found that ... / X increased by up to N% / X outperformed Y | 一般过去时;摘要中可用一般现在时增强即时感,默认用过去时 | 必写,1–3 句 | Results,2–3 句 | 必写,2–3 句,与既有认识直接对比 |
 | 7 | 含义 / 与已有知识的关系:比较、扩展、纠正 | These findings suggest that ... / ..., indicating that ... | 一般现在时 + suggest / indicate / appear | 可选,可并入步 6 句尾 | Conclusions 首句 | 必写,1–2 句,从"新知识"过渡到"新理解" |
 | 8 | 成就 / 贡献 / 价值:至少一句明确认领 | Our results provide the first evidence that ... / This approach fills a gap in ... | 现在完成时或一般现在时 | 必写,1 句 | Conclusions / Take-aways,1–2 句,须呼应 Background 与 Objectives | 并入步 7 或步 9 |
 | 9 | 应用 / 更广意义 / 展望 | X has broad application to ... / These results could inform ... / Further work is needed to ... | 一般现在时 + 情态动词(could / may / will) | 可选,0–1 句 | Conclusions 末句 | 可选,2–3 句(50–80 词),回应步 1 |
@@ -148,7 +146,3 @@
 19. Highlights(若有)3–5 条、每条 ≤ 85 字符、不与摘要逐字重复、各对应步 6 / 7 / 8 之一;Significance(若有)含三句骨架。✓/✗
 20. 摘要、标题、关键词、正文结论用同一套核心术语。✓/✗
 21. 局限不超过半句且不在末句;末句落在价值、应用或知识推进。✓/✗
-
-## 两书分歧的处理
-
-裁决与理由见仓库 `docs/decisions/two-book-divergences.md` 对应小节;本文件正文已按裁决写定,执行时不必回看。

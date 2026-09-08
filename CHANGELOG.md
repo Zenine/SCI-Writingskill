@@ -16,6 +16,8 @@
 
 ## 2026-09-07
 
+- skill 产品口径:14 份 `references/` 移除书 A / 书 B、两书分歧与内部裁决指针，统一表述为可直接执行的最终规则；阅读笔记仍保留仓库内部追溯用途。
+- 通用 Skill 规范审阅:精简入口描述，并消除 09a 的读取条件与路由规则之间的歧义。
 - 发布许可:新增目录划分的双许可。`scripts/`、`.github/`、`tests/`、`.claude-plugin/` 等代码与配置采用 MIT；`skills/`、`notes/`、`docs/`、README 与 `assets/` 采用 CC BY 4.0。根目录 `LICENSE` 明确两本原书与本机 `sources/` 不受本仓库许可且不得入库。
 - README 视觉说明:新增文生图生成的 HERO 图、三层结构图、八步流程图(`assets/`),嵌入中英文 README;`.gitignore` 明确允许 `assets/*.png`,AGENTS 补充展示资产的来源边界与双语 README 同步规则。
 - skill 工程审阅(writing-skills / 官方规范口径)与两项后续:

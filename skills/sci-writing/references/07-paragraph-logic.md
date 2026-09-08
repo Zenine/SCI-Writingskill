@@ -1,7 +1,5 @@
 # 段落逻辑与句间衔接
 
-> 来源:书A 第1单元 1.5.2、1.5.4,第8单元 8.1–8.2;书B 第5章
-
 ## 何时读本文件
 
 - 总流程(`00-workflow.md`)进入第 5 步:各节初稿已有,要检查段落是否"读得顺"。
@@ -26,7 +24,7 @@
 | 模型 | 适用位置 | 步骤 | 合格判据 | 例(首句 → 承接) |
 |---|---|---|---|---|
 | General-Specific(G-S) | 摘要、引言、各小节开头;反向 S-G 用于摘要结尾、讨论与结论收尾 | 普遍陈述(公认事实 / 定义 / 有出处的数据)→ 解释 → 更具体的论据 → 挂到本文对象 | 首句能被"不做本研究的同行"直接认同;S-G 的末句超出本文数据、指向更广领域 | Lung cancer remains the leading cause of cancer death [ref]. → Early detection on CT ... |
-| Old-to-New | 引言、文献综述 | 早期已知 → 近期前沿 → 本文问题;时间状语打头,引文按年份递进 | 段内年份单调递增(仅时间模式;按方法分组时判据见分歧 6);每句主语是上句已出现的信息或其延伸 | Early CAD systems relied on hand-crafted features [2005]. → Deep networks later replaced ... [2017]. |
+| Old-to-New | 引言、文献综述 | 早期已知 → 近期前沿 → 本文问题;时间状语打头,引文按年份递进 | 时间模式下段内年份单调递增;按方法分组时以方法逻辑组织。每句主语是上句已出现的信息或其延伸 | Early CAD systems relied on hand-crafted features [2005]. → Deep networks later replaced ... [2017]. |
 | Problem-Solution(P-S) | 结果、讨论;摘要中段、引言末段 | 问题句(However / Despite this)→ 方案句(One approach is / We therefore ...)→ 结果或评价 | 能指出问题句与方案句各在哪里;二者之间有转折或因果连接词 | However, no public dataset covers both vendors. → We therefore assembled a paired cohort from two hospitals. |
 | Process | 方法;结果中的操作性描述 | 按实际顺序 First / Next / Then / Finally 铺陈;默认被动 + 过去时 | 步骤动词具体可操作;顺序标记数与步骤数一致 | First, scans were resampled to 1 mm. Next, intensities were clipped. Finally, volumes were cropped. |
 
@@ -56,8 +54,8 @@
 | in contrast / on the contrary / conversely | 一般对比一律 in contrast / in comparison;on the contrary 与 conversely 只表"恰好相反",用于反驳同一议题;不得写 on the contrast |
 | while / whereas / meanwhile | 学术对比优先 whereas;while 有 at the same time 歧义,用时放句首;真正同时发生用 simultaneously;不用 meanwhile |
 | however / but | 句首 But 改 However / In contrast;强调"意外"选 Nevertheless / Unexpectedly |
-| moreover / in addition / besides | 默认 In addition / Furthermore;moreover 要求功能相同;besides 偏论辩,正文默认不用(见分歧 12) |
-| on the other hand | 只用于权衡同一议题的两个考虑(warning,另见 `10-chinese-author-pitfalls.md` W15);并列两个对象的数据优先 whereas / in contrast(见分歧 11) |
+| moreover / in addition / besides | 默认 In addition / Furthermore;moreover 要求功能相同;besides 偏论辩,正文默认不用(按本文件规则) |
+| on the other hand | 只用于权衡同一议题的两个考虑(warning,另见 `10-chinese-author-pitfalls.md` W15);并列两个对象的数据优先 whereas / in contrast(按本文件规则) |
 | in fact / indeed | 只用于强化前句;可删则删,不作句间连接 |
 | thus + -ing / which(表结果) | 表结果优先 ", thus / thereby + -ing";", which" 所指唯一时可保留(另见 `10-chinese-author-pitfalls.md` W2);每句最多一个 -ing 从句 |
 
@@ -138,7 +136,3 @@
 15. 表结果的关系优先 thus / thereby + -ing,保留的 ", which" 所指唯一;每句最多一个 -ing 从句。✓/✗
 16. 同一对象全段用同一名词承接,没有为变化而换词。✓/✗
 17. 转折与评价信号词都在句首。✓/✗
-
-## 两书分歧的处理
-
-裁决与理由见仓库 `docs/decisions/two-book-divergences.md` 对应小节;本文件正文已按裁决写定,执行时不必回看。

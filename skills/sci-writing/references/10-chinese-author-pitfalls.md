@@ -1,7 +1,5 @@
 # 中国作者常见错误逐句扫描清单
 
-> 来源:书A 第8单元 8.3;书B 第6章、第8章、附录二
-
 ## 何时读本文件
 
 - 总流程(`00-workflow.md`)第 7 步:与 `09-academic-style.md` 同轮,对稿件逐句扫描。
@@ -55,12 +53,12 @@
 | W7 | 主题化开头 | 句首 `In` / `For` / `As for` / `With` / `Regarding` + 名词短语 + 逗号,与主句关系不明;白名单不报:定位词 `In this study,` / `Here,`、连接短语 `In addition,` / `In contrast to X,` / `For example,`、指示语 `As shown in Fig. 2,` | 并入主句;表目的改 To + 动词;表方法移到句尾 using | ✗ In the ablation experiments, the attention head mattered. → ✓ Ablation experiments showed that the attention head accounted for most of the gain. |
 | W8 | -ing 开头或歧义 -ing | 句首 `-ing`;句中 -ing 的施动者或关系(通过 / 因而 / 当 / 如果)不唯一 | 改带主语的从句或明确连接词;表结果的 -ing 前加 thus / thereby | ✗ Using a larger batch, the loss decreased. → ✓ When we used a larger batch, the loss decreased. |
 | W9 | 副词位置 | 方式 / 时间副词在句首(`Then,` / `Actually,`)或句尾(`... automatically.`);句中 ≥ 2 个动词;评价与连接类句子副词(`Interestingly,` / `Notably,` / `However,`)允许句首,不报 | 紧贴被修饰动词;被动放 be 与分词之间;only / just / simply 逐个核对 | ✗ Then the images were segmented and features were extracted automatically. → ✓ The images were then segmented, and the features were automatically extracted. |
-| W10 | 易混词对 | 中国作者最常错的四对:`affect` / `effect`;`adapt` / `adopt`;`imply` / `infer`;`e.g.` / `i.e.`。书外补充:`principle` / `principal`;`less` / `fewer`(可数用 fewer);`data is` / `data are`(data 作复数);`comprise` / `compose`(X comprises parts / X is composed of parts) | 逐对核对词义与单复数;更长的易混清单见书A 8.3,逐对核对时以词典为准 | ✗ The effect of noise affected less samples, and the data was rechecked. → ✓ Noise affected fewer samples, and the data were rechecked. |
-| W11 | 书A 8.3 三项语境判断条目(respectively / comprise vs include / 连字符;书A p485–486) | `respectively` 前后两组数量不等或顺序不一;`comprise` / `consist of` 后只列部分(中文“包括”完整性不明时默认译 include,只有作者确认列举完整才用 comprise);多词前置定语无连字符,或连字符位置与数量不符(`five centimeter wide`) | respectively:数量相等、顺序一一对应,否则拆句。comprise / consist of / be composed of 接全部成分,include 接部分。连字符:多词修饰语作前置定语时加连字符,且连到哪个词决定数量落在哪里——five centimeter-wide layers(五层,每层 1 cm 宽)vs five-centimeter-wide layers(若干层,每层 5 cm 宽) | ✗ AUC and sensitivity were 0.91, 0.84 and 0.88 respectively. → ✓ On the internal and external sets, AUC was 0.91 and 0.88, respectively. Sensitivity was 0.84 and 0.80, respectively. |
+| W10 | 易混词对 | 中国作者最常错的四对:`affect` / `effect`;`adapt` / `adopt`;`imply` / `infer`;`e.g.` / `i.e.`。还应核对:`principle` / `principal`;`less` / `fewer`(可数用 fewer);`data is` / `data are`(data 作复数);`comprise` / `compose`(X comprises parts / X is composed of parts) | 逐对核对词义与单复数;拿不准时查词典 | ✗ The effect of noise affected less samples, and the data was rechecked. → ✓ Noise affected fewer samples, and the data were rechecked. |
+| W11 | 三项语境判断(respectively / comprise vs include / 连字符) | `respectively` 前后两组数量不等或顺序不一;`comprise` / `consist of` 后只列部分(中文“包括”完整性不明时默认译 include,只有作者确认列举完整才用 comprise);多词前置定语无连字符,或连字符位置与数量不符(`five centimeter wide`) | respectively:数量相等、顺序一一对应,否则拆句。comprise / consist of / be composed of 接全部成分,include 接部分。连字符:多词修饰语作前置定语时加连字符,且连到哪个词决定数量落在哪里——five centimeter-wide layers(五层,每层 1 cm 宽)vs five-centimeter-wide layers(若干层,每层 5 cm 宽) | ✗ AUC and sensitivity were 0.91, 0.84 and 0.88 respectively. → ✓ On the internal and external sets, AUC was 0.91 and 0.88, respectively. Sensitivity was 0.84 and 0.80, respectively. |
 | W12 | for the first time 落点不明 | `for the first time` 不紧贴其修饰成分 | 移到被修饰成分旁,让新颖性落点唯一 | ✗ We applied for the first time attention to CT nodule detection. → ✓ We applied attention to CT nodule detection, a task to which it had not previously been applied. |
 | W13 | 冠词 a / the 改变句义 | `the cause of`(唯一)vs `a cause of`;首次提及却用 the;不可数名词加 a | 首次提及且非共享知识用 a;共享知识或已提及用 the;不可数名词不加 a | ✗ Scanner drift is the cause of the degradation. → ✓ Scanner drift is a cause of the degradation. |
 | W14 | Methods 以外的被动无锚定 | Results / Discussion 中 `it was found` / `was observed` 无 here / in this study | 改主动补 we,或加定位词 | ✗ It was found that recall dropped. → ✓ We found that recall dropped after month six. |
-| W15 | on the one hand / on the other hand 用于并列两个对象的数据 | 该结构两侧是两个不同对象的测量结果,而非同一议题的两个考虑 | 用于权衡同一议题的两个考虑时可保留;单纯并列两个对象的数据优先 whereas / in contrast(两书分歧见分歧 11) | ✗ On the one hand the CNN was fast; on the other hand the transformer was accurate. → ✓ The CNN was faster, whereas the transformer was more accurate. |
+| W15 | on the one hand / on the other hand 用于并列两个对象的数据 | 该结构两侧是两个不同对象的测量结果,而非同一议题的两个考虑 | 用于权衡同一议题的两个考虑时可保留;单纯并列两个对象的数据优先 whereas / in contrast(按本文件规则) | ✗ On the one hand the CNN was fast; on the other hand the transformer was accurate. → ✓ The CNN was faster, whereas the transformer was more accurate. |
 | W16 | 拼写与英美变体混用 | `analyse` 与 `analyze` 同篇出现 | 按目标期刊统一;期刊未知默认美式,期刊要求英式时整篇改英式 | ✗ analysed ... analyzed → ✓ analyzed ... analyzed |
 
 ## 英文模板与短语
@@ -130,7 +128,3 @@
 15. among / between、respectively、comprise / include、连字符、for the first time 已核对。✓/✗
 16. 报告格式:作为独立扫描任务时用"位置 / 原句 / 条目号 / 级别 / 改法";并入 `SKILL.md` 自检时只列命中项与保留的 warning 及理由,全绿写一句"10 号清单无命中";新起草文本无"原句"列,写"位置 / 句子 / 条目号 / 级别 / 改法"。✓/✗
 17. 「待作者确认」项:提交前已请至少一位合著者或同事通读;agent 不判 ✗,原样列出交作者。
-
-## 两书分歧的处理
-
-裁决与理由见仓库 `docs/decisions/two-book-divergences.md` 对应小节;本文件正文已按裁决写定,执行时不必回看。

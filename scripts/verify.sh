@@ -47,14 +47,14 @@ else
   bad "README 本地链接"
 fi
 
-echo "[5] 来源标注"
+echo "[5] 阅读笔记来源标注"
 found=0
-for f in notes/*/*.md "$REFS"/*.md; do
+for f in notes/*/*.md; do
   [ -f "$f" ] || continue
   found=1
   head -n 5 "$f" | grep -q '^> 来源' && ok "$f" || bad "$f 缺 '> 来源:' 标注"
 done
-[ $found = 1 ] || ok "(暂无 notes/references,跳过)"
+[ $found = 1 ] || ok "(暂无 notes,跳过)"
 
 echo "[6] 与原书文本重合检查"
 if overlap_output=$(python3 scripts/check_overlap.py notes skills); then
